@@ -8,7 +8,7 @@
         "params": [
           {
             "name": "AKS",
-            "extra_name": "AAS_000",
+            "extra_name": "AAS",
             "detail": {
               "fr": "Aide au stationnement",
               "en": "Parking assistance",
@@ -47,7 +47,7 @@
           },
           {
             "name": "D8R",
-            "extra_name": "ATT_DG_AAS_PUSH_000",
+            "extra_name": "ATT_DG_AAS_PUSH",
             "detail": {
               "fr": "Bouton physique \"Aide au stationnement\"",
               "en": "Physical Button \"Parking assistance\"",
@@ -60,7 +60,7 @@
           },
           {
             "name": "DMM",
-            "extra_name": "DG_AAS_PUSH_POS_000",
+            "extra_name": "DG_AAS_PUSH_POS",
             "detail": {
               "fr": "Position de la touche tactile \"Aide au stationnement\"",
               "en": "Touch button Position \"Parking assistance\"",
@@ -73,7 +73,7 @@
           },
           {
             "name": "DUL",
-            "extra_name": "AAS_PUSH_LED_000",
+            "extra_name": "AAS_PUSH_LED",
             "detail": {
               "fr": "Affichage de la touche tactile \"Aide au stationnement\"",
               "en": "Display Touch button \"Parking assistance\"",
@@ -91,7 +91,7 @@
         "params": [
           {
             "name": "D8N",
-            "extra_name": "ATT_DG_AFIL_PUSH_000",
+            "extra_name": "ATT_DG_AFIL_PUSH",
             "detail": {
               "fr": "Affichage de la touche tactile \"Alerte de franchissement involontaire de ligne\"",
               "en": "Display Touch button \"Lane departure warning system (AFIL)\"",
@@ -104,7 +104,7 @@
           },
           {
             "name": "DMK",
-            "extra_name": "DG_AFIL_PUSH_POS_000",
+            "extra_name": "DG_AFIL_PUSH_POS",
             "detail": {
               "fr": "Position touche tactile \"Alerte de franchissement involontaire de ligne\"",
               "en": "Display Touch button \"Lane departure warning system (AFIL)\"",
@@ -117,7 +117,7 @@
           },
           {
             "name": "DMV",
-            "extra_name": "DG_AFIL_PUSH_PANEL_000",
+            "extra_name": "DG_AFIL_PUSH_PANEL",
             "detail": {
               "fr": "Bouton physique pour \"Alerte de franchissement involontaire de ligne\"",
               "en": "Touch button Position \"Lane departure warning system (AFIL)\"",
@@ -135,7 +135,7 @@
         "params": [
           {
             "name": "DMX",
-            "extra_name": "DG_ARTIV_PUSH_POS_000",
+            "extra_name": "DG_ARTIV_PUSH_POS",
             "detail": {
               "fr": "Position touche tactile \"Aide au respect du temps intervéhicules\"",
               "en": "Physical Button \"Lane departure warning system (AFIL)\"",
@@ -148,7 +148,7 @@
           },
           {
             "name": "D8M",
-            "extra_name": "ATT_DG_ARTIV_PUSH_000",
+            "extra_name": "ATT_DG_ARTIV_PUSH",
             "detail": {
               "fr": "Affichage de la touche tactile \"Aide au respect du temps intervéhicules\"",
               "en": "Touch button Position \"Distance Alert (ARTIV)\"",
@@ -161,7 +161,7 @@
           },
           {
             "name": "DMU",
-            "extra_name": "DG_ARTIV_PUSH_PANEL_000",
+            "extra_name": "DG_ARTIV_PUSH_PANEL",
             "detail": {
               "fr": "Bouton physique pour \"Aide au respect du temps intervéhicules\"",
               "en": "Display Touch button \"Distance Alert (ARTIV)\"",
@@ -174,7 +174,7 @@
           },
           {
             "name": "DNH",
-            "extra_name": "DAT_DG_DRIVE_IVTRA_000",
+            "extra_name": "DAT_DG_DRIVE_IVTRA",
             "detail": {
               "fr": "Aide au respect du temps intervéhicules",
               "en": "Distance Alert (ARTIV)",
@@ -187,7 +187,7 @@
           },
           {
             "name": "DOE",
-            "extra_name": "DAT_DG_ARTIV_PUSHES_000",
+            "extra_name": "DAT_DG_ARTIV_PUSHES",
             "detail": {
               "fr": "Présence et type de régulation de vitesse véhicule",
               "en": "Presence and type of cruise control",
@@ -239,7 +239,7 @@
         "params": [
           {
             "name": "B8J",
-            "extra_name": "FADER_000",
+            "extra_name": "FADER",
             "detail": {
               "fr": "Fonction Fader",
               "en": "Fader function",
@@ -252,7 +252,7 @@
           },
           {
             "name": "BT6",
-            "extra_name": "ATT_DG_HIFI_000",
+            "extra_name": "ATT_DG_HIFI",
             "detail": {
               "fr": "Amplificateur HIFI",
               "en": "HIFI Amplifier",
@@ -336,7 +336,7 @@
           },
           {
             "name": "DSE",
-            "extra_name": "SOUNDHARMONY_000",
+            "extra_name": "SOUNDHARMONY",
             "detail": {
               "fr": "Affichage de l\"information de l\"harmonie sonore",
               "en": "Sound Harmony display",
@@ -349,7 +349,7 @@
           },
           {
             "name": "DTT",
-            "extra_name": "NB_MICRO_000",
+            "extra_name": "NB_MICRO",
             "detail": {
               "fr": "Nombre de microphones",
               "en": "Number of microphones",
@@ -380,7 +380,7 @@
           },
           {
             "name": "DZJ",
-            "extra_name": "OPTION_COLORATION_MO_000",
+            "extra_name": "OPTION_COLORATION_MO",
             "detail": {
               "fr": "Dynamic Sport Pack",
               "en": "Dynamic Sport Pack",
@@ -406,7 +406,7 @@
           },
           {
             "name": "DZT",
-            "extra_name": "PARAM_EFF_COLOR_MOTE_000",
+            "extra_name": "PARAM_EFF_COLOR_MOTE",
             "detail": {
               "fr": "Efficacité de la coloration DSP",
               "en": "DSP coloring sound efficiency",
@@ -419,7 +419,7 @@
           },
           {
             "name": "DZZ",
-            "extra_name": "LOI_DX_000",
+            "extra_name": "LOI_DX",
             "detail": {
               "fr": "Loi DX pour la coloration DSP",
               "en": "DX Law for DSP sound",
@@ -432,7 +432,7 @@
           },
           {
             "name": "E0K",
-            "extra_name": "ACQ_IHM_COLOR_000",
+            "extra_name": "ACQ_IHM_COLOR",
             "detail": {
               "fr": "Provenance de l\"ordre de coloration DSP",
               "en": "Origin of the DSP coloring order",
@@ -445,7 +445,7 @@
           },
           {
             "name": "E4Q",
-            "extra_name": "ATT_DG_AVC_000",
+            "extra_name": "ATT_DG_AVC",
             "detail": {
               "fr": "Contrôle automatique du volume \"ACV\"",
               "en": "Automatic Volume Control \"ACV\"",
@@ -458,7 +458,7 @@
           },
           {
             "name": "E7V",
-            "extra_name": "TYPE_EXPORT_MEDIA_000",
+            "extra_name": "TYPE_EXPORT_MEDIA",
             "detail": {
               "fr": "Type d'export informations audio",
               "en": "Media informations export type",
@@ -497,7 +497,7 @@
           },
           {
             "name": "E7W",
-            "extra_name": "AMPLI_SURRND_BY_CDC_000",
+            "extra_name": "AMPLI_SURRND_BY_CDC",
             "detail": {
               "fr": "Amplificateur alimenté par alimentation chargeur CD",
               "en": "Amplifier powered by CD Charger",
@@ -510,7 +510,7 @@
           },
           {
             "name": "E81",
-            "extra_name": "TYPE_EXP_MEDIA_CAN_000",
+            "extra_name": "TYPE_EXP_MEDIA_CAN",
             "detail": {
               "fr": "Type d'export informations audio sur CAN-BUS",
               "en": "Audio informations export type on the CAN-BUS",
@@ -523,7 +523,7 @@
           },
           {
             "name": "E87",
-            "extra_name": "CENTRAL_SPK_SETTING_000",
+            "extra_name": "CENTRAL_SPK_SETTING",
             "detail": {
               "fr": "Voie centrale audio",
               "en": "Central Speaker",
@@ -541,7 +541,7 @@
         "params": [
           {
             "name": "DMN",
-            "extra_name": "DG_PVC_PUSH_POS_000",
+            "extra_name": "DG_PVC_PUSH_POS",
             "detail": {
               "fr": "Position de la touche tactile pour caméra avant",
               "en": "Touch button Position \"Front Camera\"",
@@ -554,7 +554,7 @@
           },
           {
             "name": "DMY",
-            "extra_name": "DG_PVC_PUSH_PANEL_000",
+            "extra_name": "DG_PVC_PUSH_PANEL",
             "detail": {
               "fr": "Bouton physique pour caméra avant",
               "en": "Physical Button \"Front Camera\"",
@@ -567,7 +567,7 @@
           },
           {
             "name": "DUE",
-            "extra_name": "PVC_PUSH_000",
+            "extra_name": "PVC_PUSH",
             "detail": {
               "fr": "Présence de la caméra d'aide visuelle panoramique",
               "en": "Presence of the panoramic visual assistance camera",
@@ -580,7 +580,7 @@
           },
           {
             "name": "DUF",
-            "extra_name": "PVC_MENU_000",
+            "extra_name": "PVC_MENU",
             "detail": {
               "fr": "Configuration de la caméra d'aide visuelle panoramique",
               "en": "Configuration of the panoramic visual assistance camera",
@@ -593,7 +593,7 @@
           },
           {
             "name": "DUM",
-            "extra_name": "PVC_LEGAL_000",
+            "extra_name": "PVC_LEGAL",
             "detail": {
               "fr": "Message juridique affiché à l\"écran tactile (Fonction d'aide visuelle panoramique)",
               "en": "Legal notice displayed on the multifunction touch screen (panoramic visual assistance camera)",
@@ -645,7 +645,7 @@
           },
           {
             "name": "E82",
-            "extra_name": "PANORAMIC_VC_000",
+            "extra_name": "PANORAMIC_VC",
             "detail": {
               "fr": "Présence de la caméra d'aide visuelle panoramique",
               "en": "Presence of the panoramic visual assistance camera",
@@ -663,7 +663,7 @@
         "params": [
           {
             "name": "DR3",
-            "extra_name": "REAR_VC_000",
+            "extra_name": "REAR_VC",
             "detail": {
               "fr": "Caméra d'aide visuelle au recul",
               "en": "Reversing assistance camera",
@@ -676,7 +676,7 @@
           },
           {
             "name": "DUB",
-            "extra_name": "RVC_LEGAL_000",
+            "extra_name": "RVC_LEGAL",
             "detail": {
               "fr": "Message juridique affiché sur l\"écran tactile (Reversing assistance camera)",
               "en": "Legal notice displayed on the multifunction touch screen (Reversing assistance camera)",
@@ -689,7 +689,7 @@
           },
           {
             "name": "DUC",
-            "extra_name": "RVC_REF_000",
+            "extra_name": "RVC_REF",
             "detail": {
               "fr": "Affichage de la marque constructeur sur la caméra d'aide visuelle au recul",
               "en": "Display of the manufacturer on the visual reversing assistance camera",
@@ -707,7 +707,7 @@
         "params": [
           {
             "name": "APW",
-            "extra_name": "OPTION_BLUETOOTH_000",
+            "extra_name": "OPTION_BLUETOOTH",
             "detail": {
               "fr": "Fonction Bluetooth",
               "en": "Bluetooth Function",
@@ -725,7 +725,7 @@
         "params": [
           {
             "name": "AD4",
-            "extra_name": "T_EXT_000",
+            "extra_name": "T_EXT",
             "detail": {
               "fr": "Affichage de la température extérieure",
               "en": "Display of external temperature",
@@ -736,22 +736,36 @@
             "maskBinary": "10000000",
             "size": 1
           },
-          {
+		  {
             "name": "BSZ",
-            "extra_name": "ATT_DG_JDA_000",
+            "extra_name": "ATT_DG_JDA",
             "detail": {
               "fr": "Affichage du journal des alertes",
               "en": "Alerts history",
               "ru": "История предупреждений"
             },
+			"zoneLength": 10,
             "pos": "11",
             "mask": "40",
             "maskBinary": "01000000",
             "size": 1
           },
           {
+            "name": "BSZ",
+            "extra_name": "ATT_DG_JDA",
+            "detail": {
+              "fr": "Affichage du journal des alertes",
+              "en": "Alerts history",
+              "ru": "История предупреждений"
+            },
+            "pos": "10",
+            "mask": "40",
+            "maskBinary": "01000000",
+            "size": 1
+          },
+          {
             "name": "D32",
-            "extra_name": "TYPE_ENERGIE_000",
+            "extra_name": "TYPE_ENERGIE",
             "detail": {
               "fr": "Energie véhicule",
               "en": "Vehicle power source",
@@ -838,7 +852,7 @@
           },
           {
             "name": "DK3",
-            "extra_name": "SMARTAPPS_000",
+            "extra_name": "SMARTAPPS",
             "detail": {
               "fr": "Fonction \"SMARTAPPS\"",
               "en": "\"SMARTAPPS\" Function",
@@ -851,7 +865,7 @@
           },
           {
             "name": "DMD",
-            "extra_name": "DAT_DG_WELCOMEPAGE_C_000",
+            "extra_name": "DAT_DG_WELCOMEPAGE_C",
             "detail": {
               "fr": "Ecran d'accueil",
               "en": "Home screen",
@@ -864,7 +878,7 @@
           },
           {
             "name": "DME",
-            "extra_name": "DAT_DG_BRAND_CFG_000",
+            "extra_name": "DAT_DG_BRAND_CFG",
             "detail": {
               "fr": "Marque constructeur",
               "en": "Manufacturer's brand",
@@ -927,7 +941,7 @@
           },
           {
             "name": "DNY",
-            "extra_name": "OPTION_SD_MEDIA_EVO_000",
+            "extra_name": "OPTION_SD_MEDIA_EVO",
             "detail": {
               "fr": "OPTION SHUTDOWN SD MEDIA EVO",
               "en": "OPTION SHUTDOWN SD MEDIA EVO",
@@ -940,7 +954,7 @@
           },
           {
             "name": "DRE",
-            "extra_name": "THEME_DEFAULT_000",
+            "extra_name": "THEME_DEFAULT",
             "detail": {
               "fr": "Thème par défaut",
               "en": "Default theme",
@@ -953,7 +967,7 @@
           },
           {
             "name": "DSF",
-            "extra_name": "VEHICLE_000",
+            "extra_name": "VEHICLE",
             "detail": {
               "fr": "Touche \"MENU\"",
               "en": "\"MENU\" button",
@@ -966,7 +980,7 @@
           },
           {
             "name": "DSG",
-            "extra_name": "OUTLINE_000",
+            "extra_name": "OUTLINE",
             "detail": {
               "fr": "OUTLINE",
               "en": "OUTLINE",
@@ -979,7 +993,7 @@
           },
           {
             "name": "DSZ",
-            "extra_name": "ICE_WARNING_TEMP_000",
+            "extra_name": "ICE_WARNING_TEMP",
             "detail": {
               "fr": "Seuil d'alerte de risque de verglas",
               "en": "Warning threshold for risk of ice",
@@ -994,7 +1008,7 @@
           },
           {
             "name": "DUZ",
-            "extra_name": "DIAG_ML_ON_OFF_000",
+            "extra_name": "DIAG_ML_ON_OFF",
             "detail": {
               "fr": "Fonction \"MirrorLink\"",
               "en": "\"MirrorLink\" function",
@@ -1005,30 +1019,466 @@
             "maskBinary": "00010000",
             "size": 1
           },
-          {
+		  {
             "name": "DZK",
-            "extra_name": "DRIVER_REST_CFG_000",
+            "extra_name": "DRIVER_REST_CFG",
             "detail": {
               "fr": "Fonction de restriction du conducteur",
               "en": "Driver Restriction function",
               "ru": "Ограничительные функции водителя"
             },
+			"zoneLength": 10,
             "pos": "11",
             "mask": "80",
             "maskBinary": "10000000",
             "size": 1
           },
           {
-            "name": "DZR",
-            "extra_name": "DIPO_ON_OFF_000",
+            "name": "DZK",
+            "extra_name": "DRIVER_REST_CFG",
             "detail": {
-              "fr": "Fonction \"MirrorLink\"",
-              "en": "\"MirrorLink\" function",
-              "ru": "Функция \"MirrorLink\""
+              "fr": "Fonction de restriction du conducteur",
+              "en": "Driver Restriction function",
+              "ru": "Ограничительные функции водителя"
             },
+            "pos": "10",
+            "mask": "80",
+            "maskBinary": "10000000",
+            "size": 1
+          },
+          {
+            "name": "DZR",
+            "extra_name": "DIPO_ON_OFF",
+            "detail": {
+              "fr": "Fonction \"Apple Carplay\"",
+              "en": "\"Apple Carplay\" function",
+              "ru": "Функция \"Apple Carplay\""
+            },
+			"zoneLength": 10,
             "pos": "11",
             "mask": "20",
             "maskBinary": "00100000",
+            "size": 1
+          },
+		  {
+            "name": "DZR",
+            "extra_name": "DIPO_ON_OFF",
+            "detail": {
+              "fr": "Fonction \"Apple Carplay\"",
+              "en": "\"Apple Carplay\" function",
+              "ru": "Функция \"Apple Carplay\""
+            },
+            "pos": "10",
+            "mask": "20",
+            "maskBinary": "00100000",
+            "size": 1
+          },
+		  {
+            "name": "E3W",
+            "extra_name": "DG_CARLINE",
+            "detail": {
+              "fr": "Modèle véhicule",
+              "en": "Vehicle model",
+              "ru": "Модель автомобиля"
+            },
+            "zoneLength": 10,
+			"pos": "10",
+            "mask": "FF",
+            "maskBinary": "11111111",
+            "listbox": [
+              {
+                "value": "00",
+                "text": {
+                  "fr": "0x00 - W4: Traveller",
+                  "en": "0x00 - W4: Traveller",
+                  "ru": "0x00 - W4: Traveller"
+                }
+              },
+			  {
+                "value": "01",
+                "text": {
+                  "fr": "0x01 - W4: Traveller",
+                  "en": "0x01 - W4: Traveller",
+                  "ru": "0x01 - W4: Traveller"
+                }
+              },
+              {
+                "value": "02",
+                "text": {
+                  "fr": "0x02 - W4: Traveller",
+                  "en": "0x02 - W4: Traveller",
+                  "ru": "0x02 - W4: Traveller"
+                }
+              },
+			  {
+                "value": "03",
+                "text": {
+                  "fr": "0x03 - W4: Traveller / DS3",
+                  "en": "0x03 - W4: Traveller / DS3",
+                  "ru": "0x03 - W4: Traveller / DS3"
+                }
+              },
+              {
+                "value": "04",
+                "text": {
+                  "fr": "0x04 - W4: Partner / DS3 Cabrio.",
+                  "en": "0x04 - W4: Partner / DS3 Cabrio.",
+                  "ru": "0x04 - W4: Partner / DS3 Cabrio."
+                }
+              },
+			  {
+                "value": "05",
+                "text": {
+                  "fr": "0x05 - W4: Traveller",
+                  "en": "0x05 - W4: Traveller",
+                  "ru": "0x05 - W4: Traveller"
+                }
+              },
+              {
+                "value": "06",
+                "text": {
+                  "fr": "0x06 - W4_HD: Corsa F | W4: 3008",
+                  "en": "0x06 - W4_HD: Corsa F | W4: 3008",
+                  "ru": "0x06 - W4_HD: Corsa F | W4: 3008"
+                }
+              },
+			  {
+                "value": "07",
+                "text": {
+                  "fr": "0x07 - W4: 5008",
+                  "en": "0x07 - W4: 5008",
+                  "ru": "0x07 - W4: 5008"
+                }
+              },
+              {
+                "value": "08",
+                "text": {
+                  "fr": "0x08 - W4: 508",
+                  "en": "0x08 - W4: 508",
+                  "ru": "0x08 - W4: 508"
+                }
+              },
+			  {
+                "value": "09",
+                "text": {
+                  "fr": "0x09 - W4: 2008",
+                  "en": "0x09 - W4: 2008",
+                  "ru": "0x09 - W4: 2008"
+                }
+              },
+              {
+                "value": "0A",
+                "text": {
+                  "fr": "0x0A - W4: 208 / C3",
+                  "en": "0x0A - W4: 208 / C3",
+                  "ru": "0x0A - W4: 208 / C3"
+                }
+              },
+			  {
+                "value": "0B",
+                "text": {
+                  "fr": "0x0B: 308 / C4 Cactus",
+                  "en": "0x0B: 308 / C4 Cactus",
+                  "ru": "0x0B: 308 / C4 Cactus"
+                }
+              },
+              {
+                "value": "0C",
+                "text": {
+                  "fr": "0x0C - W4: 308 / C4 Cactus",
+                  "en": "0x0C - W4: 308 / C4 Cactus",
+                  "ru": "0x0C - W4: 308 / C4 Cactus"
+                }
+              },
+			  {
+                "value": "0D",
+                "text": {
+                  "fr": "0x0D - W4: 308 / C4 Cactus",
+                  "en": "0x0D - W4: 308 / C4 Cactus",
+                  "ru": "0x0D - W4: 308 / C4 Cactus"
+                }
+              },
+              {
+                "value": "0E",
+                "text": {
+                  "fr": "0x0E - W4: 308 / Berlingo",
+                  "en": "0x0E - W4: 308 / Berlingo",
+                  "ru": "0x0E - W4: 308 / Berlingo"
+                }
+              },
+			  {
+                "value": "0F",
+                "text": {
+                  "fr": "0x0F - W4: 308 SW / Berlingo",
+                  "en": "0x0F - W4: 308 SW / Berlingo",
+                  "ru": "0x0F - W4: 308 SW / Berlingo"
+                }
+              },
+              {
+                "value": "10",
+                "text": {
+                  "fr": "0x10 - W4: Traveller / Jumpy",
+                  "en": "0x10 - W4: Traveller / Jumpy",
+                  "ru": "0x10 - W4: Traveller / Jumpy"
+                }
+              },
+			  {
+                "value": "11",
+                "text": {
+                  "fr": "0x11 - Rifter / Jumpy",
+                  "en": "0x11 - Rifter / Jumpy",
+                  "ru": "0x11 - Rifter / Jumpy"
+                }
+              },
+              {
+                "value": "12",
+                "text": {
+                  "fr": "0x12 - W4: Partner / C5 Aircross",
+                  "en": "0x12 - W4: Partner / C5 Aircross",
+                  "ru": "0x12 - W4: Partner / C5 Aircross"
+                }
+              },
+			  {
+                "value": "13",
+                "text": {
+                  "fr": "0x13 - W4: Partner",
+                  "en": "0x13 - W4: Partner",
+                  "ru": "0x13 - W4: Partner"
+                }
+              },
+              {
+                "value": "14",
+                "text": {
+                  "fr": "0x14 - W4: New 508",
+                  "en": "0x14 - W4: New 508",
+                  "ru": "0x14 - W4: New 508"
+                }
+              },
+			  {
+                "value": "15",
+                "text": {
+                  "fr": "0x15 - W4: New 508SW",
+                  "en": "0x15 - W4: New 508SW",
+                  "ru": "0x15 - W4: New 508SW"
+                }
+              },
+              {
+                "value": "16",
+                "text": {
+                  "fr": "0x16 - W4: New 208",
+                  "en": "0x16 - W4: New 208",
+                  "ru": "0x16 - W4: New 208"
+                }
+              },
+			  {
+                "value": "17",
+                "text": {
+                  "fr": "0x17 - W4: 2008",
+                  "en": "0x17 - W4: 2008",
+                  "ru": "0x17 - W4: 2008"
+                }
+              },
+              {
+                "value": "18",
+                "text": {
+                  "fr": "0x18 - W4_HD: New 2008 | W4: e2008",
+                  "en": "0x18 - W4_HD: New 2008 | W4: e2008",
+                  "ru": "0x18 - W4_HD: New 2008 | W4: e2008"
+                }
+              },
+			  {
+                "value": "19",
+                "text": {
+                  "fr": "0x19 - W4: e208",
+                  "en": "0x19 - W4: e208",
+                  "ru": "0x19 - W4: e208"
+                }
+              },
+              {
+                "value": "1A",
+                "text": {
+                  "fr": "0x1A - W4: 3008",
+                  "en": "0x1A - W4: 3008",
+                  "ru": "0x1A - W4: 3008"
+                }
+              },
+			  {
+                "value": "1B",
+                "text": {
+                  "fr": "0x1B - W4: 5008",
+                  "en": "0x1B - W4: 5008",
+                  "ru": "0x1B - W4: 5008"
+                }
+              },
+              {
+                "value": "1C",
+                "text": {
+                  "fr": "0x1C - W4_HD: New 5008 | W4: New 508",
+                  "en": "0x1C - W4_HD: New 5008 | W4: New 508",
+                  "ru": "0x1C - W4_HD: New 5008 | W4: New 508"
+                }
+              },
+			  {
+                "value": "1D",
+                "text": {
+                  "fr": "0x1D - W4: New 508 (Partial)",
+                  "en": "0x1D - W4: New 508 (Partial)",
+                  "ru": "0x1D - W4: New 508 (Partial)"
+                }
+              },
+              {
+                "value": "1E",
+                "text": {
+                  "fr": "0x1E - W4_HD: New 3008 / DS7",
+                  "en": "0x1E - W4_HD: New 3008 / DS7",
+                  "ru": "0x1E - W4_HD: New 3008 / DS7"
+                }
+              },
+			  {
+                "value": "1F",
+                "text": {
+                  "fr": "0x1F",
+                  "en": "0x1F",
+                  "ru": "0x1F"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "0x20",
+                  "en": "0x20",
+                  "ru": "0x20"
+                }
+              },
+			  {
+                "value": "21",
+                "text": {
+                  "fr": "0x21",
+                  "en": "0x21",
+                  "ru": "0x21"
+                }
+              },
+              {
+                "value": "22",
+                "text": {
+                  "fr": "0x22 - W4: 308 iCockpit",
+                  "en": "0x22 - W4: 308 iCockpit",
+                  "ru": "0x22 - W4: 308 iCockpit"
+                }
+              },
+              {
+                "value": "23",
+                "text": {
+                  "fr": "0x23 - W4: 308SW iCockpit",
+                  "en": "0x23 - W4: 308SW iCockpit",
+                  "ru": "0x23 - W4: 308SW iCockpit"
+                }
+              },
+              {
+                "value": "24",
+                "text": {
+                  "fr": "0x24 - W4: Traveller",
+                  "en": "0x24 - W4: Traveller",
+                  "ru": "0x24 - W4: Traveller"
+                }
+              },
+			  {
+                "value": "25",
+                "text": {
+                  "fr": "0x25 - W4: Traveller",
+                  "en": "0x25 - W4: Traveller",
+                  "ru": "0x25 - W4: Traveller"
+                }
+              },
+              {
+                "value": "26",
+                "text": {
+                  "fr": "0x26 - W4: Traveller",
+                  "en": "0x26 - W4: Traveller",
+                  "ru": "0x26 - W4: Traveller"
+                }
+              },
+			  {
+                "value": "27",
+                "text": {
+                  "fr": "0x27",
+                  "en": "0x27",
+                  "ru": "0x27"
+                }
+              },
+              {
+                "value": "28",
+                "text": {
+                  "fr": "0x28",
+                  "en": "0x28",
+                  "ru": "0x28"
+                }
+              },
+			  {
+                "value": "29",
+                "text": {
+                  "fr": "0x29",
+                  "en": "0x29",
+                  "ru": "0x29"
+                }
+              },
+              {
+                "value": "2A",
+                "text": {
+                  "fr": "0x2A",
+                  "en": "0x2A",
+                  "ru": "0x2A"
+                }
+              },
+			  {
+                "value": "2B",
+                "text": {
+                  "fr": "0x2B",
+                  "en": "0x2B",
+                  "ru": "0x2B"
+                }
+              },
+              {
+                "value": "2C",
+                "text": {
+                  "fr": "0x2C",
+                  "en": "0x2C",
+                  "ru": "0x2C"
+                }
+              },
+			  {
+                "value": "2D",
+                "text": {
+                  "fr": "0x2D",
+                  "en": "0x2D",
+                  "ru": "0x2D"
+                }
+              },
+              {
+                "value": "2E",
+                "text": {
+                  "fr": "0x2E",
+                  "en": "0x2E",
+                  "ru": "0x2E"
+                }
+              },
+			  {
+                "value": "2F",
+                "text": {
+                  "fr": "0x2F",
+                  "en": "0x2F",
+                  "ru": "0x2F"
+                }
+              },
+              {
+                "value": "30",
+                "text": {
+                  "fr": "0x30",
+                  "en": "0x30",
+                  "ru": "0x30"
+                }
+              }
+            ],
             "size": 1
           },
           {
@@ -1046,135 +1496,135 @@
               {
                 "value": "00",
                 "text": {
-                  "fr": "0x00 - W4: Traveller",
-                  "en": "0x00 - W4: Traveller",
-                  "ru": "0x00 - W4: Traveller"
+                  "fr": "0x00",
+                  "en": "0x00",
+                  "ru": "0x00"
                 }
               },
               {
                 "value": "02",
                 "text": {
-                  "fr": "0x02 - W4: Traveller",
-                  "en": "0x02 - W4: Traveller",
-                  "ru": "0x02 - W4: Traveller"
+                  "fr": "0x02",
+                  "en": "0x02",
+                  "ru": "0x02"
                 }
               },
               {
                 "value": "04",
                 "text": {
-                  "fr": "0x04 - W2: ProAce | W4: Partner",
-                  "en": "0x04 - W2: ProAce | W4: Partner",
-                  "ru": "0x04 - W2: ProAce | W4: Partner"
+                  "fr": "0x04 - W2: ProAce",
+                  "en": "0x04 - W2: ProAce",
+                  "ru": "0x04 - W2: ProAce"
                 }
               },
               {
                 "value": "06",
                 "text": {
-                  "fr": "0x06 - W2: Traveller | W2CN: 308S | W4_HD: Corsa F | W4: 3008",
-                  "en": "0x06 - W2: Traveller | W2CN: 308S | W4_HD: Corsa F | W4: 3008",
-                  "ru": "0x06 - W2: Traveller | W2CN: 308S | W4_HD: Corsa F | W4: 3008"
+                  "fr": "0x06 - W2: Traveller | W2CN: 308S",
+                  "en": "0x06 - W2: Traveller | W2CN: 308S",
+                  "ru": "0x06 - W2: Traveller | W2CN: 308S"
                 }
               },
               {
                 "value": "08",
                 "text": {
-                  "fr": "0x08 - W2: Traveller | W4: 508",
-                  "en": "0x08 - W2: Traveller | W4: 508",
-                  "ru": "0x08 - W2: Traveller | W4: 508"
+                  "fr": "0x08 - W2: Traveller",
+                  "en": "0x08 - W2: Traveller",
+                  "ru": "0x08 - W2: Traveller"
                 }
               },
               {
                 "value": "0A",
                 "text": {
-                  "fr": "0x0A - W2: Traveller / Jumpy | W2CN: 408 | W4: 208",
-                  "en": "0x0A - W2: Traveller / Jumpy | W2CN: 408 | W4: 208",
-                  "ru": "0x0A - W2: Traveller / Jumpy | W2CN: 408 | W4: 208"
+                  "fr": "0x0A - W2: Traveller / Jumpy | W2CN: 408",
+                  "en": "0x0A - W2: Traveller / Jumpy | W2CN: 408",
+                  "ru": "0x0A - W2: Traveller / Jumpy | W2CN: 408"
                 }
               },
               {
                 "value": "0C",
                 "text": {
-                  "fr": "0x0C - W2: 3008 / C4 Spac. | W2CN: 2008 | W4: 308",
-                  "en": "0x0C - W2: 3008 / C4 Spac. | W2CN: 2008 | W4: 308",
-                  "ru": "0x0C - W2: 3008 / C4 Spac. | W2CN: 2008 | W4: 308"
+                  "fr": "0x0C - W2: 3008 / C4 Spac. | W2CN: 2008",
+                  "en": "0x0C - W2: 3008 / C4 Spac. | W2CN: 2008",
+                  "ru": "0x0C - W2: 3008 / C4 Spac. | W2CN: 2008"
                 }
               },
               {
                 "value": "0E",
                 "text": {
-                  "fr": "0x0E - W2: 5008 / Grand C4 Spac. | W2CN: 508 | W4: 308",
-                  "en": "0x0E - W2: 5008 / Grand C4 Spac. | W2CN: 508 | W4: 308",
-                  "ru": "0x0E - W2: 5008 / Grand C4 Spac. | W2CN: 508 | W4: 308"
+                  "fr": "0x0E - W2: 5008 / Grand C4 Spac. | W2CN: 508",
+                  "en": "0x0E - W2: 5008 / Grand C4 Spac. | W2CN: 508",
+                  "ru": "0x0E - W2: 5008 / Grand C4 Spac. | W2CN: 508"
                 }
               },
               {
                 "value": "10",
                 "text": {
-                  "fr": "0x10 - W2: 301 / C3 | W4: Traveller",
-                  "en": "0x10 - W2: 301 / C3 | W4: Traveller",
-                  "ru": "0x10 - W2: 301 / C3 | W4: Traveller"
+                  "fr": "0x10 - W2: 301 / C3",
+                  "en": "0x10 - W2: 301 / C3",
+                  "ru": "0x10 - W2: 301 / C3"
                 }
               },
               {
                 "value": "12",
                 "text": {
-                  "fr": "0x12 - W2: 2008 / C-Elysée | W4: Partner",
-                  "en": "0x12 - W2: 2008 / C-Elysée | W4: Partner",
-                  "ru": "0x12 - W2: 2008 / C-Elysée | W4: Partner"
+                  "fr": "0x12 - W2: 2008 / C-Elysée",
+                  "en": "0x12 - W2: 2008 / C-Elysée",
+                  "ru": "0x12 - W2: 2008 / C-Elysée"
                 }
               },
               {
                 "value": "14",
                 "text": {
-                  "fr": "0x14 - W2: 208 / C3 Airc. | W2CN: 308 | W4: New 508",
-                  "en": "0x14 - W2: 208 / C3 Airc. | W2CN: 308 | W4: New 508",
-                  "ru": "0x14 - W2: 208 / C3 Airc. | W2CN: 308 | W4: New 508"
+                  "fr": "0x14 - W2: 208 / C3 Airc. | W2CN: 308",
+                  "en": "0x14 - W2: 208 / C3 Airc. | W2CN: 308",
+                  "ru": "0x14 - W2: 208 / C3 Airc. | W2CN: 308"
                 }
               },
               {
                 "value": "16",
                 "text": {
-                  "fr": "0x16 - W2: 508 SW / C4 II | W4_HD: New 208 | W4: New 208",
-                  "en": "0x16 - W2: 508 SW / C4 II | W4_HD: New 208 | W4: New 208",
-                  "ru": "0x16 - W2: 508 SW / C4 II | W4_HD: New 208 | W4: New 208"
+                  "fr": "0x16 - W2: 508 SW / C4 II",
+                  "en": "0x16 - W2: 508 SW / C4 II",
+                  "ru": "0x16 - W2: 508 SW / C4 II"
                 }
               },
               {
                 "value": "18",
                 "text": {
-                  "fr": "0x18 - W2: 508 / C4L | W2CN: 308S | W4_HD: New 2008 | W4: e2008",
-                  "en": "0x18 - W2: 508 / C4L | W2CN: 308S | W4_HD: New 2008 | W4: e2008",
-                  "ru": "0x18 - W2: 508 / C4L | W2CN: 308S | W4_HD: New 2008 | W4: e2008"
+                  "fr": "0x18 - W2: 508 / C4L | W2CN: 308S",
+                  "en": "0x18 - W2: 508 / C4L | W2CN: 308S",
+                  "ru": "0x18 - W2: 508 / C4L | W2CN: 308S"
                 }
               },
               {
                 "value": "1A",
                 "text": {
-                  "fr": "0x1A - W2: 508 RHX / C4 Spac. | W4: 3008",
-                  "en": "0x1A - W2: 508 RHX / C4 Spac. | W4: 3008",
-                  "ru": "0x1A - W2: 508 RHX / C4 Spac. | W4: 3008"
+                  "fr": "0x1A - W2: 508 RHX / C4 Spac.",
+                  "en": "0x1A - W2: 508 RHX / C4 Spac.",
+                  "ru": "0x1A - W2: 508 RHX / C4 Spac."
                 }
               },
               {
                 "value": "1C",
                 "text": {
-                  "fr": "0x1C - W2: 308 | W4_HD: New 5008 | W4: New 508",
-                  "en": "0x1C - W2: 308 | W4_HD: New 5008 | W4: New 508",
-                  "ru": "0x1C - W2: 308 | W4_HD: New 5008 | W4: New 508"
+                  "fr": "0x1C - W2: 308",
+                  "en": "0x1C - W2: 308",
+                  "ru": "0x1C - W2: 308"
                 }
               },
               {
                 "value": "1E",
                 "text": {
-                  "fr": "0x1E - W2: 308 SW | W4_HD: New 3008 / DS7",
-                  "en": "0x1E - W2: 308 SW | W4_HD: New 3008 / DS7",
-                  "ru": "0x1E - W2: 308 SW | W4_HD: New 3008 / DS7"
+                  "fr": "0x1E - W2: 308 SW",
+                  "en": "0x1E - W2: 308 SW",
+                  "ru": "0x1E - W2: 308 SW"
                 }
               }
             ],
             "size": 1
           },
-          {
+		  {
             "name": "E5B",
             "extra_name": "DOORS_TYPE_001",
             "detail": {
@@ -1182,6 +1632,7 @@
               "en": "Type of accesses",
               "ru": "Тип доступа в салон"
             },
+			"zoneLength": 10,
             "pos": "13",
             "mask": "C0",
             "maskBinary": "11000000",
@@ -1214,27 +1665,94 @@
             "size": 1
           },
           {
+            "name": "E5B",
+            "extra_name": "DOORS_TYPE_001",
+            "detail": {
+              "fr": "Type d'ouvrants",
+              "en": "Type of accesses",
+              "ru": "Тип доступа в салон"
+            },
+            "pos": "12",
+            "mask": "C0",
+            "maskBinary": "11000000",
+            "listbox": [
+              {
+                "value": "00",
+                "text": {
+                  "fr": "portes battantes",
+                  "en": "rear doors",
+                  "ru": "Задняя дверь"
+                }
+              },
+              {
+                "value": "40",
+                "text": {
+                  "fr": "1 porte coulissante",
+                  "en": "1 sliding door",
+                  "ru": "Одна раздвижная дверь"
+                }
+              },
+              {
+                "value": "80",
+                "text": {
+                  "fr": "2 portes coulissantes",
+                  "en": "2 sliding doors",
+                  "ru": "Две раздвижные двери"
+                }
+              }
+            ],
+            "size": 1
+          },
+          {
             "name": "E88",
-            "extra_name": "ODS_TYPE_000",
+            "extra_name": "ODS_TYPE",
             "detail": {
               "fr": "Localisation du sytème de détection d'obstacle",
               "en": "Location of the obstacle detection system",
               "ru": "Расположение системы обнаружения препятствий"
             },
+			"zoneLength": 10,
             "pos": "13",
+            "mask": "18",
+            "maskBinary": "00011000",
+            "size": 1
+          },
+		  {
+            "name": "E88",
+            "extra_name": "ODS_TYPE",
+            "detail": {
+              "fr": "Localisation du sytème de détection d'obstacle",
+              "en": "Location of the obstacle detection system",
+              "ru": "Расположение системы обнаружения препятствий"
+            },
+            "pos": "12",
             "mask": "18",
             "maskBinary": "00011000",
             "size": 1
           },
           {
             "name": "EIO",
-            "extra_name": "PERSO_CFG_000",
+            "extra_name": "PERSO_CFG",
             "detail": {
               "fr": "Personalisation combiné",
               "en": "Instrument panel personalization",
               "ru": "На приборной панели"
             },
+			"zoneLength": 10,
             "pos": "13",
+            "mask": "04",
+            "maskBinary": "00000100",
+            "size": 1
+          },
+		  {
+            "name": "EIO",
+            "extra_name": "PERSO_CFG",
+            "detail": {
+              "fr": "Personalisation combiné",
+              "en": "Instrument panel personalization",
+              "ru": "На приборной панели"
+            },
+            "pos": "12",
             "mask": "04",
             "maskBinary": "00000100",
             "size": 1
@@ -1246,7 +1764,7 @@
         "params": [
           {
             "name": "DMO",
-            "extra_name": "DG_CAFR_PUSH_POS_000",
+            "extra_name": "DG_CAFR_PUSH_POS",
             "detail": {
               "fr": "Position touche tactile \"Réglage Automatique Feux de Route\"",
               "en": "Touch button Position \"Main beams assistant\"",
@@ -1259,7 +1777,7 @@
           },
           {
             "name": "DMZ",
-            "extra_name": "DG_CAFR_PUSH_PANEL_000",
+            "extra_name": "DG_CAFR_PUSH_PANEL",
             "detail": {
               "fr": "Bouton physique pour \"Réglage Automatique Feux de Route\"",
               "en": "Physical Button \"Main beams assistant\"",
@@ -1277,7 +1795,7 @@
         "params": [
           {
             "name": "DBZ",
-            "extra_name": "ATT_DG_ECRAN_SECOND_000",
+            "extra_name": "ATT_DG_ECRAN_SECOND",
             "detail": {
               "fr": "Type d'écran secondaire",
               "en": "Type of secondary screen",
@@ -1313,7 +1831,7 @@
         "params": [
           {
             "name": "DVB",
-            "extra_name": "CMD_TYP_000",
+            "extra_name": "CMD_TYP",
             "detail": {
               "fr": "Type de commandes sous volant de direction",
               "en": "Type of steering-mounted controls",
@@ -1437,7 +1955,7 @@
         "params": [
           {
             "name": "DLZ",
-            "extra_name": "ATT_DG_HY_PRESENT_000",
+            "extra_name": "ATT_DG_HY_PRESENT",
             "detail": {
               "fr": "Présence de la page Hybride",
               "en": "Hybrid page presence",
@@ -1450,7 +1968,7 @@
           },
           {
             "name": "DNZ",
-            "extra_name": "DAT_DG_HY_BAT_LEVEL9_000",
+            "extra_name": "DAT_DG_HY_BAT_LEVEL9",
             "detail": {
               "fr": "Seuil du bargraphe de la batterie niveau 9",
               "en": "Battery level bargraph threshold 9",
@@ -1463,7 +1981,7 @@
           },
           {
             "name": "DO0",
-            "extra_name": "DAT_DG_HY_BAT_LEVEL8_000",
+            "extra_name": "DAT_DG_HY_BAT_LEVEL8",
             "detail": {
               "fr": "Seuil du bargraphe de la batterie niveau 8",
               "en": "Battery level bargraph threshold 8",
@@ -1476,7 +1994,7 @@
           },
           {
             "name": "DO1",
-            "extra_name": "DAT_DG_HY_BAT_LEVEL7_000",
+            "extra_name": "DAT_DG_HY_BAT_LEVEL7",
             "detail": {
               "fr": "Seuil du bargraphe de la batterie niveau 7",
               "en": "Battery level bargraph threshold 7",
@@ -1489,7 +2007,7 @@
           },
           {
             "name": "DO2",
-            "extra_name": "DAT_DG_HY_BAT_LEVEL6_000",
+            "extra_name": "DAT_DG_HY_BAT_LEVEL6",
             "detail": {
               "fr": "Seuil du bargraphe de la batterie niveau 6",
               "en": "Battery level bargraph threshold 6",
@@ -1502,7 +2020,7 @@
           },
           {
             "name": "DO3",
-            "extra_name": "DAT_DG_HY_BAT_LEVEL5_000",
+            "extra_name": "DAT_DG_HY_BAT_LEVEL5",
             "detail": {
               "fr": "Seuil du bargraphe de la batterie niveau 5",
               "en": "Battery level bargraph threshold 5",
@@ -1515,7 +2033,7 @@
           },
           {
             "name": "DO4",
-            "extra_name": "DAT_DG_HY_BAT_LEVEL4_000",
+            "extra_name": "DAT_DG_HY_BAT_LEVEL4",
             "detail": {
               "fr": "Seuil du bargraphe de la batterie niveau 4",
               "en": "Battery level bargraph threshold 4",
@@ -1528,7 +2046,7 @@
           },
           {
             "name": "DO5",
-            "extra_name": "DAT_DG_HY_BAT_LEVEL3_000",
+            "extra_name": "DAT_DG_HY_BAT_LEVEL3",
             "detail": {
               "fr": "Seuil du bargraphe de la batterie niveau 3",
               "en": "Battery level bargraph threshold 3",
@@ -1541,7 +2059,7 @@
           },
           {
             "name": "DO6",
-            "extra_name": "DAT_DG_HY_BAT_LEVEL2_000",
+            "extra_name": "DAT_DG_HY_BAT_LEVEL2",
             "detail": {
               "fr": "Seuil du bargraphe de la batterie niveau 2",
               "en": "Battery level bargraph threshold 2",
@@ -1554,7 +2072,7 @@
           },
           {
             "name": "DO7",
-            "extra_name": "DAT_DG_HY_BAT_LEVEL1_000",
+            "extra_name": "DAT_DG_HY_BAT_LEVEL1",
             "detail": {
               "fr": "Seuil du bargraphe de la batterie niveau 1",
               "en": "Battery level bargraph threshold 1",
@@ -1580,7 +2098,7 @@
           },
           {
             "name": "DOA",
-            "extra_name": "DG_HY_BAT_HYST_DOWN_000",
+            "extra_name": "DG_HY_BAT_HYST_DOWN",
             "detail": {
               "fr": "Hystérésis bas de la consommation hybride",
               "en": "Low hysteresis of hybrid consumption",
@@ -1593,7 +2111,7 @@
           },
           {
             "name": "DOC",
-            "extra_name": "DAT_DG_HY_BAT_LEVEL0_000",
+            "extra_name": "DAT_DG_HY_BAT_LEVEL0",
             "detail": {
               "fr": "Seuil du bargraphe de la batterie",
               "en": "Battery bargraph threshold",
@@ -1606,7 +2124,7 @@
           },
           {
             "name": "DT2",
-            "extra_name": "HY_HISTO_PRESENT_000",
+            "extra_name": "HY_HISTO_PRESENT",
             "detail": {
               "fr": "Consommation du mode hybride",
               "en": "Hybrid mode consumption",
@@ -1624,7 +2142,7 @@
         "params": [
           {
             "name": "BZ3",
-            "extra_name": "ATT_DG_INTERNET_000",
+            "extra_name": "ATT_DG_INTERNET",
             "detail": {
               "fr": "Fonction internet",
               "en": "Internet function",
@@ -1637,7 +2155,7 @@
           },
           {
             "name": "BZ8",
-            "extra_name": "VERR_INTERNET_000",
+            "extra_name": "VERR_INTERNET",
             "detail": {
               "fr": "",
               "en": "",
@@ -1707,7 +2225,7 @@
         "params": [
           {
             "name": "D8O",
-            "extra_name": "ATT_DG_MPD_PUSH_POS_000",
+            "extra_name": "ATT_DG_MPD_PUSH_POS",
             "detail": {
               "fr": "Affichage de la touche tactile \"Mesure de place disponible\"",
               "en": "Display Touch button \"Parking space measurement system\"",
@@ -1720,7 +2238,7 @@
           },
           {
             "name": "DMP",
-            "extra_name": "DG_MPD_PUSH_POS_000",
+            "extra_name": "DG_MPD_PUSH_POS",
             "detail": {
               "fr": "Position touche tactile \"Mesure de place disponible\"",
               "en": "Touch button Position \"Parking space measurement system\"",
@@ -1733,7 +2251,7 @@
           },
           {
             "name": "DN0",
-            "extra_name": "DG_MPD_PUSH_PANEL_000",
+            "extra_name": "DG_MPD_PUSH_PANEL",
             "detail": {
               "fr": "Bouton physique pour \"Mesure de place disponible\"",
               "en": "Physical Button \"Parking space measurement system\"",
@@ -1751,7 +2269,7 @@
         "params": [
           {
             "name": "BHC",
-            "extra_name": "NB_SATELLITES_FLAG_000",
+            "extra_name": "NB_SATELLITES_FLAG",
             "detail": {
               "fr": "Nombre de satellites nécessaires pour activer les informations de positionnement GPS",
               "en": "Number of satellites required to activate GPS positioning information",
@@ -1764,7 +2282,7 @@
           },
           {
             "name": "BK6",
-            "extra_name": "RADAR_000",
+            "extra_name": "RADAR",
             "detail": {
               "fr": "Affichage des alertes et des \"zones à risque\" sur l\"écran multifonction",
               "en": "Display of alerts and \"risk areas\" on the multifunction screen",
@@ -1777,7 +2295,7 @@
           },
           {
             "name": "BT5",
-            "extra_name": "ATT_DG_VITESSE_LIMIT_000",
+            "extra_name": "ATT_DG_VITESSE_LIMIT",
             "detail": {
               "fr": "Affichage de la limite de la vitesse",
               "en": "Display of speed limit",
@@ -1790,7 +2308,7 @@
           },
           {
             "name": "D9G",
-            "extra_name": "ATT_DG_EXP_NAV_CSR_000",
+            "extra_name": "ATT_DG_EXP_NAV_CSR",
             "detail": {
               "fr": "Affichage des consignes de navigation sans le nom des rues",
               "en": "Display of navigation instructions without the name of the streets",
@@ -1803,7 +2321,7 @@
           },
           {
             "name": "D9H",
-            "extra_name": "ATT_DG_EXP_NAV_CAR_000",
+            "extra_name": "ATT_DG_EXP_NAV_CAR",
             "detail": {
               "fr": "Affichage des consignes de navigation avec le nom des rues",
               "en": "Display of navigation instructions with the name of the streets",
@@ -1816,7 +2334,7 @@
           },
           {
             "name": "D9I",
-            "extra_name": "ATT_DG_EXP_NAV_JVAR_000",
+            "extra_name": "ATT_DG_EXP_NAV_JVAR",
             "detail": {
               "fr": "Affichage des consignes de navigation avec le nom des rues et des intersections",
               "en": "Display of navigation instructions with the name of the streets and intersections",
@@ -1829,7 +2347,7 @@
           },
           {
             "name": "DLD",
-            "extra_name": "DG_EXP_NAV_JVRP16_000",
+            "extra_name": "DG_EXP_NAV_JVRP16",
             "detail": {
               "fr": "Affichage des consignes de navigation avec les intersections et changement de voies",
               "en": "Display of navigation instructions with the name of the streets and lanes changing",
@@ -1842,7 +2360,7 @@
           },
           {
             "name": "DM4",
-            "extra_name": "ATT_DG_EXP_NAV_ILV_000",
+            "extra_name": "ATT_DG_EXP_NAV_ILV",
             "detail": {
               "fr": "Limitation vitesse depuis Caméra Multifonction dans le pare-brise",
               "en": "Speed limitation from Multifunction Camera in the windshield",
@@ -1855,7 +2373,7 @@
           },
           {
             "name": "DT3",
-            "extra_name": "DISPLAY_RISK_ALERT_000",
+            "extra_name": "DISPLAY_RISK_ALERT",
             "detail": {
               "fr": "Affichage des zones à risque",
               "en": "Display of risk areas",
@@ -1868,7 +2386,7 @@
           },
           {
             "name": "DT7",
-            "extra_name": "SELECT_CAR_TO_NAV_000",
+            "extra_name": "SELECT_CAR_TO_NAV",
             "detail": {
               "fr": "Sélection des cartes de navigation",
               "en": "Selection of the navigation maps",
@@ -1920,7 +2438,7 @@
         "params": [
           {
             "name": "B8C",
-            "extra_name": "AM_000",
+            "extra_name": "AM",
             "detail": {
               "fr": "Bande de fréquence AM activée",
               "en": "AM Waveband activated",
@@ -1933,7 +2451,7 @@
           },
           {
             "name": "B8P",
-            "extra_name": "NB_ANTENNE_000",
+            "extra_name": "NB_ANTENNE",
             "detail": {
               "fr": "Présence 2eme antenne",
               "en": "2nd antenna presence",
@@ -1946,7 +2464,7 @@
           },
           {
             "name": "BFO",
-            "extra_name": "ANTENNE_1_000",
+            "extra_name": "ANTENNE_1",
             "detail": {
               "fr": "Antenne FM1/AM Activée",
               "en": "FM1/AM Antenna Activated",
@@ -1959,7 +2477,7 @@
           },
           {
             "name": "BFP",
-            "extra_name": "ANTENNE_2_000",
+            "extra_name": "ANTENNE_2",
             "detail": {
               "fr": "Antenne FM2 Activée",
               "en": "FM2 Antenna Activated",
@@ -1972,7 +2490,7 @@
           },
           {
             "name": "BT9",
-            "extra_name": "ATT_DG_SID_000",
+            "extra_name": "ATT_DG_SID",
             "detail": {
               "fr": "SID préférentiel (station TMC automatique)",
               "en": "Preferred SID (TMC automatic station)",
@@ -1985,7 +2503,7 @@
           },
           {
             "name": "BTA",
-            "extra_name": "ATT_DG_RAD_SEUIL_000",
+            "extra_name": "ATT_DG_RAD_SEUIL",
             "detail": {
               "fr": "Seuil de détection d'activité de la radio analogique",
               "en": "Threshold for detecting analog radio activity",
@@ -2000,7 +2518,7 @@
           },
           {
             "name": "DT4",
-            "extra_name": "EXPORT_TUNER_000",
+            "extra_name": "EXPORT_TUNER",
             "detail": {
               "fr": "Type d'export radio",
               "en": "Radio export type",
@@ -2013,7 +2531,7 @@
           },
           {
             "name": "AKT",
-            "extra_name": "BTEL_COUNTRY_000",
+            "extra_name": "BTEL_COUNTRY",
             "detail": {
               "fr": "Zone géographique d'utilisation de la radio",
               "en": "Geographic area of use of the radio",
@@ -2097,7 +2615,7 @@
         "params": [
           {
             "name": "BO5",
-            "extra_name": "ATT_DG_RADIO_NUM_000",
+            "extra_name": "ATT_DG_RADIO_NUM",
             "detail": {
               "fr": "Radio numérique",
               "en": "Digital radio",
@@ -2149,7 +2667,7 @@
         "params": [
           {
             "name": "D8P",
-            "extra_name": "ATT_DG_SAM_PUSH_000",
+            "extra_name": "ATT_DG_SAM_PUSH",
             "detail": {
               "fr": "Affichage de la touche tactile \"Surveillance d'angle mort\"",
               "en": "Display Touch button \"Blind spot monitoring\"",
@@ -2162,7 +2680,7 @@
           },
           {
             "name": "DMG",
-            "extra_name": "DG_SAM_PUSH_POS_000",
+            "extra_name": "DG_SAM_PUSH_POS",
             "detail": {
               "fr": "Position touche tactile \"Surveillance d'angle mort\"",
               "en": "Touch button Position \"Blind spot monitoring\"",
@@ -2175,7 +2693,7 @@
           },
           {
             "name": "DMR",
-            "extra_name": "DG_SAM_PUSH_PANEL_000",
+            "extra_name": "DG_SAM_PUSH_PANEL",
             "detail": {
               "fr": "Bouton physique pour \"Surveillance d'angle mort\"",
               "en": "Physical Button \"Blind spot monitoring\"",
@@ -2193,7 +2711,7 @@
         "params": [
           {
             "name": "DM9",
-            "extra_name": "DAT_DG_LKA_PUSH_LED_000",
+            "extra_name": "DAT_DG_LKA_PUSH_LED",
             "detail": {
               "fr": "Affichage de la touche tactile \"Maintien dans la voie\"",
               "en": "Display Touch button \"Lane Guard system\"",
@@ -2206,7 +2724,7 @@
           },
           {
             "name": "DML",
-            "extra_name": "DG_LKA_PUSH_POS_000",
+            "extra_name": "DG_LKA_PUSH_POS",
             "detail": {
               "fr": "Position touche tactile \"Maintien dans la voie\"",
               "en": "Touch button Position \"Lane Guard system\"",
@@ -2219,7 +2737,7 @@
           },
           {
             "name": "DMW",
-            "extra_name": "DG_LKA_PUSH_PANEL_000",
+            "extra_name": "DG_LKA_PUSH_PANEL",
             "detail": {
               "fr": "Bouton physique pour \"Maintien dans la voie\"",
               "en": "Physical Button \"Lane Guard system\"",
@@ -2237,7 +2755,7 @@
         "params": [
           {
             "name": "DMA",
-            "extra_name": "DAT_DG_ACV_PUSH_LED_000",
+            "extra_name": "DAT_DG_ACV_PUSH_LED",
             "detail": {
               "fr": "Affichage de la touche tactile du contrôle automatique du volume \"ACV\"",
               "en": "Display Touch button \"Automatic control of the volume \"ACV\"\"",
@@ -2250,7 +2768,7 @@
           },
           {
             "name": "DN2",
-            "extra_name": "DG_ACV_PUSH_POS_000",
+            "extra_name": "DG_ACV_PUSH_POS",
             "detail": {
               "fr": "Position de la touche tactile du contrôle automatique du volume \"ACV\"",
               "en": "Touch button Position \"Automatic control of the volume \"ACV\"\"",
@@ -2263,7 +2781,7 @@
           },
           {
             "name": "DOB",
-            "extra_name": "DG_ACV_PUSH_PANEL_000",
+            "extra_name": "DG_ACV_PUSH_PANEL",
             "detail": {
               "fr": "Bouton physique pour contrôle automatique du volume \"ACV\"",
               "en": "Physical Button \"Automatic control of the volume \"ACV\"\"",
@@ -2281,7 +2799,7 @@
         "params": [
           {
             "name": "DNL",
-            "extra_name": "DAT_DG_ALARM_HISTORY_000",
+            "extra_name": "DAT_DG_ALARM_HISTORY",
             "detail": {
               "fr": "Historique des alertes de l'ordinateur de bord",
               "en": "History of on-board computer alerts",
@@ -2294,7 +2812,7 @@
           },
           {
             "name": "DNM",
-            "extra_name": "DAT_DG_ALARM_000",
+            "extra_name": "DAT_DG_ALARM",
             "detail": {
               "fr": "Alertes de l'ordinateur de bord (Véhicule sans matrice)",
               "en": "On-board computer alerts (Vehicle without matrix)",
@@ -2312,7 +2830,7 @@
         "params": [
           {
             "name": "DNK",
-            "extra_name": "BTEL_DAT_DG_LUM_MANAG_000",
+            "extra_name": "BTEL_DAT_DG_LUM_MANAG",
             "detail": {
               "fr": "Réglage de la luminosité",
               "en": "Brightness adjustment",
@@ -2330,7 +2848,7 @@
         "params": [
           {
             "name": "DNE",
-            "extra_name": "DAT_DG_UREA_000",
+            "extra_name": "DAT_DG_UREA",
             "detail": {
               "fr": "Niveau de solution d'urée",
               "en": "Urea solution level",
@@ -2343,7 +2861,7 @@
           },
           {
             "name": "DNF",
-            "extra_name": "DAT_DG_TYRES_PRES_000",
+            "extra_name": "DAT_DG_TYRES_PRES",
             "detail": {
               "fr": "Pression des pneumatiques",
               "en": "Tire pressure",
@@ -2356,7 +2874,7 @@
           },
           {
             "name": "DSN",
-            "extra_name": "DATE_TIME_DISP_000",
+            "extra_name": "DATE_TIME_DISP",
             "detail": {
               "fr": "Affichage de la date et de l'heure",
               "en": "Date and time display",
@@ -2369,7 +2887,7 @@
           },
           {
             "name": "DSO",
-            "extra_name": "DATE_TIME_MENU_000",
+            "extra_name": "DATE_TIME_MENU",
             "detail": {
               "fr": "Configuration de la date et de l'heure",
               "en": "Date and time configuration",
@@ -2382,7 +2900,7 @@
           },
           {
             "name": "DSQ",
-            "extra_name": "DATE_TIME_ZONE_000",
+            "extra_name": "DATE_TIME_ZONE",
             "detail": {
               "fr": "Fuseau horaire",
               "en": "Time Zone",
@@ -2637,7 +3155,7 @@
           },
           {
             "name": "DST",
-            "extra_name": "DATE_FORMAT_INIT_000",
+            "extra_name": "DATE_FORMAT_INIT",
             "detail": {
               "fr": "Format initial de la date",
               "en": "Initial date format",
@@ -2684,7 +3202,7 @@
           },
           {
             "name": "DTO",
-            "extra_name": "DATE_TIME_SYNC_000",
+            "extra_name": "DATE_TIME_SYNC",
             "detail": {
               "fr": "Synchronisation de la date",
               "en": "Date synchronization",
@@ -2697,7 +3215,7 @@
           },
           {
             "name": "DTP",
-            "extra_name": "DATE_TIME_SYNC_INIT_000",
+            "extra_name": "DATE_TIME_SYNC_INIT",
             "detail": {
               "fr": "Synchronisation initiale de la date",
               "en": "Initial date synchronization",
@@ -2710,7 +3228,7 @@
           },
           {
             "name": "DTQ",
-            "extra_name": "DATE_TIME_ZONE_INIT_000",
+            "extra_name": "DATE_TIME_ZONE_INIT",
             "detail": {
               "fr": "Initialisation du fuseau horaire",
               "en": "Time zone initialization",
@@ -2741,7 +3259,7 @@
           },
           {
             "name": "DUD",
-            "extra_name": "OBC_PERMANENTPAGE_000",
+            "extra_name": "OBC_PERMANENTPAGE",
             "detail": {
               "fr": "Affichage permanent de l'ordinateur de bord",
               "en": "Permanent display of the on-board computer",
@@ -2754,7 +3272,7 @@
           },
           {
             "name": "DUG",
-            "extra_name": "ODO_PARTIAL_000",
+            "extra_name": "ODO_PARTIAL",
             "detail": {
               "fr": "Affichage du kilométrage partiel",
               "en": "Partial mileage display",
@@ -2767,7 +3285,7 @@
           },
           {
             "name": "DUH",
-            "extra_name": "OBC_000",
+            "extra_name": "OBC",
             "detail": {
               "fr": "Affichage de l'ordinateur de bord",
               "en": "On-board computer display",
@@ -2780,7 +3298,7 @@
           },
           {
             "name": "DUI",
-            "extra_name": "OBC_STT_000",
+            "extra_name": "OBC_STT",
             "detail": {
               "fr": "Fonction Stop and Start",
               "en": "Stop and Start function",
@@ -2793,7 +3311,7 @@
           },
           {
             "name": "DUJ",
-            "extra_name": "OBC_POPPAGE_000",
+            "extra_name": "OBC_POPPAGE",
             "detail": {
               "fr": "Affichage en roulage des messages d'information provenant de l'ordinateur de bord à l'écran tactile",
               "en": "Display of information messages from the on-board computer on the touch screen while driving",
@@ -2806,7 +3324,7 @@
           },
           {
             "name": "DUK",
-            "extra_name": "OBC_PUSH_000",
+            "extra_name": "OBC_PUSH",
             "detail": {
               "fr": "Bouton de commande de l'ordinateur de bord",
               "en": "On-board computer control button",
@@ -2819,7 +3337,7 @@
           },
           {
             "name": "DUP",
-            "extra_name": "OBC_PAGE_000",
+            "extra_name": "OBC_PAGE",
             "detail": {
               "fr": "Configuration de l'ordinateur de bord",
               "en": "Configuration of the on-board computer",
@@ -2858,7 +3376,7 @@
           },
           {
             "name": "DUQ",
-            "extra_name": "MAINTEANCE_000",
+            "extra_name": "MAINTEANCE",
             "detail": {
               "fr": "Affichage des données de maintenance",
               "en": "Viewing maintenance data",
@@ -2876,7 +3394,7 @@
         "params": [
           {
             "name": "DR7",
-            "extra_name": "CPUSH_BLACK_PANEL_000",
+            "extra_name": "CPUSH_BLACK_PANEL",
             "detail": {
               "fr": "Touche blackpanel",
               "en": "Blackpanel button",
@@ -2889,11 +3407,11 @@
           },
           {
             "name": "DR8",
-            "extra_name": "CPUSH_COLORCLUST_000",
+            "extra_name": "CPUSH_COLORCLUST",
             "detail": {
-              "fr": "Thèmes combiné",
-              "en": "Instrument panel themes",
-              "ru": "Визуальные темы приборной панели"
+              "fr": "Thèmes combiné (iCockpit Amplify)",
+              "en": "Instrument panel themes (iCockpit Amplify)",
+              "ru": "Визуальные темы приборной панели (iCockpit Amplify)"
             },
             "pos": "04",
             "mask": "20",
@@ -2902,7 +3420,7 @@
           },
           {
             "name": "DR9",
-            "extra_name": "CPUSH_CHECK_000",
+            "extra_name": "CPUSH_CHECK",
             "detail": {
               "fr": "Touche \"CHECK\"",
               "en": "\"CHECK\" button",
@@ -2915,7 +3433,7 @@
           },
           {
             "name": "DRB",
-            "extra_name": "CPUSH_DOMELIGHT_000",
+            "extra_name": "CPUSH_DOMELIGHT",
             "detail": {
               "fr": "CPUSH DOMELIGHT",
               "en": "CPUSH DOMELIGHT",
@@ -2933,7 +3451,7 @@
         "params": [
           {
             "name": "DSH",
-            "extra_name": "AMBIANCE_DEFAULT_000",
+            "extra_name": "AMBIANCE_DEFAULT",
             "detail": {
               "fr": "Ambiance par défaut",
               "en": "Default Ambiance",
@@ -2946,7 +3464,7 @@
           },
           {
             "name": "DRT",
-            "extra_name": "MENU_AMBIANCE_1_000",
+            "extra_name": "MENU_AMBIANCE_1",
             "detail": {
               "fr": "Menu Ambiance 1",
               "en": "Ambiance Menu 1",
@@ -2959,7 +3477,7 @@
           },
           {
             "name": "DRS",
-            "extra_name": "MENU_AMBIANCE_2_000",
+            "extra_name": "MENU_AMBIANCE_2",
             "detail": {
               "fr": "Menu Ambiance 2",
               "en": "Ambiance Menu 2",
@@ -2972,7 +3490,7 @@
           },
           {
             "name": "DRR",
-            "extra_name": "MENU_AMBIANCE_3_000",
+            "extra_name": "MENU_AMBIANCE_3",
             "detail": {
               "fr": "Menu Ambiance 3",
               "en": "Ambiance Menu 4",
@@ -2985,7 +3503,7 @@
           },
           {
             "name": "DRQ",
-            "extra_name": "MENU_AMBIANCE_4_000",
+            "extra_name": "MENU_AMBIANCE_4",
             "detail": {
               "fr": "Menu Ambiance 4",
               "en": "Ambiance Menu 4",
@@ -2998,7 +3516,7 @@
           },
           {
             "name": "DRP",
-            "extra_name": "MENU_AMBIANCE_5_000",
+            "extra_name": "MENU_AMBIANCE_5",
             "detail": {
               "fr": "Menu Ambiance 5",
               "en": "Ambiance Menu 5",
@@ -3011,7 +3529,7 @@
           },
           {
             "name": "DRO",
-            "extra_name": "MENU_AMBIANCE_6_000",
+            "extra_name": "MENU_AMBIANCE_6",
             "detail": {
               "fr": "Menu Ambiance 6",
               "en": "Ambiance Menu 6",
@@ -3024,7 +3542,7 @@
           },
           {
             "name": "DRN",
-            "extra_name": "MENU_AMBIANCE_7_000",
+            "extra_name": "MENU_AMBIANCE_7",
             "detail": {
               "fr": "Menu Ambiance 7",
               "en": "Ambiance Menu 7",
@@ -3037,7 +3555,7 @@
           },
           {
             "name": "DRM",
-            "extra_name": "MENU_AMBIANCE_8_000",
+            "extra_name": "MENU_AMBIANCE_8",
             "detail": {
               "fr": "Menu Ambiance 8",
               "en": "Ambiance Menu 8",
@@ -3050,7 +3568,7 @@
           },
           {
             "name": "DRU",
-            "extra_name": "FAMILY_NAME_1_000",
+            "extra_name": "FAMILY_NAME_1",
             "detail": {
               "fr": "Menu Véhicule 1",
               "en": "Vehicle Menu 1",
@@ -3121,7 +3639,7 @@
           },
           {
             "name": "DSA",
-            "extra_name": "NOM_ITEM1_FAMILLE__1_000",
+            "extra_name": "NOM_ITEM1_FAMILLE__1",
             "detail": {
               "fr": "Menu Véhicule 1 Item 1",
               "en": "Vehicle menu 1 Item 1",
@@ -3384,7 +3902,7 @@
           },
           {
             "name": "DSB",
-            "extra_name": "NOM_ITEM2_FAMILLE__1_000",
+            "extra_name": "NOM_ITEM2_FAMILLE__1",
             "detail": {
               "fr": "Menu Véhicule 1 Item 2",
               "en": "Vehicule menu 1 Item 2",
@@ -3647,7 +4165,7 @@
           },
           {
             "name": "DSC",
-            "extra_name": "NOM_ITEM3_FAMILLE__1_000",
+            "extra_name": "NOM_ITEM3_FAMILLE__1",
             "detail": {
               "fr": "Menu Véhicule 1 Item 3",
               "en": "Vehicule menu 1 Item 3",
@@ -4173,7 +4691,7 @@
           },
           {
             "name": "DZ6",
-            "extra_name": "NOM_ITEM5_FAMILLE_1_000",
+            "extra_name": "NOM_ITEM5_FAMILLE_1",
             "detail": {
               "fr": "Menu Véhicule 1 Item 5",
               "en": "Vehicule menu 1 Item 5",
@@ -4436,7 +4954,7 @@
           },
           {
             "name": "DZ5",
-            "extra_name": "NOM_ITEM6_FAMILLE_1_000",
+            "extra_name": "NOM_ITEM6_FAMILLE_1",
             "detail": {
               "fr": "Menu Véhicule 1 Item 6",
               "en": "Vehicule menu 1 Item 6",
@@ -4699,7 +5217,7 @@
           },
           {
             "name": "DZ4",
-            "extra_name": "NOM_ITEM7_FAMILLE_1_000",
+            "extra_name": "NOM_ITEM7_FAMILLE_1",
             "detail": {
               "fr": "Menu Véhicule 1 Item 7",
               "en": "Vehicule menu 1 Item 7",
@@ -4962,7 +5480,7 @@
           },
           {
             "name": "DZ3",
-            "extra_name": "NOM_ITEM8_FAMILLE_1_000",
+            "extra_name": "NOM_ITEM8_FAMILLE_1",
             "detail": {
               "fr": "Menu Véhicule 1 Item 8",
               "en": "Vehicule menu 1 Item 8",
@@ -5225,7 +5743,7 @@
           },
           {
             "name": "DZ2",
-            "extra_name": "NOM_ITEM9_FAMILLE_1_000",
+            "extra_name": "NOM_ITEM9_FAMILLE_1",
             "detail": {
               "fr": "Menu Véhicule 1 Item 9",
               "en": "Vehicule menu 1 Item 9",
@@ -5488,7 +6006,7 @@
           },
           {
             "name": "DZ1",
-            "extra_name": "NOM_ITEM10_FAMILLE_1_000",
+            "extra_name": "NOM_ITEM10_FAMILLE_1",
             "detail": {
               "fr": "Menu Véhicule 1 Item 10",
               "en": "Vehicule menu 1 Item 10",
@@ -5751,7 +6269,7 @@
           },
           {
             "name": "DRV",
-            "extra_name": "FAMILY_NAME_2_000",
+            "extra_name": "FAMILY_NAME_2",
             "detail": {
               "fr": "Menu Véhicule 2",
               "en": "Vehicle Menu 2",
@@ -5822,7 +6340,7 @@
           },
           {
             "name": "DS9",
-            "extra_name": "NOM_ITEM1_FAMILLE__2_000",
+            "extra_name": "NOM_ITEM1_FAMILLE__2",
             "detail": {
               "fr": "Menu Véhicule 2 Item 1",
               "en": "Vehicule menu 2 Item 1",
@@ -6085,7 +6603,7 @@
           },
           {
             "name": "DS8",
-            "extra_name": "NOM_ITEM2_FAMILLE__2_000",
+            "extra_name": "NOM_ITEM2_FAMILLE__2",
             "detail": {
               "fr": "Menu Véhicule 2 Item 2",
               "en": "Vehicule menu 2 Item 2",
@@ -6348,7 +6866,7 @@
           },
           {
             "name": "DS7",
-            "extra_name": "NOM_ITEM3_FAMILLE__2_000",
+            "extra_name": "NOM_ITEM3_FAMILLE__2",
             "detail": {
               "fr": "Menu Véhicule 2 Item 3",
               "en": "Vehicule menu 2 Item 3",
@@ -6611,7 +7129,7 @@
           },
           {
             "name": "DS6",
-            "extra_name": "NOM_ITEM4_FAMILLE__2_000",
+            "extra_name": "NOM_ITEM4_FAMILLE__2",
             "detail": {
               "fr": "Menu Véhicule 2 Item 4",
               "en": "Vehicule menu 2 Item 4",
@@ -6874,7 +7392,7 @@
           },
           {
             "name": "DZ0",
-            "extra_name": "NOM_ITEM5_FAMILLE_2_000",
+            "extra_name": "NOM_ITEM5_FAMILLE_2",
             "detail": {
               "fr": "Menu Véhicule 2 Item 5",
               "en": "Vehicule menu 2 Item 5",
@@ -7137,7 +7655,7 @@
           },
           {
             "name": "DYZ",
-            "extra_name": "NOM_ITEM6_FAMILLE_2_000",
+            "extra_name": "NOM_ITEM6_FAMILLE_2",
             "detail": {
               "fr": "Menu Véhicule 2 Item 6",
               "en": "Vehicule menu 2 Item 6",
@@ -7663,7 +8181,7 @@
           },
           {
             "name": "DYW",
-            "extra_name": "NOM_ITEM8_FAMILLE_2_000",
+            "extra_name": "NOM_ITEM8_FAMILLE_2",
             "detail": {
               "fr": "Menu Véhicule 2 Item 8",
               "en": "Vehicule menu 2 Item 8",
@@ -8189,7 +8707,7 @@
           },
           {
             "name": "DYT",
-            "extra_name": "NOM_ITEM10_FAMILLE_2_000",
+            "extra_name": "NOM_ITEM10_FAMILLE_2",
             "detail": {
               "fr": "Menu Véhicule 2 Item 10",
               "en": "Vehicule menu 2 Item 10",
@@ -8452,7 +8970,7 @@
           },
           {
             "name": "DRW",
-            "extra_name": "FAMILY_NAME_3_000",
+            "extra_name": "FAMILY_NAME_3",
             "detail": {
               "fr": "Menu Véhicule 3",
               "en": "Vehicle Menu 3",
@@ -8523,7 +9041,7 @@
           },
           {
             "name": "DS2",
-            "extra_name": "NOM_ITEM1_FAMILLE__3_000",
+            "extra_name": "NOM_ITEM1_FAMILLE__3",
             "detail": {
               "fr": "Menu Véhicule 3 Item 1",
               "en": "Vehicule menu 3 Item 1",
@@ -8786,7 +9304,7 @@
           },
           {
             "name": "DS3",
-            "extra_name": "NOM_ITEM2_FAMILLE__3_000",
+            "extra_name": "NOM_ITEM2_FAMILLE__3",
             "detail": {
               "fr": "Menu Véhicule 3 Item 2",
               "en": "Vehicule menu 3 Item 2",
@@ -9049,7 +9567,7 @@
           },
           {
             "name": "DS4",
-            "extra_name": "NOM_ITEM3_FAMILLE__3_000",
+            "extra_name": "NOM_ITEM3_FAMILLE__3",
             "detail": {
               "fr": "Menu Véhicule 3 Item 3",
               "en": "Vehicule menu 3 Item 3",
@@ -9312,7 +9830,7 @@
           },
           {
             "name": "DS5",
-            "extra_name": "NOM_ITEM4_FAMILLE__3_000",
+            "extra_name": "NOM_ITEM4_FAMILLE__3",
             "detail": {
               "fr": "Menu Véhicule 3 Item 4",
               "en": "Vehicule menu 3 Item 4",
@@ -9575,7 +10093,7 @@
           },
           {
             "name": "DZ7",
-            "extra_name": "NOM_ITEM5_FAMILLE_3_000",
+            "extra_name": "NOM_ITEM5_FAMILLE_3",
             "detail": {
               "fr": "Menu Véhicule 3 Item 5",
               "en": "Vehicule menu 3 Item 5",
@@ -9838,7 +10356,7 @@
           },
           {
             "name": "DZ8",
-            "extra_name": "NOM_ITEM6_FAMILLE_3_000",
+            "extra_name": "NOM_ITEM6_FAMILLE_3",
             "detail": {
               "fr": "Menu Véhicule 3 Item 6",
               "en": "Vehicule menu 3 Item 6",
@@ -10101,7 +10619,7 @@
           },
           {
             "name": "DZ9",
-            "extra_name": "NOM_ITEM7_FAMILLE_3_000",
+            "extra_name": "NOM_ITEM7_FAMILLE_3",
             "detail": {
               "fr": "Menu Véhicule 3 Item 7",
               "en": "Vehicule menu 3 Item 7",
@@ -10364,7 +10882,7 @@
           },
           {
             "name": "DYQ",
-            "extra_name": "NOM_ITEM8_FAMILLE_3_000",
+            "extra_name": "NOM_ITEM8_FAMILLE_3",
             "detail": {
               "fr": "Menu Véhicule 3 Item 8",
               "en": "Vehicule menu 3 Item 8",
@@ -10627,7 +11145,7 @@
           },
           {
             "name": "DYP",
-            "extra_name": "NOM_ITEM9_FAMILLE_3_000",
+            "extra_name": "NOM_ITEM9_FAMILLE_3",
             "detail": {
               "fr": "Menu Véhicule 3 Item 9",
               "en": "Vehicule menu 3 Item 9",
@@ -10890,7 +11408,7 @@
           },
           {
             "name": "DYO",
-            "extra_name": "NOM_ITEM10_FAMILLE_3_000",
+            "extra_name": "NOM_ITEM10_FAMILLE_3",
             "detail": {
               "fr": "Menu Véhicule 3 Item 10",
               "en": "Vehicule menu 3 Item 10",
@@ -11153,7 +11671,7 @@
           },
           {
             "name": "DRX",
-            "extra_name": "FAMILY_NAME_4_000",
+            "extra_name": "FAMILY_NAME_4",
             "detail": {
               "fr": "Menu Véhicule 4",
               "en": "Vehicle Menu 4",
@@ -11224,7 +11742,7 @@
           },
           {
             "name": "DS1",
-            "extra_name": "NOM_ITEM1_FAMILLE__4_000",
+            "extra_name": "NOM_ITEM1_FAMILLE__4",
             "detail": {
               "fr": "Menu Véhicule 4 Item 1",
               "en": "Vehicule menu 4 Item 1",
@@ -11487,7 +12005,7 @@
           },
           {
             "name": "DS0",
-            "extra_name": "NOM_ITEM2_FAMILLE__4_000",
+            "extra_name": "NOM_ITEM2_FAMILLE__4",
             "detail": {
               "fr": "Menu Véhicule 4 Item 2",
               "en": "Vehicule menu 4 Item 2",
@@ -11750,7 +12268,7 @@
           },
           {
             "name": "DRZ",
-            "extra_name": "NOM_ITEM3_FAMILLE__4_000",
+            "extra_name": "NOM_ITEM3_FAMILLE__4",
             "detail": {
               "fr": "Menu Véhicule 4 Item 3",
               "en": "Vehicule menu 4 Item 3",
@@ -12013,7 +12531,7 @@
           },
           {
             "name": "DRY",
-            "extra_name": "NOM_ITEM4_FAMILLE__4_000",
+            "extra_name": "NOM_ITEM4_FAMILLE__4",
             "detail": {
               "fr": "Menu Véhicule 4 Item 4",
               "en": "Vehicule menu 4 Item 4",
@@ -12276,7 +12794,7 @@
           },
           {
             "name": "DYN",
-            "extra_name": "NOM_ITEM5_FAMILLE_4_000",
+            "extra_name": "NOM_ITEM5_FAMILLE_4",
             "detail": {
               "fr": "Menu Véhicule 4 Item 5",
               "en": "Vehicule menu 4 Item 5",
@@ -12539,7 +13057,7 @@
           },
           {
             "name": "DYM",
-            "extra_name": "NOM_ITEM6_FAMILLE_4_000",
+            "extra_name": "NOM_ITEM6_FAMILLE_4",
             "detail": {
               "fr": "Menu Véhicule 4 Item 6",
               "en": "Vehicule menu 4 Item 6",
@@ -12802,7 +13320,7 @@
           },
           {
             "name": "DYL",
-            "extra_name": "NOM_ITEM7_FAMILLE_4_000",
+            "extra_name": "NOM_ITEM7_FAMILLE_4",
             "detail": {
               "fr": "Menu Véhicule 4 Item 7",
               "en": "Vehicule menu 4 Item 7",
@@ -13065,7 +13583,7 @@
           },
           {
             "name": "DYK",
-            "extra_name": "NOM_ITEM8_FAMILLE_4_000",
+            "extra_name": "NOM_ITEM8_FAMILLE_4",
             "detail": {
               "fr": "Menu Véhicule 4 Item 8",
               "en": "Vehicule menu 4 Item 8",
@@ -13328,7 +13846,7 @@
           },
           {
             "name": "DYJ",
-            "extra_name": "NOM_ITEM9_FAMILLE_4_000",
+            "extra_name": "NOM_ITEM9_FAMILLE_4",
             "detail": {
               "fr": "Menu Véhicule 4 Item 9",
               "en": "Vehicule menu 4 Item 9",
@@ -13591,7 +14109,7 @@
           },
           {
             "name": "DYH",
-            "extra_name": "NOM_ITEM10_FAMILLE_4_000",
+            "extra_name": "NOM_ITEM10_FAMILLE_4",
             "detail": {
               "fr": "Menu Véhicule 4 Item 10",
               "en": "Vehicule menu 4 Item 10",
@@ -13859,7 +14377,7 @@
         "params": [
           {
             "name": "DTR",
-            "extra_name": "ENGINEERING_MODE_000",
+            "extra_name": "ENGINEERING_MODE",
             "detail": {
               "fr": "Activation du Menu Expert",
               "en": "Expert menu activation",
@@ -13877,7 +14395,7 @@
         "params": [
           {
             "name": "DW0",
-            "extra_name": "LVDS_SPEED_000",
+            "extra_name": "LVDS_SPEED",
             "detail": {
               "fr": "Vitesse maximale du réseau LVDS",
               "en": "LVDS speed",
@@ -13908,7 +14426,7 @@
           },
           {
             "name": "DW1",
-            "extra_name": "LVDS_BWS_CONFIG_000",
+            "extra_name": "LVDS_BWS_CONFIG",
             "detail": {
               "fr": "Configuration du réseau LVDS",
               "en": "LVDS configuration",
@@ -13939,7 +14457,7 @@
           },
           {
             "name": "EG5",
-            "extra_name": "VIDEO_CODING_1_000",
+            "extra_name": "VIDEO_CODING_1",
             "detail": {
               "fr": "Résolution de l'affichage vidéo 1",
               "en": "Video display resolution 1",
@@ -13952,7 +14470,7 @@
           },
           {
             "name": "EG6",
-            "extra_name": "VIDEO_CODING_2_000",
+            "extra_name": "VIDEO_CODING_2",
             "detail": {
               "fr": "Résolution de l'affichage vidéo 2",
               "en": "Video display resolution 2",
@@ -13970,7 +14488,7 @@
         "params": [
           {
             "name": "E8Q",
-            "extra_name": "OPT_REMOTE_MNGT_VHL_000",
+            "extra_name": "OPT_REMOTE_MNGT_VHL",
             "detail": {
               "fr": "Contrôle à distance",
               "en": "Remote control",
@@ -13988,7 +14506,7 @@
         "params": [
           {
             "name": "EEN",
-            "extra_name": "BTEL_AAP_ON_OFF_000",
+            "extra_name": "BTEL_AAP_ON_OFF",
             "detail": {
               "fr": "Android Auto",
               "en": "Android Auto",
@@ -14006,7 +14524,7 @@
         "params": [
           {
             "name": "DFU",
-            "extra_name": "REAR_LOCK_000_1",
+            "extra_name": "REAR_LOCK_1",
             "detail": {
               "fr": "Vérouillage Arrière",
               "en": "Rear Lock",
@@ -14019,7 +14537,7 @@
           },
           {
             "name": "E89",
-            "extra_name": "PERSO_PICTURE_EXPORT_000_1",
+            "extra_name": "PERSO_PICTURE_EXPORT_1",
             "detail": {
               "fr": "Export des pochettes audio sur le combiné",
               "en": "Audio covers export on the instrument panel",
@@ -14032,7 +14550,7 @@
           },
           {
             "name": "ED4",
-            "extra_name": "AUDIO_PRESET_GEN_000_1",
+            "extra_name": "AUDIO_PRESET_GEN_1",
             "detail": {
               "fr": "Configuration Audio nouvelle génération",
               "en": "New generation Audio Configuration",
@@ -14045,7 +14563,7 @@
           },
           {
             "name": "ED5",
-            "extra_name": "LOUDNESS_000_1",
+            "extra_name": "LOUDNESS_1",
             "detail": {
               "fr": "Fonction Loudness",
               "en": "Loudness function",
@@ -14058,7 +14576,7 @@
           },
           {
             "name": "ELH",
-            "extra_name": "OPTION_STANDBYMODE_000_1",
+            "extra_name": "OPTION_STANDBYMODE_1",
             "detail": {
               "fr": "Option Standby",
               "en": "Standby Option",
@@ -14071,7 +14589,7 @@
           },
           {
             "name": "ELI",
-            "extra_name": "PRIVACY_MODE_CFG_000_1",
+            "extra_name": "PRIVACY_MODE_CFG_1",
             "detail": {
               "fr": "Configuration du mode privé",
               "en": "Private mode configuration",
@@ -14084,7 +14602,7 @@
           },
           {
             "name": "ELJ",
-            "extra_name": "ODS_GEN_000_1",
+            "extra_name": "ODS_GEN_1",
             "detail": {
               "fr": "Detecteur d'obstacle nouvelle génération",
               "en": "New Generation Obstacle detection system",
@@ -14097,7 +14615,7 @@
           },
           {
             "name": "EO0",
-            "extra_name": "CONTINUOUS_CPK_000_1",
+            "extra_name": "CONTINUOUS_CPK_1",
             "detail": {
               "fr": "City Park Assist continue",
               "en": "Continuous City Park Assist",
@@ -14110,7 +14628,7 @@
           },
           {
             "name": "EO1",
-            "extra_name": "CITYPARK_AS_000_1",
+            "extra_name": "CITYPARK_AS_1",
             "detail": {
               "fr": "City Park Assist",
               "en": "City Park Assist",
@@ -14123,7 +14641,7 @@
           },
           {
             "name": "EO2",
-            "extra_name": "ACPK_000_1",
+            "extra_name": "ACPK_1",
             "detail": {
               "fr": "City Park Assist",
               "en": "City Park Assist",
@@ -14136,7 +14654,7 @@
           },
           {
             "name": "EO3",
-            "extra_name": "CPK_HMI_GEN_000_1",
+            "extra_name": "CPK_HMI_GEN_1",
             "detail": {
               "fr": "Menu City Park Assist",
               "en": "City Park Assist Menu",
@@ -14149,7 +14667,7 @@
           },
           {
             "name": "EO5",
-            "extra_name": "CLIM_HEATED_SEAT_CFG_000_1",
+            "extra_name": "CLIM_HEATED_SEAT_CFG_1",
             "detail": {
               "fr": "Configuration siège chauffant",
               "en": "Heated seat configuration",
@@ -14162,7 +14680,7 @@
           },
           {
             "name": "EO6",
-            "extra_name": "AIRQUALITY_CFG_000_1",
+            "extra_name": "AIRQUALITY_CFG_1",
             "detail": {
               "fr": "Système de qualité de l'air",
               "en": "Air Quality System",
@@ -14175,7 +14693,7 @@
           },
           {
             "name": "EO7",
-            "extra_name": "ECOACH_CFG_000_1",
+            "extra_name": "ECOACH_CFG_1",
             "detail": {
               "fr": "Configuration ECO Climatisation",
               "en": "ECO Air Conditioning Configuration",
@@ -14188,7 +14706,7 @@
           },
           {
             "name": "EO8",
-            "extra_name": "NV_PUSH_LED_PANEL_000_1",
+            "extra_name": "NV_PUSH_LED_PANEL_1",
             "detail": {
               "fr": "Touche physique pour \"Night Vision\"",
               "en": "Physical button for \"Night Vision\"",
@@ -14201,7 +14719,7 @@
           },
           {
             "name": "EO9",
-            "extra_name": "NV_PUSH_LED_000_1",
+            "extra_name": "NV_PUSH_LED_1",
             "detail": {
               "fr": "Affichage de la touche tactile \"Night Vision\"",
               "en": "Display Touch button \"Night Vision\"",
@@ -14214,7 +14732,7 @@
           },
           {
             "name": "EOA",
-            "extra_name": "TYPE_PUSH_LIST_HDC_000_1",
+            "extra_name": "TYPE_PUSH_LIST_HDC_1",
             "detail": {
               "fr": "Type bouton LIST - High Digital Cockpit",
               "en": "LIST type button - High Digital Cockpit",
@@ -14227,7 +14745,7 @@
           },
           {
             "name": "EOB",
-            "extra_name": "TYPE_PUSH_SOURCE_HDC_000_1",
+            "extra_name": "TYPE_PUSH_SOURCE_HDC_1",
             "detail": {
               "fr": "Type bouton SOURCE - High Digital Cockpit",
               "en": "SOURCE type button - High Digital Cockpit",
@@ -14240,7 +14758,7 @@
           },
           {
             "name": "EOC",
-            "extra_name": "SOURCE_PHONE_HDC_000_1",
+            "extra_name": "SOURCE_PHONE_HDC_1",
             "detail": {
               "fr": "Type bouton PHONE - High Digital Cockpit",
               "en": "PHONE type button - High Digital Cockpit",
@@ -14253,7 +14771,7 @@
           },
           {
             "name": "EOD",
-            "extra_name": "ML_PRIVACY_ACTIVATIO_000_1",
+            "extra_name": "ML_PRIVACY_ACTIVATIO_1",
             "detail": {
               "fr": "Mode privé pour Mirrorlink",
               "en": "Private mode for Mirrorlink",
@@ -14266,7 +14784,7 @@
           },
           {
             "name": "EOE",
-            "extra_name": "DIPO_PRIVACY_ACTIVAT_000_1",
+            "extra_name": "DIPO_PRIVACY_ACTIVAT_1",
             "detail": {
               "fr": "Mode privé pour Apple Carplay",
               "en": "Private mode for Apple Carplay",
@@ -14279,7 +14797,7 @@
           },
           {
             "name": "EOF",
-            "extra_name": "AAP_PRIVACY_ACTIVATI_000_1",
+            "extra_name": "AAP_PRIVACY_ACTIVATI_1",
             "detail": {
               "fr": "Mode privé pour Android Auto",
               "en": "Private mode for Android Auto",
@@ -14292,7 +14810,7 @@
           },
           {
             "name": "EOG",
-            "extra_name": "DYNAMIC_NORMAL_000_1",
+            "extra_name": "DYNAMIC_NORMAL_1",
             "detail": {
               "fr": "Mode Dynamique Normal",
               "en": "Normal Dynamic mode",
@@ -14305,7 +14823,7 @@
           },
           {
             "name": "EOH",
-            "extra_name": "DYNAMIC_SPORT_000_1",
+            "extra_name": "DYNAMIC_SPORT_1",
             "detail": {
               "fr": "Mode Dynamique Sport",
               "en": "Sport Dynamic mode",
@@ -14318,7 +14836,7 @@
           },
           {
             "name": "EOI",
-            "extra_name": "DYNAMIC_COMFORT_000_1",
+            "extra_name": "DYNAMIC_COMFORT_1",
             "detail": {
               "fr": "Mode Dynamique Confort",
               "en": "Comfort Dyanmic mode",
@@ -14331,7 +14849,7 @@
           },
           {
             "name": "EOJ",
-            "extra_name": "DYNAMIC_ECO_000_1",
+            "extra_name": "DYNAMIC_ECO_1",
             "detail": {
               "fr": "Mode Dynamique Eco",
               "en": "Eco Dynamic mode",
@@ -14344,7 +14862,7 @@
           },
           {
             "name": "EOK",
-            "extra_name": "RENAME_PPS_MODE_CFG_000_1",
+            "extra_name": "RENAME_PPS_MODE_CFG_1",
             "detail": {
               "fr": "Configuration mode AUTO Climatisation",
               "en": "AUTO Mode configuration for air conditioning",
@@ -14357,7 +14875,7 @@
           },
           {
             "name": "EOL",
-            "extra_name": "LVDS_1_BWS_CONFIG_000_1",
+            "extra_name": "LVDS_1_BWS_CONFIG_1",
             "detail": {
               "fr": "Configuration du réseau LVDS #1",
               "en": "LVDS #1 configuration",
@@ -14370,7 +14888,7 @@
           },
           {
             "name": "EOM",
-            "extra_name": "LVDS_2_BWS_CONFIG_000_1",
+            "extra_name": "LVDS_2_BWS_CONFIG_1",
             "detail": {
               "fr": "Configuration du réseau LVDS #2",
               "en": "LVDS #2 configuration",
@@ -14383,7 +14901,7 @@
           },
           {
             "name": "EON",
-            "extra_name": "NV_PUSH_LED_POS_000_1",
+            "extra_name": "NV_PUSH_LED_POS_1",
             "detail": {
               "fr": "Position touche tactile \"Night Vision\"",
               "en": "Touch button Position \"Night Vision\"",
@@ -14396,7 +14914,7 @@
           },
           {
             "name": "ET9",
-            "extra_name": "MASS_SEAT_OPT_CFG_000",
+            "extra_name": "MASS_SEAT_OPT_CFG",
             "detail": {
               "fr": "Type de siège massant",
               "en": "Type of massage seat",
@@ -14414,7 +14932,7 @@
         "params": [
           {
             "name": "BFG",
-            "extra_name": "HEURE_IHM_000",
+            "extra_name": "HEURE_IHM",
             "detail": {
               "fr": "Affichage de l\"heure",
               "en": "Time display",
@@ -14499,7 +15017,7 @@
         "params": [
           {
             "name": "ERG",
-            "extra_name": "ACS_BTEL_CDC_000",
+            "extra_name": "ACS_BTEL_CDC",
             "detail": {
               "fr": "Présence d'un chargeur CD",
               "en": "CD Charger presence",
@@ -14517,7 +15035,7 @@
         "params": [
           {
             "name": "ACS",
-            "extra_name": "CDC_000",
+            "extra_name": "CDC",
             "detail": {
               "fr": "Présence d'un chargeur CD",
               "en": "CD Charger presence",
@@ -14535,7 +15053,7 @@
         "params": [
           {
             "name": "D7L",
-            "extra_name": "ATT_DG_CFG_CITYPARK_000",
+            "extra_name": "ATT_DG_CFG_CITYPARK",
             "detail": {
               "fr": "Présence de la fonction stationnement semi-automatique",
               "en": "Semi-automatic parking system presence",
@@ -14574,7 +15092,7 @@
           },
           {
             "name": "D8Q",
-            "extra_name": "ATT_DG_CITYPARK_PUSH_000",
+            "extra_name": "ATT_DG_CITYPARK_PUSH",
             "detail": {
               "fr": "Affichage de la touche tactile \"Système de stationnement semi-automatique\"",
               "en": "Display Touch button \"Semi-automatic parking system\"",
@@ -14587,7 +15105,7 @@
           },
           {
             "name": "DMH",
-            "extra_name": "DG_CPAS_PUSH_POS_000",
+            "extra_name": "DG_CPAS_PUSH_POS",
             "detail": {
               "fr": "Position de la touche tactile \"Système de stationnement semi-automatique\"",
               "en": "Touch button Position \"Semi-automatic parking system\"",
@@ -14600,7 +15118,7 @@
           },
           {
             "name": "DR4",
-            "extra_name": "CONF_DOP_000",
+            "extra_name": "CONF_DOP",
             "detail": {
               "fr": "Détection d'obstacle",
               "en": "Obstacle detection",
@@ -14617,8 +15135,39 @@
         "name": "Telecoding_Fct_CLIM",
         "params": [
           {
+            "name": "D8V",
+            "extra_name": "ATT_DG_TYPE_MIX",
+            "detail": {
+              "fr": "Type de distribution de l'air",
+              "en": "Air distribution type",
+              "ru": "Тип распределения воздуха"
+            },
+            "pos": "04",
+            "mask": "40",
+            "maskBinary": "01000000",
+			"listbox": [
+              {
+                "value": "00",
+                "text": {
+                  "fr": "Monozone",
+                  "en": "Monozone",
+                  "ru": "Монозона"
+                }
+              },
+              {
+                "value": "40",
+                "text": {
+                  "fr": "Bi-zone",
+                  "en": "Bi-zone",
+                  "ru": "Би-зона"
+                }
+              }
+            ],
+            "size": 1
+          },
+          {
             "name": "D8W",
-            "extra_name": "ATT_DG_PRES_RECYCL_000",
+            "extra_name": "ATT_DG_PRES_RECYCL",
             "detail": {
               "fr": "Présence de la touche physique de recyclage d'air habitacle",
               "en": "Physical button for air recycling",
@@ -14631,7 +15180,7 @@
           },
           {
             "name": "D8Z",
-            "extra_name": "ATT_DG_PRES_CLIM_AR_000",
+            "extra_name": "ATT_DG_PRES_CLIM_AR",
             "detail": {
               "fr": "Façade de climatisation arrière",
               "en": "Rear air conditioning facade",
@@ -14644,7 +15193,7 @@
           },
           {
             "name": "D90",
-            "extra_name": "ATT_DG_PRES_AQS_000",
+            "extra_name": "ATT_DG_PRES_AQS",
             "detail": {
               "fr": "Présence du système de mesure de l\"air ambiante dans l\"habitacle",
               "en": "Presence of the ambient air measurement system in the car",
@@ -14657,7 +15206,7 @@
           },
           {
             "name": "D9Y",
-            "extra_name": "ATT_DG_PRES_TYPAGE_000",
+            "extra_name": "ATT_DG_PRES_TYPAGE",
             "detail": {
               "fr": "Type de régulation de la climatisation",
               "en": "Type of air conditioning control",
@@ -14717,7 +15266,7 @@
           },
           {
             "name": "DBH",
-            "extra_name": "ATT_DG_TYPE_DIST_000",
+            "extra_name": "ATT_DG_TYPE_DIST",
             "detail": {
               "fr": "Type de distribution de l\"air",
               "en": "Type of air distribution",
@@ -14730,7 +15279,7 @@
           },
           {
             "name": "DBI",
-            "extra_name": "ATT_DG_PRES_AC_MAX_000",
+            "extra_name": "ATT_DG_PRES_AC_MAX",
             "detail": {
               "fr": "Présence de la touche tactile \"AC MAX\"",
               "en": "Presence of the \"AC max\" touch key",
@@ -14743,7 +15292,7 @@
           },
           {
             "name": "DFP",
-            "extra_name": "ENERGY_SAVER_PUSH_000",
+            "extra_name": "ENERGY_SAVER_PUSH",
             "detail": {
               "fr": "Touche tactile d'économie d'énergie",
               "en": "Energy saving touch key",
@@ -14756,7 +15305,7 @@
           },
           {
             "name": "DFQ",
-            "extra_name": "AIRFLOW_BY_LEVEL_000",
+            "extra_name": "AIRFLOW_BY_LEVEL",
             "detail": {
               "fr": "Touche tactile à niveau du contrôle du pulseur d'air",
               "en": "Touch button on the air blower control",
@@ -14769,7 +15318,7 @@
           },
           {
             "name": "DFV",
-            "extra_name": "TEMP_ADJUST_000",
+            "extra_name": "TEMP_ADJUST",
             "detail": {
               "fr": "Contrôle de la température",
               "en": "Temperature control",
@@ -14782,7 +15331,7 @@
           },
           {
             "name": "DFW",
-            "extra_name": "AIRFLOW_DIR_ADJUST_000",
+            "extra_name": "AIRFLOW_DIR_ADJUST",
             "detail": {
               "fr": "Distribution de l'air",
               "en": "Air distribution",
@@ -14795,7 +15344,7 @@
           },
           {
             "name": "DFY",
-            "extra_name": "CLIM_AUTO_000",
+            "extra_name": "CLIM_AUTO",
             "detail": {
               "fr": "Bouton de climatisation automatique",
               "en": "Automatic climate control button",
@@ -14808,7 +15357,7 @@
           },
           {
             "name": "DFZ",
-            "extra_name": "AIRFLOW_BY_INC_000",
+            "extra_name": "AIRFLOW_BY_INC",
             "detail": {
               "fr": "Touche tactile d'incrémentation du contrôle du pulseur d'air",
               "en": "Air blower control increment Touch button",
@@ -14821,7 +15370,7 @@
           },
           {
             "name": "DG5",
-            "extra_name": "CLIM_ACTIVATION_000",
+            "extra_name": "CLIM_ACTIVATION",
             "detail": {
               "fr": "Activation Menu Climatisation",
               "en": "Air conditioning Menu activation",
@@ -14834,7 +15383,7 @@
           },
           {
             "name": "DUR",
-            "extra_name": "CLIM_PRECOND_000",
+            "extra_name": "CLIM_PRECOND",
             "detail": {
               "fr": "Présence du menu de préconditionnement",
               "en": "Presence of the preconditioning menu",
@@ -14847,7 +15396,7 @@
           },
           {
             "name": "E2I",
-            "extra_name": "CLIM_RECALL_INFO_000",
+            "extra_name": "CLIM_RECALL_INFO",
             "detail": {
               "fr": "Recopie information climatisation en haut de l'écran",
               "en": "Air conditioning information at the top of the screen",
@@ -14860,7 +15409,7 @@
           },
           {
             "name": "E8M",
-            "extra_name": "CLIM_OFF_BUTTON_000",
+            "extra_name": "CLIM_OFF_BUTTON",
             "detail": {
               "fr": "Présence de la touche tactile d'arrêt de la climatisation",
               "en": "Air conditioning stop Touch button",
@@ -14873,7 +15422,7 @@
           },
           {
             "name": "ED6",
-            "extra_name": "CLIM_MONO_000",
+            "extra_name": "CLIM_MONO",
             "detail": {
               "fr": "Type de bouton MONO",
               "en": "MONO button type",
@@ -14917,7 +15466,7 @@
         "params": [
           {
             "name": "DMI",
-            "extra_name": "DG_DGSI_PUSH_POS_000",
+            "extra_name": "DG_DGSI_PUSH_POS",
             "detail": {
               "fr": "Position Détection sous-gonflage",
               "en": "Under-inflation detection Position",
@@ -14930,7 +15479,7 @@
           },
           {
             "name": "DMT",
-            "extra_name": "DG_DGSI_PUSH_PANEL_000",
+            "extra_name": "DG_DGSI_PUSH_PANEL",
             "detail": {
               "fr": "Bouton physique pour détection sous-gonflage",
               "en": "Physical Button for Under-inflation detection",
@@ -14961,7 +15510,7 @@
         "params": [
           {
             "name": "DBM",
-            "extra_name": "ATT_DG_CHX_CAL_ECRAN_000",
+            "extra_name": "ATT_DG_CHX_CAL_ECRAN",
             "detail": {
               "fr": "Type d'écran tactile",
               "en": "Touch screen type",
@@ -15013,7 +15562,7 @@
         "params": [
           {
             "name": "D8T",
-            "extra_name": "ATT_DG_STT_PUSH_000",
+            "extra_name": "ATT_DG_STT_PUSH",
             "detail": {
               "fr": "Affichage de la touche tactile \"Stop and Start\"",
               "en": "Display Touch button \"Stop and Start\"",
@@ -15026,7 +15575,7 @@
           },
           {
             "name": "DMQ",
-            "extra_name": "DG_STT_PUSH_LED_POS_000",
+            "extra_name": "DG_STT_PUSH_LED_POS",
             "detail": {
               "fr": "Position touche tactile \"Stop and Start\"",
               "en": "Touch button Position \"Stop and Start\"",
@@ -15039,7 +15588,7 @@
           },
           {
             "name": "DN1",
-            "extra_name": "DG_STT_PUSH_PANEL_000",
+            "extra_name": "DG_STT_PUSH_PANEL",
             "detail": {
               "fr": "Bouton physique pour \"Stop and Start\"",
               "en": "Physical Button \"Stop and Start\"",
@@ -15057,7 +15606,7 @@
         "params": [
           {
             "name": "DRK",
-            "extra_name": "XVV_MAX_000",
+            "extra_name": "XVV_MAX",
             "detail": {
               "fr": "Vitesse maximale de régulation et limitation de vitesse",
               "en": "Maximum cruise control and speed limitation",
@@ -15070,7 +15619,7 @@
           },
           {
             "name": "DRL",
-            "extra_name": "XVV_MIN_000",
+            "extra_name": "XVV_MIN",
             "detail": {
               "fr": "Vitesse minimale de régulation et limitation de vitesse",
               "en": "Minimal cruise control and speed limitation",
@@ -15083,7 +15632,7 @@
           },
           {
             "name": "DSI",
-            "extra_name": "LVV_MAX_000",
+            "extra_name": "LVV_MAX",
             "detail": {
               "fr": "Vitesse maximale de limitation de vitesse",
               "en": "Maximum speed of the speed limiter",
@@ -15096,7 +15645,7 @@
           },
           {
             "name": "DSJ",
-            "extra_name": "LVV_MIN_000",
+            "extra_name": "LVV_MIN",
             "detail": {
               "fr": "Vitesse minimale de limitation de vitesse",
               "en": "Minimum speed of the speed limiter",
@@ -15109,7 +15658,7 @@
           },
           {
             "name": "DSK",
-            "extra_name": "RVV_MAX_000",
+            "extra_name": "RVV_MAX",
             "detail": {
               "fr": "Vitesse maximale de régulation de vitesse",
               "en": "Maximum speed of the cruise control",
@@ -15122,7 +15671,7 @@
           },
           {
             "name": "DSL",
-            "extra_name": "RVV_MIN_000",
+            "extra_name": "RVV_MIN",
             "detail": {
               "fr": "Vitesse minimale de régulation de vitesse",
               "en": "Minimum speed of the cruise control",
@@ -15135,7 +15684,7 @@
           },
           {
             "name": "DSV",
-            "extra_name": "CONF_RVVI_000",
+            "extra_name": "CONF_RVVI",
             "detail": {
               "fr": "Régulation de vitesse véhicule adaptée",
               "en": "Adapatative cruise control",
@@ -15148,7 +15697,7 @@
           },
           {
             "name": "DSW",
-            "extra_name": "RLVV_MEMORIZATION_000",
+            "extra_name": "RLVV_MEMORIZATION",
             "detail": {
               "fr": "Rappel des vitesses mémorisées",
               "en": "Memorized speeds",
@@ -15161,7 +15710,7 @@
           },
           {
             "name": "DSX",
-            "extra_name": "RLVV_SELECTION_000",
+            "extra_name": "RLVV_SELECTION",
             "detail": {
               "fr": "Rappel des vitesses sélectionnées",
               "en": "Selected speeds",
@@ -15174,7 +15723,7 @@
           },
           {
             "name": "DTG",
-            "extra_name": "XVV_DMD_000",
+            "extra_name": "XVV_DMD",
             "detail": {
               "fr": "Affichage du rappel des consignes de régulation et limitation de vitesse véhicule",
               "en": "Display of the vehicle cruise control and speed limiter instructions reminder",
@@ -15187,7 +15736,7 @@
           },
           {
             "name": "E03",
-            "extra_name": "XVV_STOPADJUST_000",
+            "extra_name": "XVV_STOPADJUST",
             "detail": {
               "fr": "Ajustement de la vitesse limite de régulation et limitation de vitesse",
               "en": "Speed Adjustment of the cruise control and speed limiter",
@@ -15200,7 +15749,7 @@
           },
           {
             "name": "E09",
-            "extra_name": "RVV_RVVI_PUSH_LED_000",
+            "extra_name": "RVV_RVVI_PUSH_LED",
             "detail": {
               "fr": "Affichage de la touche tactile de sélection de la \"Régulation de vitesse véhicule adaptée\"",
               "en": "Display Touch button \"Adapatative Cruise control\"",
@@ -15213,7 +15762,7 @@
           },
           {
             "name": "E4I",
-            "extra_name": "RVV_RVVI_PUSH_LED_PA_000",
+            "extra_name": "RVV_RVVI_PUSH_LED_PA",
             "detail": {
               "fr": "Bouton physique pour la sélection de la \"Régulation de vitesse véhicule adaptée\"",
               "en": "Physical Button \"Adapatative Cruise Control\"",
@@ -15226,7 +15775,7 @@
           },
           {
             "name": "E4J",
-            "extra_name": "RVV_RVVI_PUSH_LED_PO_000",
+            "extra_name": "RVV_RVVI_PUSH_LED_PO",
             "detail": {
               "fr": "Position de la touche tactile de sélection de la \"Régulation de vitesse véhicule adaptée\"",
               "en": "Touch button Position \"Adapatative Cruise Control\"",
@@ -15244,7 +15793,7 @@
         "params": [
           {
             "name": "DTU",
-            "extra_name": "CONNECT_WIFI_CLI_000",
+            "extra_name": "CONNECT_WIFI_CLI",
             "detail": {
               "fr": "Présence du Wi-Fi",
               "en": "Wi-Fi presence",
@@ -15257,7 +15806,7 @@
           },
           {
             "name": "DTW",
-            "extra_name": "CONNECT_WIFI_AP_000",
+            "extra_name": "CONNECT_WIFI_AP",
             "detail": {
               "fr": "Fonction Internet via Wi-Fi",
               "en": "Internet via Wi-Fi function",
@@ -15270,7 +15819,7 @@
           },
           {
             "name": "DUU",
-            "extra_name": "HW_WIFI_000",
+            "extra_name": "HW_WIFI",
             "detail": {
               "fr": "Module Wi-Fi",
               "en": "Wi-Fi Module",
@@ -15283,7 +15832,7 @@
           },
           {
             "name": "E2R",
-            "extra_name": "OPTION_WIFI_000",
+            "extra_name": "OPTION_WIFI",
             "detail": {
               "fr": "Fonction Wi-Fi",
               "en": "Wi-Fi Function",
@@ -15301,7 +15850,7 @@
         "params": [
           {
             "name": "DNJ",
-            "extra_name": "DAT_DNN_BTEL_DAT_DG_LANGUAGE_0000",
+            "extra_name": "DAT_DNN_BTEL_DAT_DG_LANGUAGE0",
             "detail": {
               "fr": "Langue par défaut",
               "en": "Default Language",
@@ -15364,7 +15913,7 @@
           },
           {
             "name": "DRJ",
-            "extra_name": "UNITS_LANGUAGE_000",
+            "extra_name": "UNITS_LANGUAGE",
             "detail": {
               "fr": "Affichage des langues et des unités",
               "en": "Display of languages and units",
@@ -15382,9 +15931,9 @@
         "params": [
           {
             "name": "E7X",
-            "extra_name": "ASR_PUSH_LED_PANEL_000",
+            "extra_name": "ASR_PUSH_LED_PANEL",
             "detail": {
-              "fr": "Bouton physique pour la fonction antipatinnage des roues (ASR+)",
+              "fr": "Bouton physique pour la fonction antipatinage des roues (ASR+)",
               "en": "Physical Button \"Traction Control\"",
               "ru": "Физическая кнопка \"Контроль тяги\" (ASR+)"
             },
@@ -15395,9 +15944,9 @@
           },
           {
             "name": "E7Y",
-            "extra_name": "ASR_PUSH_LED_POS_000",
+            "extra_name": "ASR_PUSH_LED_POS",
             "detail": {
-              "fr": "Position touche tactile de la fonction antipatinnage des roues (ASR+)",
+              "fr": "Position touche tactile de la fonction antipatinage des roues (ASR+)",
               "en": "Touch button Position of Traction Control function (ASR+)",
               "ru": "Сенсорная кнопка \"Контроль тяги\" (ASR+)"
             },
@@ -15408,9 +15957,9 @@
           },
           {
             "name": "E7Z",
-            "extra_name": "ASR_PUSH_LED_000",
+            "extra_name": "ASR_PUSH_LED",
             "detail": {
-              "fr": "Affichage de la touche tactile de la fonction antipatinnage des roues (ASR+)",
+              "fr": "Affichage de la touche tactile de la fonction antipatinage des roues (ASR+)",
               "en": "Display Touch button \"Traction Control\"",
               "ru": "Кнопка на экране \"Контроль тяги\" (ASR+)"
             },
@@ -15426,7 +15975,7 @@
         "params": [
           {
             "name": "E83",
-            "extra_name": "CLIM_IONISOR_CFGS_000",
+            "extra_name": "CLIM_IONISOR_CFGS",
             "detail": {
               "fr": "Fonction Ioniseur",
               "en": "Ionisor function",
@@ -15439,7 +15988,7 @@
           },
           {
             "name": "E84",
-            "extra_name": "FRAGRANCE_CFG_000",
+            "extra_name": "FRAGRANCE_CFG",
             "detail": {
               "fr": "Parfum ambiance",
               "en": "Ambiance Perfume",
@@ -15452,7 +16001,7 @@
           },
           {
             "name": "E85",
-            "extra_name": "CLIM_STATUSLINE_000",
+            "extra_name": "CLIM_STATUSLINE",
             "detail": {
               "fr": "Menu Climatisation",
               "en": "Air Conditioning Menu",
@@ -15470,7 +16019,7 @@
         "params": [
           {
             "name": "EBP",
-            "extra_name": "DYNAMIC_MODE_000",
+            "extra_name": "DYNAMIC_MODE",
             "detail": {
               "fr": "Mode AUTO Dynamique pour la climatisation",
               "en": "AUTO Dynamic mode for air conditioning",
@@ -15483,7 +16032,7 @@
           },
           {
             "name": "EBQ",
-            "extra_name": "MASSAGING_SEAT_CFG_000",
+            "extra_name": "MASSAGING_SEAT_CFG",
             "detail": {
               "fr": "Fonction siège massant",
               "en": "Massage seat function",
@@ -15496,7 +16045,7 @@
           },
           {
             "name": "EBR",
-            "extra_name": "PPS_MODE_CFG_000",
+            "extra_name": "PPS_MODE_CFG",
             "detail": {
               "fr": "Configuration Mode AUTO pour la climatisation",
               "en": "AUTO mode configuration for air conditioning",
@@ -15514,7 +16063,7 @@
         "params": [
           {
             "name": "ECG",
-            "extra_name": "OPTION_IDVR_000",
+            "extra_name": "OPTION_IDVR",
             "detail": {
               "fr": "Fonction d'enregistrement vidéo",
               "en": "Video recording function",
@@ -15532,7 +16081,7 @@
         "params": [
           {
             "name": "AWG",
-            "extra_name": "ENT_AUDIO_000",
+            "extra_name": "ENT_AUDIO",
             "detail": {
               "fr": "Entrée audio auxiliaire (AUX)",
               "en": "Auxiliary audio input (AUX)",
@@ -15545,7 +16094,7 @@
           },
           {
             "name": "ED3",
-            "extra_name": "MOOD_GRID_000",
+            "extra_name": "MOOD_GRID",
             "detail": {
               "fr": "MOOD GRIDFEATURE",
               "en": "MOOD GRIDFEATURE",
@@ -15558,7 +16107,7 @@
           },
           {
             "name": "EGQ",
-            "extra_name": "AUDIO_PRESET_LIVE_000",
+            "extra_name": "AUDIO_PRESET_LIVE",
             "detail": {
               "fr": "Configuration Audio",
               "en": "Audio Configuration",
@@ -15576,7 +16125,7 @@
         "params": [
           {
             "name": "E4H",
-            "extra_name": "REAR_CAMERA_X_000",
+            "extra_name": "REAR_CAMERA_X",
             "detail": {
               "fr": "Position axe X de la caméra",
               "en": "X Axis Position of the camera",
@@ -15589,7 +16138,7 @@
           },
           {
             "name": "E4G",
-            "extra_name": "REAR_CAMERA_Y_000",
+            "extra_name": "REAR_CAMERA_Y",
             "detail": {
               "fr": "Position axe Y de la caméra",
               "en": "Y Axis Position of the camera",
@@ -15602,7 +16151,7 @@
           },
           {
             "name": "E4F",
-            "extra_name": "REAR_CAMERA_Z_000",
+            "extra_name": "REAR_CAMERA_Z",
             "detail": {
               "fr": "Position axe Z de la caméra",
               "en": "Z Axis Position of the camera",
@@ -15615,7 +16164,7 @@
           },
           {
             "name": "E4E",
-            "extra_name": "REAR_CAMERA_ROLL_000",
+            "extra_name": "REAR_CAMERA_ROLL",
             "detail": {
               "fr": "Angle Inclinaison caméra (Roll)",
               "en": "Camera Roll Angle  (Roll)",
@@ -15628,7 +16177,7 @@
           },
           {
             "name": "E4D",
-            "extra_name": "REAR_CAMERA_PITCH_000",
+            "extra_name": "REAR_CAMERA_PITCH",
             "detail": {
               "fr": "Angle Vertical caméra (Pitch)",
               "en": "Vertical angle of the camera (Pitch)",
@@ -15641,7 +16190,7 @@
           },
           {
             "name": "E4E",
-            "extra_name": "REAR_CAMERA_YAW_000",
+            "extra_name": "REAR_CAMERA_YAW",
             "detail": {
               "fr": "Angle Horizontal caméra (Yaw)",
               "en": "Horizontal angle of the camera (Yaw)",
@@ -15654,7 +16203,7 @@
           },
           {
             "name": "E49",
-            "extra_name": "FRONT_OVERHANG_000",
+            "extra_name": "FRONT_OVERHANG",
             "detail": {
               "fr": "Distance entre roues avant et avant du véhicule",
               "en": "Distance between front wheels and front of vehicle",
@@ -15667,7 +16216,7 @@
           },
           {
             "name": "E48",
-            "extra_name": "REAR_OVERHANG_000",
+            "extra_name": "REAR_OVERHANG",
             "detail": {
               "fr": "Distance entre roues arrière et arrière du véhicule",
               "en": "Distance between rear wheels and rear of vehicle",
@@ -15680,7 +16229,7 @@
           },
           {
             "name": "E47",
-            "extra_name": "WHEELBASE_000",
+            "extra_name": "WHEELBASE",
             "detail": {
               "fr": "Distance entre roues arrière et roues avant",
               "en": "Distance between rear wheels and front wheels",
@@ -15693,7 +16242,7 @@
           },
           {
             "name": "E44",
-            "extra_name": "REAR_BUMPER_EDGE_HEI_000",
+            "extra_name": "REAR_BUMPER_EDGE_HEI",
             "detail": {
               "fr": "Distance entre le sol et le rebord du pare-chocs arrière",
               "en": "Distance between ground and rear bumper edge",
@@ -15706,7 +16255,7 @@
           },
           {
             "name": "E53",
-            "extra_name": "DIST_LINE_REAR_W_03_000",
+            "extra_name": "DIST_LINE_REAR_W_03",
             "detail": {
               "fr": "Largeur en pixels ligne 0 (Bas)",
               "en": "Line 0 width in pixel (Bottom)",
@@ -15719,7 +16268,7 @@
           },
           {
             "name": "E42",
-            "extra_name": "DIST_LINE_REAR_WID_1_000",
+            "extra_name": "DIST_LINE_REAR_WID_1",
             "detail": {
               "fr": "Largeur en pixels ligne 1 (Milieu)",
               "en": "Line 1 width in pixels (Middle)",
@@ -15732,7 +16281,7 @@
           },
           {
             "name": "E41",
-            "extra_name": "DIST_LINE_REAR_WID_2_000",
+            "extra_name": "DIST_LINE_REAR_WID_2",
             "detail": {
               "fr": "Largeur en pixels ligne 2 (Haut)",
               "en": "Line 2 width in pixels (Top)",
@@ -15745,7 +16294,7 @@
           },
           {
             "name": "E40",
-            "extra_name": "TRAJECTORY_LIN_REA_W_000",
+            "extra_name": "TRAJECTORY_LIN_REA_W",
             "detail": {
               "fr": "Largeur en pixels de la ligne de trajectoire",
               "en": "Width of trajectory line in pixels",
@@ -15771,7 +16320,7 @@
           },
           {
             "name": "E3Y",
-            "extra_name": "DY_PARAMETER_1_000",
+            "extra_name": "DY_PARAMETER_1",
             "detail": {
               "fr": "Luminosité",
               "en": "Image Brightness",
@@ -15784,7 +16333,7 @@
           },
           {
             "name": "E3Z",
-            "extra_name": "DY_PARAMETER_2_000",
+            "extra_name": "DY_PARAMETER_2",
             "detail": {
               "fr": "Valeur limite d'écart de luminosité",
               "en": "Brightness range",
@@ -15836,7 +16385,7 @@
           },
           {
             "name": "EAY",
-            "extra_name": "REAR_SIDE_VER_ENL_RA_000",
+            "extra_name": "REAR_SIDE_VER_ENL_RA",
             "detail": {
               "fr": "Rapport d'agrandissement Vertical (Mode: vue sur les côtés)",
               "en": "Vertical Enlargement Ratio (Rear side view mode)",
@@ -15849,7 +16398,7 @@
           },
           {
             "name": "EAW",
-            "extra_name": "REAR_SIDE_HOR_ENL_RA_000",
+            "extra_name": "REAR_SIDE_HOR_ENL_RA",
             "detail": {
               "fr": "Rapport d'agrandissement horizontal (Mode: vue sur les côtés)",
               "en": "Horizontal Enlargement Ratio (Rear side view mode)",
@@ -15862,7 +16411,7 @@
           },
           {
             "name": "EAX",
-            "extra_name": "REAR_SIDE_ENL_ORIGIN_000",
+            "extra_name": "REAR_SIDE_ENL_ORIGIN",
             "detail": {
               "fr": "Rapport d'agrandissement vertical original (Mode: vue sur les côtés)",
               "en": "Vertical Enlargement Origin (Rear side view mode)",
@@ -15875,7 +16424,7 @@
           },
           {
             "name": "EB0",
-            "extra_name": "REAR_STD_VERT_ENL_OR_000",
+            "extra_name": "REAR_STD_VERT_ENL_OR",
             "detail": {
               "fr": "Rapport d'agrandissement vertical original (Mode: standard)",
               "en": "Vertical Enlargement Origin (Standard mode)",
@@ -15888,7 +16437,7 @@
           },
           {
             "name": "EB1",
-            "extra_name": "REAR_STD_VERT_ENL_RA_000",
+            "extra_name": "REAR_STD_VERT_ENL_RA",
             "detail": {
               "fr": "Rapport d'agrandissement vertical (Mode: Standard)",
               "en": "Vertical Enlargement Ratio (Standard mode)",
@@ -15901,7 +16450,7 @@
           },
           {
             "name": "EAZ",
-            "extra_name": "REAR_STD_HOR_ENL_RAT_000",
+            "extra_name": "REAR_STD_HOR_ENL_RAT",
             "detail": {
               "fr": "Rapport d'agrandissement horizontal (Mode: Standard)",
               "en": "Horizontal Enlargement Ratio (Standard mode)",
