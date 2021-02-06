@@ -1,5 +1,5 @@
 #!/bin/sh
-# Copyright 2020, Ludwig V. <https://github.com/ludwig-v>
+# Copyright 2020-2021, Ludwig V. <https://github.com/ludwig-v>
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -18,6 +18,23 @@
 DIRECTORY=$1
 FIRMWARE_KEY=$2
 
+if ! [ -x "$(command -v openssl)" ]; then
+	echo 'Error: openssl is not installed.' >&2
+	exit 1
+fi
+if ! [ -x "$(command -v head)" ]; then
+	echo 'Error: head is not installed.' >&2
+	exit 1
+fi
+if ! [ -x "$(command -v grep)" ]; then
+	echo 'Error: grep is not installed.' >&2
+	exit 1
+fi
+if ! [ -x "$(command -v find)" ]; then
+	echo 'Error: find is not installed.' >&2
+	exit 1
+fi
+
 if [[ -d $DIRECTORY ]]; then
 	find $DIRECTORY -type f -print0 | while read -d $'\0' FILE; do
 		DATA=$(head -2 $FILE | grep "smime." 2>&1)
@@ -30,7 +47,7 @@ if [[ -d $DIRECTORY ]]; then
 			else
 				mv $FILE.bak $FILE
 				echo "${FILE} has not been decrypted, the key is probably invalid !"
-				echo "Stopping"
+				echo "Stopping" >&2
 				exit 1
 			fi
 		else
@@ -49,8 +66,8 @@ if [[ -d $DIRECTORY ]]; then
 			echo "${FILE} parts have been merged !"
 		fi
 	done
+	exit 0
 else
-	echo "${DIRECTORY} not found or not a directory !"
+	echo "${DIRECTORY} not found or not a directory !" >&2
+	exit 1
 fi
-
-exit 0

@@ -1,5 +1,5 @@
 #!/bin/sh
-# Copyright 2020, Ludwig V. <https://github.com/ludwig-v>
+# Copyright 2020-2021, Ludwig V. <https://github.com/ludwig-v>
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -18,6 +18,23 @@
 FILE=$1
 FIRMWARE_KEY=$2
 
+if ! [ -x "$(command -v openssl)" ]; then
+	echo 'Error: openssl is not installed.' >&2
+	exit 1
+fi
+if ! [ -x "$(command -v head)" ]; then
+	echo 'Error: head is not installed.' >&2
+	exit 1
+fi
+if ! [ -x "$(command -v grep)" ]; then
+	echo 'Error: grep is not installed.' >&2
+	exit 1
+fi
+if ! [ -x "$(command -v find)" ]; then
+	echo 'Error: find is not installed.' >&2
+	exit 1
+fi
+
 if [[ -f "$FILE" ]]; then
 	DATA=$(head -2 $FILE | grep "smime." 2>&1)
 	if [[ $DATA =~ '"smime.' ]]; then
@@ -29,14 +46,14 @@ if [[ -f "$FILE" ]]; then
 		else
 			mv $FILE.bak $FILE
 			echo "${FILE} has not been decrypted, the key is probably invalid !"
-			echo "Stopping"
+			echo "Stopping" >&2
 			exit 1
 		fi
 	else
 		echo "${FILE} seems already decrypted !"
 	fi
+	exit 0
 else
-	echo "${FILE} not found !"
+	echo "${FILE} not found !" >&2
+	exit 1
 fi
-
-exit 0
