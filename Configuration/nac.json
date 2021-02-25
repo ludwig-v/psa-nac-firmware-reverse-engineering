@@ -736,7 +736,7 @@
             "maskBinary": "10000000",
             "size": 1
           },
-		  {
+          {
             "name": "BSZ",
             "extra_name": "ATT_DG_JDA",
             "detail": {
@@ -744,7 +744,7 @@
               "en": "Alerts history",
               "ru": "История предупреждений"
             },
-			"zoneLength": 10,
+            "zoneLength": 10,
             "pos": "11",
             "mask": "40",
             "maskBinary": "01000000",
@@ -1019,7 +1019,7 @@
             "maskBinary": "00010000",
             "size": 1
           },
-		  {
+          {
             "name": "DZK",
             "extra_name": "DRIVER_REST_CFG",
             "detail": {
@@ -1027,7 +1027,7 @@
               "en": "Driver Restriction function",
               "ru": "Ограничительные функции водителя"
             },
-			"zoneLength": 10,
+            "zoneLength": 10,
             "pos": "11",
             "mask": "80",
             "maskBinary": "10000000",
@@ -1054,13 +1054,13 @@
               "en": "\"Apple Carplay\" function",
               "ru": "Функция \"Apple Carplay\""
             },
-			"zoneLength": 10,
+            "zoneLength": 10,
             "pos": "11",
             "mask": "20",
             "maskBinary": "00100000",
             "size": 1
           },
-		  {
+          {
             "name": "DZR",
             "extra_name": "DIPO_ON_OFF",
             "detail": {
@@ -1073,7 +1073,7 @@
             "maskBinary": "00100000",
             "size": 1
           },
-		  {
+          {
             "name": "E3W",
             "extra_name": "DG_CARLINE",
             "detail": {
@@ -1082,7 +1082,7 @@
               "ru": "Модель автомобиля"
             },
             "zoneLength": 10,
-			"pos": "10",
+            "pos": "10",
             "mask": "FF",
             "maskBinary": "11111111",
             "listbox": [
@@ -1094,7 +1094,7 @@
                   "ru": "0x00 - W4: Traveller"
                 }
               },
-			  {
+              {
                 "value": "01",
                 "text": {
                   "fr": "0x01 - W4: Traveller",
@@ -1110,7 +1110,7 @@
                   "ru": "0x02 - W4: Traveller"
                 }
               },
-			  {
+              {
                 "value": "03",
                 "text": {
                   "fr": "0x03 - W4: Traveller / DS3",
@@ -1126,7 +1126,7 @@
                   "ru": "0x04 - W4: Partner / DS3 Cabrio."
                 }
               },
-			  {
+              {
                 "value": "05",
                 "text": {
                   "fr": "0x05 - W4: Traveller",
@@ -1142,7 +1142,7 @@
                   "ru": "0x06 - W4_HD: Corsa F | W4: 3008"
                 }
               },
-			  {
+              {
                 "value": "07",
                 "text": {
                   "fr": "0x07 - W4: 5008",
@@ -1158,7 +1158,7 @@
                   "ru": "0x08 - W4: 508"
                 }
               },
-			  {
+              {
                 "value": "09",
                 "text": {
                   "fr": "0x09 - W4: 2008",
@@ -1174,7 +1174,7 @@
                   "ru": "0x0A - W4: 208 / C3"
                 }
               },
-			  {
+              {
                 "value": "0B",
                 "text": {
                   "fr": "0x0B: 308 / C4 Cactus",
@@ -1190,7 +1190,7 @@
                   "ru": "0x0C - W4: 308 / C4 Cactus"
                 }
               },
-			  {
+              {
                 "value": "0D",
                 "text": {
                   "fr": "0x0D - W4: 308 / C4 Cactus",
@@ -1206,7 +1206,7 @@
                   "ru": "0x0E - W4: 308 / Berlingo"
                 }
               },
-			  {
+              {
                 "value": "0F",
                 "text": {
                   "fr": "0x0F - W4: 308 SW / Berlingo",
@@ -1222,7 +1222,7 @@
                   "ru": "0x10 - W4: Traveller / Jumpy"
                 }
               },
-			  {
+              {
                 "value": "11",
                 "text": {
                   "fr": "0x11 - Rifter / Jumpy",
@@ -1238,7 +1238,7 @@
                   "ru": "0x12 - W4: Partner / C5 Aircross"
                 }
               },
-			  {
+              {
                 "value": "13",
                 "text": {
                   "fr": "0x13 - W4: Partner",
@@ -1254,7 +1254,7 @@
                   "ru": "0x14 - W4: New 508"
                 }
               },
-			  {
+              {
                 "value": "15",
                 "text": {
                   "fr": "0x15 - W4: New 508SW",
@@ -1270,7 +1270,7 @@
                   "ru": "0x16 - W4: New 208"
                 }
               },
-			  {
+              {
                 "value": "17",
                 "text": {
                   "fr": "0x17 - W4: 2008",
@@ -1286,7 +1286,7 @@
                   "ru": "0x18 - W4_HD: New 2008 | W4: e2008"
                 }
               },
-			  {
+              {
                 "value": "19",
                 "text": {
                   "fr": "0x19 - W4: e208",
@@ -1302,7 +1302,7 @@
                   "ru": "0x1A - W4: 3008"
                 }
               },
-			  {
+              {
                 "value": "1B",
                 "text": {
                   "fr": "0x1B - W4: 5008",
@@ -1318,7 +1318,7 @@
                   "ru": "0x1C - W4_HD: New 5008 | W4: New 508"
                 }
               },
-			  {
+              {
                 "value": "1D",
                 "text": {
                   "fr": "0x1D - W4: New 508 (Partial)",
@@ -1334,7 +1334,7 @@
                   "ru": "0x1E - W4_HD: New 3008 / DS7"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "0x1F",
@@ -1350,7 +1350,7 @@
                   "ru": "0x20"
                 }
               },
-			  {
+              {
                 "value": "21",
                 "text": {
                   "fr": "0x21",
@@ -1382,7 +1382,7 @@
                   "ru": "0x24 - W4: Traveller"
                 }
               },
-			  {
+              {
                 "value": "25",
                 "text": {
                   "fr": "0x25 - W4: Traveller",
@@ -1398,7 +1398,7 @@
                   "ru": "0x26 - W4: Traveller"
                 }
               },
-			  {
+              {
                 "value": "27",
                 "text": {
                   "fr": "0x27",
@@ -1414,7 +1414,7 @@
                   "ru": "0x28"
                 }
               },
-			  {
+              {
                 "value": "29",
                 "text": {
                   "fr": "0x29",
@@ -1430,7 +1430,7 @@
                   "ru": "0x2A"
                 }
               },
-			  {
+              {
                 "value": "2B",
                 "text": {
                   "fr": "0x2B",
@@ -1446,7 +1446,7 @@
                   "ru": "0x2C"
                 }
               },
-			  {
+              {
                 "value": "2D",
                 "text": {
                   "fr": "0x2D",
@@ -1462,7 +1462,7 @@
                   "ru": "0x2E"
                 }
               },
-			  {
+              {
                 "value": "2F",
                 "text": {
                   "fr": "0x2F",
@@ -1624,7 +1624,7 @@
             ],
             "size": 1
           },
-		  {
+          {
             "name": "E5B",
             "extra_name": "DOORS_TYPE_001",
             "detail": {
@@ -1632,7 +1632,7 @@
               "en": "Type of accesses",
               "ru": "Тип доступа в салон"
             },
-			"zoneLength": 10,
+            "zoneLength": 10,
             "pos": "13",
             "mask": "C0",
             "maskBinary": "11000000",
@@ -1711,13 +1711,13 @@
               "en": "Location of the obstacle detection system",
               "ru": "Расположение системы обнаружения препятствий"
             },
-			"zoneLength": 10,
+            "zoneLength": 10,
             "pos": "13",
             "mask": "18",
             "maskBinary": "00011000",
             "size": 1
           },
-		  {
+          {
             "name": "E88",
             "extra_name": "ODS_TYPE",
             "detail": {
@@ -1738,13 +1738,13 @@
               "en": "Instrument panel personalization",
               "ru": "На приборной панели"
             },
-			"zoneLength": 10,
+            "zoneLength": 10,
             "pos": "13",
             "mask": "04",
             "maskBinary": "00000100",
             "size": 1
           },
-		  {
+          {
             "name": "EIO",
             "extra_name": "PERSO_CFG",
             "detail": {
@@ -3857,7 +3857,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -4120,7 +4120,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -4383,7 +4383,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -4646,7 +4646,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -4909,7 +4909,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -5172,7 +5172,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -5435,7 +5435,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -5698,7 +5698,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -5961,7 +5961,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -6224,7 +6224,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -6558,7 +6558,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -6821,7 +6821,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -7084,7 +7084,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -7347,7 +7347,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -7610,7 +7610,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -7873,7 +7873,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -8136,7 +8136,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -8399,7 +8399,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -8662,7 +8662,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -8925,7 +8925,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -9259,7 +9259,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -9522,7 +9522,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -9785,7 +9785,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -10048,7 +10048,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -10311,7 +10311,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -10574,7 +10574,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -10837,7 +10837,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -11100,7 +11100,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -11363,7 +11363,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -11626,7 +11626,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -11960,7 +11960,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -12223,7 +12223,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -12486,7 +12486,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -12749,7 +12749,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -13012,7 +13012,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -13275,7 +13275,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -13538,7 +13538,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -13801,7 +13801,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -14064,7 +14064,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -14327,7 +14327,7 @@
                   "ru": "Деактивация режима постоянной детской безопасности"
                 }
               },
-			  {
+              {
                 "value": "1F",
                 "text": {
                   "fr": "N/A - Eclairage d'ambiance",
@@ -14695,9 +14695,9 @@
             "name": "EO7",
             "extra_name": "ECOACH_CFG_1",
             "detail": {
-              "fr": "Configuration ECO Climatisation",
-              "en": "ECO Air Conditioning Configuration",
-              "ru": "Конфигурация ЭКО-кондиционера"
+              "fr": "Eco Coaching",
+              "en": "Eco Coaching",
+              "ru": "Эко-коучинг"
             },
             "pos": "09",
             "mask": "20",
@@ -14927,6 +14927,76 @@
           }
         ]
       },
+      "2134": {
+        "name": "Telecoding_Fct_ELECTRIC",
+        "params": [
+          {
+            "name": "EXW",
+            "extra_name": "ELECTRICAL_MOTOR",
+            "detail": {
+              "fr": "Moteur électrique",
+              "en": "Electrical engine",
+              "ru": "Электрический двигатель"
+            },
+            "pos": "04",
+            "mask": "20",
+            "maskBinary": "00100000",
+            "size": 1
+          },
+          {
+            "name": "EXT",
+            "extra_name": "DAT_DG_HY_MTH",
+            "detail": {
+              "fr": "Moteur thermique",
+              "en": "Thermal motor",
+              "ru": "Тепловой двигатель"
+            },
+            "pos": "04",
+            "mask": "04",
+            "maskBinary": "00000100",
+            "size": 1
+          },
+          {
+            "name": "EXS",
+            "extra_name": "DAT_DG_HY_MEL_AR",
+            "detail": {
+              "fr": "Machine électrique arrière",
+              "en": "Rear electric machine",
+              "ru": "Задняя электрическая машина"
+            },
+            "pos": "04",
+            "mask": "02",
+            "maskBinary": "00000010",
+            "size": 1
+          },
+          {
+            "name": "EXU",
+            "extra_name": "DAT_DG_BEV",
+            "detail": {
+              "fr": "Véhicule Electrique alimenté par batterie (BEV)",
+              "en": "Battery Electric Vehicle",
+              "ru": "Аккумуляторный электромобиль"
+            },
+            "pos": "04",
+            "mask": "08",
+            "maskBinary": "00001000",
+            "size": 1
+          },
+          {
+            "name": "EXV",
+            "extra_name": "CLIM_SELECT_MOD",
+            "detail": {
+              "fr": "Mode de climatisation",
+              "en": "Air conditioning mode",
+              "ru": "Режим кондиционирования"
+            },
+            "pos": "04",
+            "mask": "10",
+            "maskBinary": "00010000",
+            "size": 1
+          }
+        ]
+      },
       "2145": {
         "name": "Telecoding_Fct_AIO",
         "params": [
@@ -15145,7 +15215,7 @@
             "pos": "04",
             "mask": "40",
             "maskBinary": "01000000",
-			"listbox": [
+            "listbox": [
               {
                 "value": "00",
                 "text": {
@@ -15512,9 +15582,9 @@
             "name": "DBM",
             "extra_name": "ATT_DG_CHX_CAL_ECRAN",
             "detail": {
-              "fr": "Type d'écran tactile",
-              "en": "Touch screen type",
-              "ru": "Тип сенсорного экрана"
+              "fr": "Type d'écran tactile (Option Factice)",
+              "en": "Touch screen type (Dummy setting)",
+              "ru": "Тип сенсорного экрана (Фиктивная установка)"
             },
             "pos": "04",
             "mask": "78",
