@@ -1,4 +1,4 @@
-{
+﻿{
   "NAC": {
     "VIN": "VFxxxx",
     "SN": "0Dxxxxxxx",
@@ -338,7 +338,7 @@
             "name": "DSE",
             "extra_name": "SOUNDHARMONY",
             "detail": {
-              "fr": "Affichage de l\"information de l\"harmonie sonore",
+              "fr": "Affichage de l'information de l'harmonie sonore",
               "en": "Sound Harmony display",
               "ru": "Отображение информации о звуковой гармонии"
             },
@@ -434,7 +434,7 @@
             "name": "E0K",
             "extra_name": "ACQ_IHM_COLOR",
             "detail": {
-              "fr": "Provenance de l\"ordre de coloration DSP",
+              "fr": "Provenance de l'ordre de coloration DSP",
               "en": "Origin of the DSP coloring order",
               "ru": "Origin of the DSP сортировка по цвету"
             },
@@ -595,7 +595,7 @@
             "name": "DUM",
             "extra_name": "PVC_LEGAL",
             "detail": {
-              "fr": "Message juridique affiché à l\"écran tactile (Fonction d'aide visuelle panoramique)",
+              "fr": "Message juridique affiché à l'écran tactile (Fonction d'aide visuelle panoramique)",
               "en": "Legal notice displayed on the multifunction touch screen (panoramic visual assistance camera)",
               "ru": "Отображение уведомлений на многофункциональном сенсорном экране (панорамная камера визуальной помощи)"
             },
@@ -678,7 +678,7 @@
             "name": "DUB",
             "extra_name": "RVC_LEGAL",
             "detail": {
-              "fr": "Message juridique affiché sur l\"écran tactile (Reversing assistance camera)",
+              "fr": "Message juridique affiché sur l'écran tactile (Reversing assistance camera)",
               "en": "Legal notice displayed on the multifunction touch screen (Reversing assistance camera)",
               "ru": "Отображение уведомлений на многофункциональном сенсорном экране (камера помощи при движении задним ходом)"
             },
@@ -2284,7 +2284,7 @@
             "name": "BK6",
             "extra_name": "RADAR",
             "detail": {
-              "fr": "Affichage des alertes et des \"zones à risque\" sur l\"écran multifonction",
+              "fr": "Affichage des alertes et des \"zones à risque\" sur l'écran multifonction",
               "en": "Display of alerts and \"risk areas\" on the multifunction screen",
               "ru": "Отображение предупреждений и \"Зоны риска\" на многофункциональном экране"
             },
@@ -14526,9 +14526,9 @@
             "name": "DFU",
             "extra_name": "REAR_LOCK_1",
             "detail": {
-              "fr": "Vérouillage Arrière",
-              "en": "Rear Lock",
-              "ru": "Задний замок"
+              "fr": "Vérouillage Climatisation Arrière",
+              "en": "Air Conditioning Rear Lock",
+              "ru": "Задний замок кондиционера"
             },
             "pos": "05",
             "mask": "08",
@@ -14578,9 +14578,9 @@
             "name": "ELH",
             "extra_name": "OPTION_STANDBYMODE_1",
             "detail": {
-              "fr": "Option Standby",
-              "en": "Standby Option",
-              "ru": "Режим ожидания"
+              "fr": "Economiseur d'écran (sur boutton volume façace FMUX)",
+              "en": "Screen saver (on FMUX volume button)",
+              "ru": "Заставка (на кнопке громкости FMUX)"
             },
             "pos": "05",
             "mask": "40",
@@ -14617,7 +14617,7 @@
             "name": "EO0",
             "extra_name": "CONTINUOUS_CPK_1",
             "detail": {
-              "fr": "City Park Assist continue",
+              "fr": "City Park Assist continu",
               "en": "Continuous City Park Assist",
               "ru": "Непрерывный ассистент городской парковки"
             },
@@ -14630,9 +14630,9 @@
             "name": "EO1",
             "extra_name": "CITYPARK_AS_1",
             "detail": {
-              "fr": "City Park Assist",
-              "en": "City Park Assist",
-              "ru": "Ассистент парковки"
+              "fr": "City Park Assist - Boite manuelle",
+              "en": "City Park Assist - Manual Gearbox",
+              "ru": "Ассистент парковки - Механическая коробка передач"
             },
             "pos": "04",
             "mask": "01",
@@ -14643,9 +14643,9 @@
             "name": "EO2",
             "extra_name": "ACPK_1",
             "detail": {
-              "fr": "City Park Assist",
-              "en": "City Park Assist",
-              "ru": "Ассистент парковки"
+              "fr": "City Park Assist - Boite automatique",
+              "en": "City Park Assist - Automatic Gearbox",
+              "ru": "Ассистент парковки - Автоматическая коробка передач"
             },
             "pos": "04",
             "mask": "02",
@@ -14812,9 +14812,9 @@
             "name": "EOG",
             "extra_name": "DYNAMIC_NORMAL_1",
             "detail": {
-              "fr": "Mode Dynamique Normal",
-              "en": "Normal Dynamic mode",
-              "ru": "Режим Нормальный Динамичный"
+              "fr": "Mode Normal - iCockpit Amplify / Neosense / Sensorial Drive",
+              "en": "Normal mode - iCockpit Amplify / Neosense / Sensorial Drive",
+              "ru": "Normal mode - iCockpit Amplify / Neosense / Sensorial Drive"
             },
             "pos": "10",
             "mask": "10",
@@ -14825,9 +14825,9 @@
             "name": "EOH",
             "extra_name": "DYNAMIC_SPORT_1",
             "detail": {
-              "fr": "Mode Dynamique Sport",
-              "en": "Sport Dynamic mode",
-              "ru": "Режим Спортивный Динамичный"
+              "fr": "Mode Sport - iCockpit Amplify / Neosense / Sensorial Drive",
+              "en": "Sport mode - iCockpit Amplify / Neosense / Sensorial Drive",
+              "ru": "Sport mode - iCockpit Amplify / Neosense / Sensorial Drive"
             },
             "pos": "10",
             "mask": "20",
@@ -14838,9 +14838,9 @@
             "name": "EOI",
             "extra_name": "DYNAMIC_COMFORT_1",
             "detail": {
-              "fr": "Mode Dynamique Confort",
-              "en": "Comfort Dyanmic mode",
-              "ru": "Режим Спортивный Динамичный"
+              "fr": "Mode Confort - iCockpit Amplify / Neosense / Sensorial Drive",
+              "en": "Comfort mode - iCockpit Amplify / Neosense / Sensorial Drive",
+              "ru": "Comfort mode - iCockpit Amplify / Neosense / Sensorial Drive"
             },
             "pos": "10",
             "mask": "40",
@@ -14851,9 +14851,9 @@
             "name": "EOJ",
             "extra_name": "DYNAMIC_ECO_1",
             "detail": {
-              "fr": "Mode Dynamique Eco",
-              "en": "Eco Dynamic mode",
-              "ru": "Режим Экономичный Динамичный"
+              "fr": "Mode Eco - iCockpit Amplify / Neosense / Sensorial Drive",
+              "en": "Eco mode - iCockpit Amplify / Neosense / Sensorial Drive",
+              "ru": "Eco mode - iCockpit Amplify / Neosense / Sensorial Drive"
             },
             "pos": "10",
             "mask": "80",
@@ -14864,9 +14864,9 @@
             "name": "EOK",
             "extra_name": "RENAME_PPS_MODE_CFG_1",
             "detail": {
-              "fr": "Configuration mode AUTO Climatisation",
-              "en": "AUTO Mode configuration for air conditioning",
-              "ru": "Автоматическая конфигурация режима для кондиционирования воздуха"
+              "fr": "Renommer mode - iCockpit Amplify / Neosense / Sensorial Drive",
+              "en": "Mode Rename - iCockpit Amplify / Neosense / Sensorial Drive",
+              "ru": "Переименовать режим - iCockpit Amplify / Neosense / Sensorial Drive"
             },
             "pos": "09",
             "mask": "01",
@@ -15004,7 +15004,7 @@
             "name": "BFG",
             "extra_name": "HEURE_IHM",
             "detail": {
-              "fr": "Affichage de l\"heure",
+              "fr": "Affichage de l'heure",
               "en": "Time display",
               "ru": "Отображение времени на дисплее"
             },
@@ -15262,10 +15262,49 @@
             "size": 1
           },
           {
+            "name": "DV6",
+            "extra_name": "PRECOND_PUSH_POS",
+            "detail": {
+              "fr": "Position touche tactile \"Préconditionnement Thermique (Webasto)\"",
+              "en": "Touch button Position \"Thermal preconditioning (Webasto)\"",
+              "ru": "Сенсорная кнопка системы \"Предварительное термическое кондиционирование (Webasto)\""
+            },
+            "pos": "06",
+            "mask": "3E",
+            "maskBinary": "00111110",
+            "size": 1
+          },
+          {
+            "name": "DV5",
+            "extra_name": "PRECOND_PUSH_PANEL",
+            "detail": {
+              "fr": "Bouton physique pour \"Préconditionnement Thermique (Webasto)\"",
+              "en": "Physical Button \"Thermal preconditioning (Webasto)\"",
+              "ru": "Физическая кнопка системы \"Предварительное термическое кондиционирование (Webasto)\""
+            },
+            "pos": "07",
+            "mask": "40",
+            "maskBinary": "01000000",
+            "size": 1
+          },
+          {
+            "name": "DV4",
+            "extra_name": "PRECOND_PUSH_LED",
+            "detail": {
+              "fr": "Affichage de la touche tactile \"Préconditionnement Thermique (Webasto)\"",
+              "en": "Display Touch button \"Thermal preconditioning (Webasto)\"",
+              "ru": "Кнопка на экране функции \"Предварительное термическое кондиционирование (Webasto)\""
+            },
+            "pos": "07",
+            "mask": "80",
+            "maskBinary": "10000000",
+            "size": 1
+          },
+          {
             "name": "D90",
             "extra_name": "ATT_DG_PRES_AQS",
             "detail": {
-              "fr": "Présence du système de mesure de l\"air ambiante dans l\"habitacle",
+              "fr": "Présence du système de mesure de l'air ambiante dans l'habitacle",
               "en": "Presence of the ambient air measurement system in the car",
               "ru": "Наличие системы \"Определение качества воздуха в салоне\""
             },
@@ -15338,7 +15377,7 @@
             "name": "DBH",
             "extra_name": "ATT_DG_TYPE_DIST",
             "detail": {
-              "fr": "Type de distribution de l\"air",
+              "fr": "Type de distribution de l'air",
               "en": "Type of air distribution",
               "ru": "Тип распределения воздуха в салоне"
             },
@@ -15371,6 +15410,19 @@
             "pos": "05",
             "mask": "08",
             "maskBinary": "00001000",
+            "size": 1
+          },
+          {
+            "name": "DFZ",
+            "extra_name": "AIRFLOW_BY_INC",
+            "detail": {
+              "fr": "Touche tactile d'incrémentation du contrôle du pulseur d'air",
+              "en": "Air blower control increment Touch button",
+              "ru": "Сенсорная кнопка управления увеличением обдувом воздуха"
+            },
+            "pos": "05",
+            "mask": "02",
+            "maskBinary": "00000010",
             "size": 1
           },
           {
@@ -15423,19 +15475,6 @@
             "pos": "06",
             "mask": "40",
             "maskBinary": "01000000",
-            "size": 1
-          },
-          {
-            "name": "DFZ",
-            "extra_name": "AIRFLOW_BY_INC",
-            "detail": {
-              "fr": "Touche tactile d'incrémentation du contrôle du pulseur d'air",
-              "en": "Air blower control increment Touch button",
-              "ru": "Сенсорная кнопка управления увеличением обдувом воздуха"
-            },
-            "pos": "05",
-            "mask": "02",
-            "maskBinary": "00000010",
             "size": 1
           },
           {
@@ -16091,9 +16130,9 @@
             "name": "EBP",
             "extra_name": "DYNAMIC_MODE",
             "detail": {
-              "fr": "Mode AUTO Dynamique pour la climatisation",
-              "en": "AUTO Dynamic mode for air conditioning",
-              "ru": "Автоматический динамический режим для кондиционирования воздуха"
+              "fr": "Mode Dynamique - iCockpit Amplify / Neosense / Sensorial Drive",
+              "en": "Dynamic mode - iCockpit Amplify / Neosense / Sensorial Drive",
+              "ru": "Динамический режим - iCockpit Amplify / Neosense / Sensorial Drive"
             },
             "pos": "04",
             "mask": "10",
@@ -16117,13 +16156,31 @@
             "name": "EBR",
             "extra_name": "PPS_MODE_CFG",
             "detail": {
-              "fr": "Configuration Mode AUTO pour la climatisation",
-              "en": "AUTO mode configuration for air conditioning",
-              "ru": "Конфигурация для автоматического кондиционирования воздуха"
+              "fr": "iCockpit Amplify / Neosense / Sensorial Drive",
+              "en": "iCockpit Amplify / Neosense / Sensorial Drive",
+              "ru": "iCockpit Amplify / Neosense / Sensorial Drive"
             },
             "pos": "04",
             "mask": "C0",
             "maskBinary": "11000000",
+            "listbox": [
+              {
+                "value": "00",
+                "text": {
+                  "fr": "Désactivé",
+                  "en": "Disabled",
+                  "ru": "Деактивировано"
+                }
+              },
+              {
+                "value": "40",
+                "text": {
+                  "fr": "Activé",
+                  "en": "Activated",
+                  "ru": "Включено"
+                }
+              }
+            ],
             "size": 1
           }
         ]
