@@ -1,6 +1,6 @@
 ## NAC EUR WAVE 4
 
-### Version Number
-Download (PSA): _Coming Soon_
+### 42-03-31-32_NAC-r0
+Download (PSA): [Click Here](https://majestic-web.mpsa.com/nas/eu/mjb00/NAC_EU/ovip-int-firmware-version/PSA_ovip-int-firmware-version_42-03-31-32_NAC-r0_NAC_EUR_WAVE4.tar)
 
 Download (Mirror): _Coming Soon_
