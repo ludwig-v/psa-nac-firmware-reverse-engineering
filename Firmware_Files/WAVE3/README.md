@@ -1,6 +1,6 @@
 ## NAC EUR WAVE 3
 
-### Version Number
-Download (PSA): _Coming Soon_
+### 42-01-72-32_NAC-r0
+Download (PSA): [Click Here](http://download.tomtom.com/OEM/PSA/PSASpecialBundle/PSA_ovip-int-firmware-version_42-01-72-32_NAC-r0_NAC_EUR_WAVE3.tar)
 
 Download (Mirror): _Coming Soon_
