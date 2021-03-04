@@ -7,4 +7,4 @@ Download (Mirror): [Click Here](https://mega.nz/file/NEhwEZRD#bI2aC8hf4xyRJ1FmVn
 
 Unpacked: [Open](https://mega.nz/folder/0EgCDR5T#OU_4__wdry5bAZRpvEFGHQ)
 
-Decrypted: _Coming Soon_
+Decrypted: [Open](https://mega.nz/folder/QQogiThI#jj8T42on3YfkL-8mkX57FA)
