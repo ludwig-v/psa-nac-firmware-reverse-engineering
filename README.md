@@ -37,6 +37,7 @@
 | PSA_ovip-int-firmware-version_21-08-24-12_NAC-r1_NAC_EUR_WAVE2.tar | https://majestic-web.mpsa.com/nas/eu/mjb00/NAC_EU/ovip-int-firmware-version/PSA_ovip-int-firmware-version_21-08-24-12_NAC-r1_NAC_EUR_WAVE2.tar |
 | PSA_ovip-int-firmware-version_21-08-25-12_NAC-r0_NAC_EUR_WAVE2.tar | https://majestic-web.mpsa.com/nas/eu/mjb00/NAC_EU/ovip-int-firmware-version/PSA_ovip-int-firmware-version_21-08-25-12_NAC-r0_NAC_EUR_WAVE2.tar |
 | PSA_ovip-int-firmware-version_21-08-84-12_NAC-r0_NAC_EUR_WAVE2.tar | https://majestic-web.mpsa.com/nas/eu/mjb00/NAC_EU/ovip-int-firmware-version/PSA_ovip-int-firmware-version_21-08-84-12_NAC-r0_NAC_EUR_WAVE2.tar |
+| PSA_ovip-int-firmware-version_21-08-87-32_NAC-r1_NAC_EUR_WAVE2.tar | https://majestic-web.mpsa.com/nas/eu/mjb00/NAC_EU/ovip-int-firmware-version/PSA_ovip-int-firmware-version_21-08-87-32_NAC-r1_NAC_EUR_WAVE2.tar |
 
 ### WAVE3
 
