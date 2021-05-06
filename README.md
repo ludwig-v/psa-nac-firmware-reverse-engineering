@@ -74,3 +74,4 @@
 | Archive Name | Archive Download link |
 | - | - |
 | PSA_ovip-int-firmware-nac-dpca_41-02-65-42_NAC-r0_NAC_CN_WAVE4.tar | https://majestic-web.mpsa.cn/nas/cn/mjb00/NAC_DPCA/ovip-int-firmware-nac-dpca/PSA_ovip-int-firmware-nac-dpca_41-02-65-42_NAC-r0_NAC_CN_WAVE4.tar |
+| PSA_ovip-int-firmware-nac-dpca_41-03-05-22_NAC-r0_NAC_CN_WAVE4.tar | https://majestic-web.mpsa.cn/nas/cn/mjb00/NAC_DPCA/ovip-int-firmware-nac-dpca/PSA_ovip-int-firmware-nac-dpca_41-03-05-22_NAC-r0_NAC_CN_WAVE4.tar |
