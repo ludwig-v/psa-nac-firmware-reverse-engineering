@@ -457,6 +457,19 @@
             "size": 1
           },
           {
+            "name": "E7U",
+            "extra_name": "OPTION_EXPORT_MEDIA",
+            "detail": {
+              "fr": "Export informations audio",
+              "en": "Media informations export",
+              "ru": "Информации из медиа"
+            },
+            "pos": "07",
+            "mask": "80",
+            "maskBinary": "10000000",
+            "size": 1
+          },
+          {
             "name": "E7V",
             "extra_name": "TYPE_EXPORT_MEDIA",
             "detail": {
@@ -963,6 +976,19 @@
             "pos": "07",
             "mask": "F0",
             "maskBinary": "11110000",
+            "size": 1
+          },
+          {
+            "name": "D00",
+            "extra_name": "HIDE_CAMERA_LINES",
+            "detail": {
+              "fr": "Cacher lignes caméra de recul",
+              "en": "Hide camera lines",
+              "ru": "Скрыть линии камеры"
+            },
+            "pos": "07",
+            "mask": "40",
+            "maskBinary": "01000000",
             "size": 1
           },
           {
@@ -1763,12 +1789,25 @@
         "name": "Telecoding_Fct_CAFR",
         "params": [
           {
+            "name": "D8L",
+            "extra_name": "DG_CAFR_PUSH",
+            "detail": {
+              "fr": "Affichage de la touche tactile \"Réglage Automatique Feux de Route\"",
+              "en": "Display Touch button \"Main beams assistant\"",
+              "ru": "Отображаемая кнопка на экране \"Ассистент дальнего света\""
+            },
+            "pos": "04",
+            "mask": "80",
+            "maskBinary": "100000000",
+            "size": 1
+          },
+          {
             "name": "DMO",
             "extra_name": "DG_CAFR_PUSH_POS",
             "detail": {
               "fr": "Position touche tactile \"Réglage Automatique Feux de Route\"",
               "en": "Touch button Position \"Main beams assistant\"",
-              "ru": "Сенсорная кнопка \"Main beams assistant\""
+              "ru": "Сенсорная кнопка \"Ассистент дальнего света\""
             },
             "pos": "04",
             "mask": "3E",
@@ -1781,7 +1820,7 @@
             "detail": {
               "fr": "Bouton physique pour \"Réglage Automatique Feux de Route\"",
               "en": "Physical Button \"Main beams assistant\"",
-              "ru": "Физическая кнопка \"Main beams assistant\""
+              "ru": "Физическая кнопка \"Ассистент дальнего света\""
             },
             "pos": "04",
             "mask": "40",
