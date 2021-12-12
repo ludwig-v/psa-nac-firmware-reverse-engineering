@@ -46,6 +46,19 @@
             "size": 1
           },
           {
+            "name": "E8P",
+            "extra_name": "PRESENCE_AAS_ADJUST",
+            "detail": {
+              "fr": "Ajustement du son",
+              "en": "Sound adjustment",
+              "ru": "Регулировка звука"
+            },
+            "pos": "05",
+            "mask": "20",
+            "maskBinary": "00100000",
+            "size": 1
+          },
+          {
             "name": "D8R",
             "extra_name": "ATT_DG_AAS_PUSH",
             "detail": {
@@ -428,6 +441,40 @@
             "pos": "06",
             "mask": "0C",
             "maskBinary": "00001100",
+            "listbox": [
+              {
+                "value": "00",
+                "text": {
+                  "fr": "N/A",
+                  "en": "N/A",
+                  "ru": "N/A"
+                }
+              },
+              {
+                "value": "04",
+                "text": {
+                  "fr": "Loi 1",
+                  "en": "Law 1",
+                  "ru": "Law 1"
+                }
+              },
+              {
+                "value": "08",
+                "text": {
+                  "fr": "Loi 2",
+                  "en": "Law 2",
+                  "ru": "Law 2"
+                }
+              },
+              {
+                "value": "0C",
+                "text": {
+                  "fr": "Loi 3",
+                  "en": "Law 3",
+                  "ru": "Law 3"
+                }
+              }
+            ],
             "size": 1
           },
           {
@@ -441,6 +488,24 @@
             "pos": "06",
             "mask": "02",
             "maskBinary": "00000010",
+            "listbox": [
+              {
+                "value": "00",
+                "text": {
+                  "fr": "BSI",
+                  "en": "BSI",
+                  "ru": "BSI"
+                }
+              },
+              {
+                "value": "02",
+                "text": {
+                  "fr": "BTEL",
+                  "en": "BTEL",
+                  "ru": "BTEL"
+                }
+              }
+            ],
             "size": 1
           },
           {
@@ -532,6 +597,32 @@
             "pos": "07",
             "mask": "18",
             "maskBinary": "00011000",
+            "listbox": [
+              {
+                "value": "00",
+                "text": {
+                  "fr": "Gen1",
+                  "en": "Gen1",
+                  "ru": "Gen1"
+                }
+              },
+              {
+                "value": "08",
+                "text": {
+                  "fr": "Gen2",
+                  "en": "Gen2",
+                  "ru": "Gen2"
+                }
+              },
+              {
+                "value": "10",
+                "text": {
+                  "fr": "Gen3",
+                  "en": "Gen3",
+                  "ru": "Gen3"
+                }
+              }
+            ],
             "size": 1
           },
           {
@@ -1339,9 +1430,9 @@
               {
                 "value": "1C",
                 "text": {
-                  "fr": "0x1C - W4_HD: New 5008 | W4: New 508",
-                  "en": "0x1C - W4_HD: New 5008 | W4: New 508",
-                  "ru": "0x1C - W4_HD: New 5008 | W4: New 508"
+                  "fr": "0x1C - W4_HD: New 508 | W4: New 508",
+                  "en": "0x1C - W4_HD: New 508 | W4: New 508",
+                  "ru": "0x1C - W4_HD: New 508 | W4: New 508"
                 }
               },
               {
@@ -1363,9 +1454,9 @@
               {
                 "value": "1F",
                 "text": {
-                  "fr": "0x1F",
-                  "en": "0x1F",
-                  "ru": "0x1F"
+                  "fr": "0x1F - W4_HD: New 5008",
+                  "en": "0x1F - W4_HD: New 5008",
+                  "ru": "0x1F - W4_HD: New 5008"
                 }
               },
               {
@@ -1741,19 +1832,71 @@
             "pos": "13",
             "mask": "18",
             "maskBinary": "00011000",
+            "listbox": [
+              {
+                "value": "00",
+                "text": {
+                  "fr": "Arrière",
+                  "en": "Rear",
+                  "ru": "Задний"
+                }
+              },
+              {
+                "value": "08",
+                "text": {
+                  "fr": "Avant / Arrière",
+                  "en": "Front / Rear",
+                  "ru": "Фронт / Задний"
+                }
+              },
+              {
+                "value": "10",
+                "text": {
+                  "fr": "Avant + Coté / Arrière + Coté",
+                  "en": "Front + Side / Rear + Side",
+                  "ru": "Фронт + Боковая сторона / Задний + Боковая сторона"
+                }
+              }
+            ],
             "size": 1
           },
           {
             "name": "E88",
             "extra_name": "ODS_TYPE",
             "detail": {
-              "fr": "Localisation du sytème de détection d'obstacle",
-              "en": "Location of the obstacle detection system",
-              "ru": "Расположение системы обнаружения препятствий"
+              "fr": "Type du système de détection d'obstacle",
+              "en": "Type of obstacle detection system",
+              "ru": "Тип системы обнаружения препятствий"
             },
             "pos": "12",
             "mask": "18",
             "maskBinary": "00011000",
+            "listbox": [
+              {
+                "value": "00",
+                "text": {
+                  "fr": "Arrière",
+                  "en": "Rear",
+                  "ru": "Задний"
+                }
+              },
+              {
+                "value": "08",
+                "text": {
+                  "fr": "Avant / Arrière",
+                  "en": "Front / Rear",
+                  "ru": "Фронт / Задний"
+                }
+              },
+              {
+                "value": "10",
+                "text": {
+                  "fr": "Avant + Coté / Arrière + Coté",
+                  "en": "Front + Side / Rear + Side",
+                  "ru": "Фронт + Боковая сторона / Задний + Боковая сторона"
+                }
+              }
+            ],
             "size": 1
           },
           {
@@ -1883,105 +2026,129 @@
               {
                 "value": "00",
                 "text": {
-                  "fr": "Etat 1",
-                  "en": "State 1",
-                  "ru": "Тип 1"
+                  "fr": "Etat 1 - Absent",
+                  "en": "State 1 - Absent",
+                  "ru": "Тип 1 - Отсутствует"
                 }
               },
               {
                 "value": "10",
                 "text": {
-                  "fr": "Etat 2",
-                  "en": "State 2",
-                  "ru": "Тип 2"
+                  "fr": "Etat 2 - C4 I - AEE2004",
+                  "en": "State 2 - C4 I - AEE2004",
+                  "ru": "Тип 2 - C4 I - AEE2004"
                 }
               },
               {
                 "value": "20",
                 "text": {
-                  "fr": "Etat 3",
-                  "en": "State 3",
-                  "ru": "Тип 3"
+                  "fr": "Etat 3 - 508 I - AEE2010",
+                  "en": "State 3 - 508 I - AEE2010",
+                  "ru": "Тип 3 - 508 I - AEE2010"
                 }
               },
               {
                 "value": "30",
                 "text": {
-                  "fr": "Etat 4",
-                  "en": "State 4",
-                  "ru": "Тип 4"
+                  "fr": "Etat 4 - 208 (A9) / 308 (T9) - AEE2010",
+                  "en": "State 4 - 208 (A9) / 308 (T9) - AEE2010",
+                  "ru": "Тип 4 - 208 (A9) / 308 (T9) - AEE2010"
                 }
               },
               {
                 "value": "40",
                 "text": {
-                  "fr": "Etat 5",
-                  "en": "State 5",
-                  "ru": "Тип 5"
+                  "fr": "Etat 5 - Expert / Jumpy (K0) - AEE2010",
+                  "en": "State 5 - Expert / Jumpy (K0) - AEE2010",
+                  "ru": "Тип 5 - Expert / Jumpy (K0) - AEE2010"
                 }
               },
               {
                 "value": "50",
                 "text": {
-                  "fr": "Etat 6",
-                  "en": "State 6",
-                  "ru": "Тип 6"
+                  "fr": "Etat 6 - C4 II (B7) / DS4 2 Pavés Type 1 - AEE2010",
+                  "en": "State 6 - C4 II (B7) / DS4 2 Pads Type 1 - AEE2010",
+                  "ru": "Тип 6 - C4 II (B7) / DS4 2 Pads Type 1 - AEE2010"
                 }
               },
               {
                 "value": "60",
                 "text": {
-                  "fr": "Etat 7",
-                  "en": "State 7",
-                  "ru": "Тип 7"
+                  "fr": "Etat 7 - C4 II (B7) / DS4 2 Pavés Type 2 - AEE2010",
+                  "en": "State 7 - C4 II (B7) / DS4 2 Pads Type 2 - AEE2010",
+                  "ru": "Тип 7 - C4 II (B7) / DS4 2 Pads Type 2 - AEE2010"
                 }
               },
               {
                 "value": "70",
                 "text": {
-                  "fr": "Etat 8",
-                  "en": "State 8",
-                  "ru": "Тип 8"
+                  "fr": "Etat 8 - C4 II (B7) / DS4 4 Pavés Type 1 - AEE2010",
+                  "en": "State 8 - C4 II (B7) / DS4 4 Pads Type 1 - AEE2010",
+                  "ru": "Тип 8 - C4 II (B7) / DS4 4 Pads Type 1 - AEE2010"
                 }
               },
               {
                 "value": "80",
                 "text": {
-                  "fr": "Etat 9",
-                  "en": "State 9",
-                  "ru": "Тип 9"
+                  "fr": "Etat 9 - C4 II (B7) / DS4 4 Pavés Type 2 - AEE2010",
+                  "en": "State 9 - C4 II (B7) / DS4 4 Pads Type 2 - AEE2010",
+                  "ru": "Тип 9 - C4 II (B7) / DS4 4 Pads Type 2 - AEE2010"
                 }
               },
               {
                 "value": "90",
                 "text": {
-                  "fr": "Etat 10",
-                  "en": "State 10",
-                  "ru": "Тип 10"
+                  "fr": "Etat 10 - DS5 (B81) - AEE2010",
+                  "en": "State 10 - DS5 (B81) - AEE2010",
+                  "ru": "Тип 10 - DS5 (B81) - AEE2010"
                 }
               },
               {
                 "value": "A0",
                 "text": {
-                  "fr": "Etat 11",
-                  "en": "State 11",
-                  "ru": "Тип 11"
+                  "fr": "Etat 11 - C4 Shijia (BZ3) - AEE2004 & AEE2010",
+                  "en": "State 11 - C4 Shijia (BZ3) - AEE2004 & AEE2010",
+                  "ru": "Тип 11 - C4 Shijia (BZ3) - AEE2004 & AEE2010"
                 }
               },
               {
                 "value": "B0",
                 "text": {
-                  "fr": "Etat 12",
-                  "en": "State 12",
-                  "ru": "Тип 12"
+                  "fr": "Etat 12 - Opel - AEE2010",
+                  "en": "State 12 - Opel - AEE2010",
+                  "ru": "Тип 12 - Opel - AEE2010"
                 }
               },
               {
                 "value": "C0",
                 "text": {
-                  "fr": "Etat 13",
-                  "en": "State 13",
-                  "ru": "Тип 13"
+                  "fr": "Etat 13 - Transversale - AEE2010",
+                  "en": "State 13 - Transversal - AEE2010",
+                  "ru": "Тип 13 - Transversal - AEE2010"
+                }
+              },
+              {
+                "value": "D0",
+                "text": {
+                  "fr": "Etat 14 - DS3 (A55) - AEE2010",
+                  "en": "State 14 - DS3 (A55) - AEE2010",
+                  "ru": "Тип 14 - DS3 (A55) - AEE2010"
+                }
+              },
+              {
+                "value": "E0",
+                "text": {
+                  "fr": "Etat 15 - AEE2010",
+                  "en": "State 15 - AEE2010",
+                  "ru": "Тип 15 - AEE2010"
+                }
+              },
+              {
+                "value": "F0",
+                "text": {
+                  "fr": "Etat 16 - C4 II (B7) / DS4 4 Pavés Type 3 - AEE2010",
+                  "en": "State 16 - C4 II (B7) / DS4 4 Pads Type 3 - AEE2010",
+                  "ru": "Тип 16 - C4 II (B7) / DS4 4 Pads Type 3 - AEE2010"
                 }
               }
             ],
@@ -3897,19 +4064,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -3923,9 +4114,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -4160,19 +4359,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -4186,9 +4409,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -4423,19 +4654,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -4449,9 +4704,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -4686,19 +4949,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -4712,9 +4999,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -4949,19 +5244,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -4975,9 +5294,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -5212,19 +5539,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -5238,9 +5589,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -5475,19 +5834,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -5501,9 +5884,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -5738,19 +6129,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -5764,9 +6179,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -6001,19 +6424,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -6027,9 +6474,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -6264,19 +6719,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -6290,9 +6769,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -6598,19 +7085,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -6624,9 +7135,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -6861,19 +7380,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -6887,9 +7430,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -7124,19 +7675,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -7150,9 +7725,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -7387,19 +7970,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -7413,9 +8020,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -7650,19 +8265,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -7676,9 +8315,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -7913,19 +8560,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -7939,9 +8610,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -8176,19 +8855,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -8202,9 +8905,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -8439,19 +9150,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -8465,9 +9200,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -8702,19 +9445,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -8728,9 +9495,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -8965,19 +9740,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -8991,9 +9790,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -9299,19 +10106,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -9325,9 +10156,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -9562,19 +10401,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -9588,9 +10451,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -9825,19 +10696,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -9851,9 +10746,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -10088,19 +10991,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -10114,9 +11041,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -10351,19 +11286,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -10377,9 +11336,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -10614,19 +11581,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -10640,9 +11631,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -10877,19 +11876,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -10903,9 +11926,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -11140,19 +12171,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -11166,9 +12221,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -11403,19 +12466,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -11429,9 +12516,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -11666,19 +12761,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -11692,9 +12811,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -12000,19 +13127,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -12026,9 +13177,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -12263,19 +13422,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -12289,9 +13472,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -12526,19 +13717,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -12552,9 +13767,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -12789,19 +14012,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -12815,9 +14062,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -13052,19 +14307,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -13078,9 +14357,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -13315,19 +14602,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -13341,9 +14652,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -13578,19 +14897,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -13604,9 +14947,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -13841,19 +15192,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -13867,9 +15242,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -14104,19 +15487,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -14130,9 +15537,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -14367,19 +15782,43 @@
                 }
               },
               {
+                "value": "1E",
+                "text": {
+                  "fr": "Faisceau intelligent - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Smartbeam - Driving Lights (Wave3/4 only)",
+                  "ru": "Smartbeam - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
                 "value": "1F",
                 "text": {
-                  "fr": "N/A - Eclairage d'ambiance",
-                  "en": "N/A - Ambiance lighting",
-                  "ru": "N/A - Освещающая подсветка"
+                  "fr": "Lumière polychrome - Eclairage d'ambiance (Wave3/4 seulement)",
+                  "en": "Lumière polychrome - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Lumière polychrome - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "20",
+                "text": {
+                  "fr": "Lumière polychrome, animation - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, animation - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, animation - Освещающая подсветка (только Wave3/4)"
+                }
+              },
+              {
+                "value": "21",
+                "text": {
+                  "fr": "Lumière polychrome, bloc - Eclairage d'ambiance (Wave 3/4 seulement)",
+                  "en": "Polychromatic light, bloc - Ambiance lighting (Wave3/4 only)",
+                  "ru": "Polychromatic light, bloc - Освещающая подсветка (только Wave3/4)"
                 }
               },
               {
                 "value": "22",
                 "text": {
-                  "fr": "Reconnaissance des panneaux",
-                  "en": "Traffic Signs Recognition",
-                  "ru": "Распознавание дорожных знаков"
+                  "fr": "Reconnaissance des panneaux (Wave 3/4 seulement)",
+                  "en": "Traffic Signs Recognition (Wave3/4 only)",
+                  "ru": "Распознавание дорожных знаков (только Wave3/4)"
                 }
               },
               {
@@ -14393,9 +15832,17 @@
               {
                 "value": "24",
                 "text": {
-                  "fr": "N/A - Eclairage de conduite (Wave3/4 seulement)",
-                  "en": "N/A - Driving Lights (Wave3/4 only)",
-                  "ru": "N/A - фары дальнего света (только Wave3/4)"
+                  "fr": "Eclairage arrière adaptatif - Eclairage de conduite (Wave3/4 seulement)",
+                  "en": "Adaptative Rear Lighting system - Driving Lights (Wave3/4 only)",
+                  "ru": "Adaptative Rear Lighting system - фары дальнего света (только Wave3/4)"
+                }
+              },
+              {
+                "value": "25",
+                "text": {
+                  "fr": "Accès Smartphone (Wave3/4 seulement)",
+                  "en": "Smart Device Access (Wave3/4 only)",
+                  "ru": "Smart Device Access (только Wave3/4)"
                 }
               },
               {
@@ -14526,6 +15973,32 @@
         "name": "Telecoding_Fct_BTA",
         "params": [
           {
+            "name": "ED9",
+            "extra_name": "BCALL_VHL_SPEAKER",
+            "detail": {
+              "fr": "Enceintes de la voiture pour appel d'assistance (BCALL)",
+              "en": "Car speakers for assistance call (BCALL)",
+              "ru": "Автомобильные динамики для вызова помощи (BCALL)"
+            },
+            "pos": "04",
+            "mask": "80",
+            "maskBinary": "10000000",
+            "size": 1
+          },
+          {
+            "name": "EDA",
+            "extra_name": "ICALL_VHL_SPEAKER",
+            "detail": {
+              "fr": "Enceintes de la voiture pour appel d'information (ICALL)",
+              "en": "Car speakers for information call (ICALL)",
+              "ru": "Автомобильные динамики для информационного звонка (ICALL)"
+            },
+            "pos": "04",
+            "mask": "40",
+            "maskBinary": "01000000",
+            "size": 1
+          },
+          {
             "name": "E8Q",
             "extra_name": "OPT_REMOTE_MNGT_VHL",
             "detail": {
@@ -14554,6 +16027,89 @@
             "pos": "04",
             "mask": "80",
             "maskBinary": "10000000",
+            "size": 1
+          }
+        ]
+      },
+      "2132": {
+        "name": "Telecoding_Fct_IDVR_HMI",
+        "params": [
+          {
+            "name": "EHN",
+            "extra_name": "IDVR_FCW_PUSH_LED_PANEL",
+            "detail": {
+              "fr": "Touche physique pour \"Alerte anti-collision\"",
+              "en": "Physical button for \"Front Collision Warning\"",
+              "ru": "Физическая кнопка для системы \"Front Collision Warning\""
+            },
+            "pos": "04",
+            "mask": "40",
+            "maskBinary": "01000000",
+            "size": 1
+          },
+          {
+            "name": "EHQ",
+            "extra_name": "IDVR_FCW_PUSH_LED_POS",
+            "detail": {
+              "fr": "Position touche tactile \"Alerte anti-collision\"",
+              "en": "Touch button Position \"Front Collision Warning\"",
+              "ru": "Сенсорная кнопка системы \"Front Collision Warning\""
+            },
+            "pos": "04",
+            "mask": "3E",
+            "maskBinary": "00111110",
+            "size": 1
+          },
+          {
+            "name": "ENY",
+            "extra_name": "IDVR_FCW_PUSH_LED",
+            "detail": {
+              "fr": "Affichage de la touche tactile \"Alerte anti-collision\"",
+              "en": "Display Touch button \"Front Collision Warning\"",
+              "ru": "Кнопка на дисплее для системы \"Front Collision Warning\""
+            },
+            "pos": "05",
+            "mask": "01",
+            "maskBinary": "00000001",
+            "size": 1
+          },
+          {
+            "name": "EHM",
+            "extra_name": "IDVR_LDW_PUSH_LED_PANEL",
+            "detail": {
+              "fr": "Touche physique pour \"Aide au maintien dans la voie\"",
+              "en": "Physical button for \"Lateral Deviation Warning\"",
+              "ru": "Физическая кнопка для системы \"Lateral Deviation Warning\""
+            },
+            "pos": "05",
+            "mask": "40",
+            "maskBinary": "01000000",
+            "size": 1
+          },
+          {
+            "name": "EHR",
+            "extra_name": "IDVR_LDW_PUSH_LED_POS",
+            "detail": {
+              "fr": "Position touche tactile \"Aide au maintien dans la voie\"",
+              "en": "Touch button Position \"Lateral Deviation Warning\"",
+              "ru": "Сенсорная кнопка системы \"Lateral Deviation Warning\""
+            },
+            "pos": "05",
+            "mask": "3E",
+            "maskBinary": "00111110",
+            "size": 1
+          },
+          {
+            "name": "EHK",
+            "extra_name": "IDVR_LDW_PUSH_LED",
+            "detail": {
+              "fr": "Affichage de la touche tactile \"Aide au maintien dans la voie\"",
+              "en": "Display Touch button \"Lateral Deviation Warning\"",
+              "ru": "Кнопка на дисплее для системы \"Lateral Deviation Warning\""
+            },
+            "pos": "05",
+            "mask": "01",
+            "maskBinary": "00000001",
             "size": 1
           }
         ]
@@ -14951,6 +16507,19 @@
             "maskBinary": "11111111",
             "size": 1
           },
+		  {
+            "name": "EW5",
+            "extra_name": "NV_PUSH_LED",
+            "detail": {
+              "fr": "Affichage de la touche tactile de sélection de la \"Night Vision\"",
+              "en": "Display Touch button \"Night Vision\"",
+              "ru": "Кнопка на экране функции \"Ночное видение\""
+            },
+            "pos": "07",
+            "mask": "FF",
+            "maskBinary": "11111111",
+            "size": 1
+          },
           {
             "name": "ET9",
             "extra_name": "MASS_SEAT_OPT_CFG",
@@ -15126,11 +16695,11 @@
         "params": [
           {
             "name": "ERG",
-            "extra_name": "ACS_BTEL_CDC",
+            "extra_name": "CHECK_PUSH",
             "detail": {
-              "fr": "Présence d'un chargeur CD",
-              "en": "CD Charger presence",
-              "ru": "Наличие устройства CD Charger"
+              "fr": "Affichage de la touche tactile \"Check\"",
+              "en": "Display Touch button \"Check\"",
+              "ru": "Кнопка на дисплее \"Check\""
             },
             "pos": "04",
             "mask": "80",
@@ -16275,9 +17844,9 @@
             "name": "EGQ",
             "extra_name": "AUDIO_PRESET_LIVE",
             "detail": {
-              "fr": "Configuration Audio",
-              "en": "Audio Configuration",
-              "ru": "Конфигурация аудио"
+              "fr": "Préreglage audio en direct",
+              "en": "Audio Preset Live",
+              "ru": "Предварительная настройка живого звука"
             },
             "pos": "04",
             "mask": "08",
@@ -16293,9 +17862,9 @@
             "name": "E4H",
             "extra_name": "REAR_CAMERA_X",
             "detail": {
-              "fr": "Position axe X de la caméra",
-              "en": "X Axis Position of the camera",
-              "ru": "Положение камеры по оси \"X\""
+              "fr": "Position axe X de la caméra (-8000)\r\n0 <> 6000mm",
+              "en": "X Axis Position of the camera (-8000)\r\n0 <> 6000mm",
+              "ru": "Положение камеры по оси \"X\" (-8000)\r\n0 <> 6000mm"
             },
             "pos": "04",
             "mask": "FF",
@@ -16306,9 +17875,9 @@
             "name": "E4G",
             "extra_name": "REAR_CAMERA_Y",
             "detail": {
-              "fr": "Position axe Y de la caméra",
-              "en": "Y Axis Position of the camera",
-              "ru": "Положение камеры по оси \"Y\""
+              "fr": "Position axe Y de la caméra (-3000)\r\n0 <> 6000mm",
+              "en": "Y Axis Position of the camera (-3000)\r\n0 <> 6000mm",
+              "ru": "Положение камеры по оси \"Y\" (-3000)\r\n0 <> 6000mm"
             },
             "pos": "06",
             "mask": "FF",
@@ -16319,9 +17888,9 @@
             "name": "E4F",
             "extra_name": "REAR_CAMERA_Z",
             "detail": {
-              "fr": "Position axe Z de la caméra",
-              "en": "Z Axis Position of the camera",
-              "ru": "Положение камеры по оси \"Z\""
+              "fr": "Position axe Z de la caméra (+100)\r\n0 <> 1900mm",
+              "en": "Z Axis Position of the camera (+100)\r\n0 <> 1900mm",
+              "ru": "Положение камеры по оси \"Z\" (+100)\r\n0 <> 1900mm"
             },
             "pos": "08",
             "mask": "FF",
@@ -16332,9 +17901,9 @@
             "name": "E4E",
             "extra_name": "REAR_CAMERA_ROLL",
             "detail": {
-              "fr": "Angle Inclinaison caméra (Roll)",
-              "en": "Camera Roll Angle  (Roll)",
-              "ru": "Угол поворота камеры  (Roll)"
+              "fr": "Angle Inclinaison caméra (Roll) (-180)\r\n0 <> 3600° / 0.1",
+              "en": "Camera Roll Angle  (Roll) (-180)\r\n0 <> 3600° / 0.1",
+              "ru": "Угол поворота камеры  (Roll) (-180)\r\n0 <> 3600° / 0.1"
             },
             "pos": "10",
             "mask": "FF",
@@ -16345,9 +17914,9 @@
             "name": "E4D",
             "extra_name": "REAR_CAMERA_PITCH",
             "detail": {
-              "fr": "Angle Vertical caméra (Pitch)",
-              "en": "Vertical angle of the camera (Pitch)",
-              "ru": "Угол вертикального наклона камеры (Pitch)"
+              "fr": "Angle Vertical caméra (Pitch)\r\n0 <> 1800° / 0.1",
+              "en": "Vertical angle of the camera (Pitch)\r\n0 <> 1800° / 0.1",
+              "ru": "Угол вертикального наклона камеры (Pitch)\r\n0 <> 1800° / 0.1"
             },
             "pos": "12",
             "mask": "FF",
@@ -16358,9 +17927,9 @@
             "name": "E4E",
             "extra_name": "REAR_CAMERA_YAW",
             "detail": {
-              "fr": "Angle Horizontal caméra (Yaw)",
-              "en": "Horizontal angle of the camera (Yaw)",
-              "ru": "Угол горизонтального наклона камеры (Yaw)"
+              "fr": "Angle Horizontal caméra (Yaw) (-180)\r\n0 <> 3600° / 0.1",
+              "en": "Horizontal angle of the camera (Yaw) (-180)\r\n0 <> 3600° / 0.1",
+              "ru": "Угол горизонтального наклона камеры (Yaw) (-180)\r\n0 <> 3600° / 0.1"
             },
             "pos": "14",
             "mask": "FF",
@@ -16371,9 +17940,9 @@
             "name": "E49",
             "extra_name": "FRONT_OVERHANG",
             "detail": {
-              "fr": "Distance entre roues avant et avant du véhicule",
-              "en": "Distance between front wheels and front of vehicle",
-              "ru": "Расстояние между передними колесами и краем переднего бампера автомобиля"
+              "fr": "Distance entre roues avants et avant du véhicule (+150)\r\n0 <> 1850mm",
+              "en": "Distance between front wheels and front of vehicle (+150)\r\n0 <> 1850mm",
+              "ru": "Расстояние между передними колесами и краем переднего бампера автомобиля (+150mm)\r\n0 <> 1850mm"
             },
             "pos": "16",
             "mask": "FF",
@@ -16384,9 +17953,9 @@
             "name": "E48",
             "extra_name": "REAR_OVERHANG",
             "detail": {
-              "fr": "Distance entre roues arrière et arrière du véhicule",
-              "en": "Distance between rear wheels and rear of vehicle",
-              "ru": "Расстояние между задними колесами и краем заднего бампера автомобиля"
+              "fr": "Distance entre roues arrières et arrière du véhicule (+150)\r\n0 <> 1850mm",
+              "en": "Distance between rear wheels and rear of vehicle (+150)\r\n0 <> 1850mm",
+              "ru": "Расстояние между задними колесами и краем заднего бампера автомобиля (+150)\r\n0 <> 1850mm"
             },
             "pos": "18",
             "mask": "FF",
@@ -16397,9 +17966,9 @@
             "name": "E47",
             "extra_name": "WHEELBASE",
             "detail": {
-              "fr": "Distance entre roues arrière et roues avant",
-              "en": "Distance between rear wheels and front wheels",
-              "ru": "Расстояние между передними колесами и задними колесами автомобиля"
+              "fr": "Distance entre roues arrières et roues avant (+1000)\r\n0 <> 4000mm",
+              "en": "Distance between rear wheels and front wheels (+1000)\r\n0 <> 4000mm",
+              "ru": "Расстояние между передними колесами и задними колесами автомобиля (+1000)\r\n0 <> 4000mm"
             },
             "pos": "20",
             "mask": "FF",
@@ -16410,9 +17979,9 @@
             "name": "E44",
             "extra_name": "REAR_BUMPER_EDGE_HEI",
             "detail": {
-              "fr": "Distance entre le sol et le rebord du pare-chocs arrière",
-              "en": "Distance between ground and rear bumper edge",
-              "ru": "Клиренс (расстояние от земли до порога)"
+              "fr": "Distance entre le sol et le rebord du pare-chocs arrière\r\n0 <> 1500mm",
+              "en": "Distance between ground and rear bumper edge\r\n0 <> 1500mm",
+              "ru": "Клиренс (расстояние от земли до порога)\r\n0 <> 1500mm"
             },
             "pos": "22",
             "mask": "FF",
@@ -16423,9 +17992,9 @@
             "name": "E53",
             "extra_name": "DIST_LINE_REAR_W_03",
             "detail": {
-              "fr": "Largeur en pixels ligne 0 (Bas)",
-              "en": "Line 0 width in pixel (Bottom)",
-              "ru": "Ширина линии \"0\" в пикселях (Нижняя)"
+              "fr": "Largeur en pixels ligne 0 (Bas)\r\n1 <> 50px",
+              "en": "Line 0 width in pixel (Bottom)\r\n1 <> 50px",
+              "ru": "Ширина линии \"0\" в пикселях (Нижняя)\r\n1 <> 50px"
             },
             "pos": 24,
             "mask": "FF",
@@ -16436,9 +18005,9 @@
             "name": "E42",
             "extra_name": "DIST_LINE_REAR_WID_1",
             "detail": {
-              "fr": "Largeur en pixels ligne 1 (Milieu)",
-              "en": "Line 1 width in pixels (Middle)",
-              "ru": "Ширина линии \"1\" в пикселях (Средняя)"
+              "fr": "Largeur en pixels ligne 1 (Milieu)\r\n1 <> 50px",
+              "en": "Line 1 width in pixels (Middle)\r\n1 <> 50px",
+              "ru": "Ширина линии \"1\" в пикселях (Средняя)\r\n1 <> 50px"
             },
             "pos": 25,
             "mask": "FF",
@@ -16449,9 +18018,9 @@
             "name": "E41",
             "extra_name": "DIST_LINE_REAR_WID_2",
             "detail": {
-              "fr": "Largeur en pixels ligne 2 (Haut)",
-              "en": "Line 2 width in pixels (Top)",
-              "ru": "Ширина линии \"2\" в пикселях (Верхняя)"
+              "fr": "Largeur en pixels ligne 2 (Haut)\r\n1 <> 50px",
+              "en": "Line 2 width in pixels (Top)\r\n1 <> 50px",
+              "ru": "Ширина линии \"2\" в пикселях (Верхняя)\r\n1 <> 50px"
             },
             "pos": 26,
             "mask": "FF",
@@ -16462,9 +18031,9 @@
             "name": "E40",
             "extra_name": "TRAJECTORY_LIN_REA_W",
             "detail": {
-              "fr": "Largeur en pixels de la ligne de trajectoire",
-              "en": "Width of trajectory line in pixels",
-              "ru": "Ширина линии траектории в пикселях"
+              "fr": "Largeur en pixels de la ligne de trajectoire\r\n1 <> 50px",
+              "en": "Width of trajectory line in pixels\r\n1 <> 50px",
+              "ru": "Ширина линии траектории в пикселях\r\n1 <> 50px"
             },
             "pos": 27,
             "mask": "FF",
@@ -16475,9 +18044,9 @@
             "name": "ECB",
             "extra_name": "REAR_REAL_TOP_VIEW_H_001",
             "detail": {
-              "fr": "Hauteur réelle image (Si caméra trop basse)",
-              "en": "Real Top View Height (if camera is too low)",
-              "ru": "Высота вида сверху (если камера слишком низкая)"
+              "fr": "Hauteur réelle image (Si caméra trop basse)\r\n1000 <> 2550mm",
+              "en": "Real Top View Height (if camera is too low)\r\n1000 <> 2550mm",
+              "ru": "Высота вида сверху (если камера слишком низкая)\r\n1000 <> 2550mm"
             },
             "pos": 28,
             "mask": "FF",
@@ -16488,9 +18057,9 @@
             "name": "E3Y",
             "extra_name": "DY_PARAMETER_1",
             "detail": {
-              "fr": "Luminosité",
-              "en": "Image Brightness",
-              "ru": "Яркость изображения"
+              "fr": "Luminosité\r\n0 <> 255",
+              "en": "Image Brightness\r\n0 <> 255",
+              "ru": "Яркость изображения\r\n0 <> 255"
             },
             "pos": 30,
             "mask": "FF",
@@ -16501,9 +18070,9 @@
             "name": "E3Z",
             "extra_name": "DY_PARAMETER_2",
             "detail": {
-              "fr": "Valeur limite d'écart de luminosité",
-              "en": "Brightness range",
-              "ru": "Диапазон яркости"
+              "fr": "Valeur limite d'écart de luminosité\r\n0 <> 255",
+              "en": "Brightness range\r\n0 <> 255",
+              "ru": "Диапазон яркости\r\n0 <> 255"
             },
             "pos": 31,
             "mask": "FF",
@@ -16514,9 +18083,9 @@
             "name": "E51",
             "extra_name": "VEHICLE_WIDTH_001",
             "detail": {
-              "fr": "Largeur de véhicule",
-              "en": "Vehicle width",
-              "ru": "Ширина автомобиля"
+              "fr": "Largeur de véhicule (+1500)\r\n0 <> 1000mm",
+              "en": "Vehicle width (+1500)\r\n0 <> 1000mm",
+              "ru": "Ширина автомобиля (+1500)\r\n0 <> 1000mm"
             },
             "pos": 32,
             "mask": "FF",
@@ -16527,9 +18096,9 @@
             "name": "EB2",
             "extra_name": "TRAILER_HOOK_HEIGHT_001",
             "detail": {
-              "fr": "Hauteur crochet attelage",
-              "en": "Trailer hook height",
-              "ru": "Высота фаркопа"
+              "fr": "Hauteur crochet attelage\r\n50 <> 1500mm",
+              "en": "Trailer hook height\r\n50 <> 1500mm",
+              "ru": "Высота фаркопа\r\n50 <> 1500mm"
             },
             "pos": 35,
             "mask": "FF",
@@ -16540,9 +18109,9 @@
             "name": "EB3",
             "extra_name": "TRAILER_HOOK_LENGTH_001",
             "detail": {
-              "fr": "Largeur crochet attelage",
-              "en": "Trailer hook length",
-              "ru": "Длина фаркопа"
+              "fr": "Largeur crochet attelage\r\n0 <> 2000mm",
+              "en": "Trailer hook length\r\n0 <> 2000mm",
+              "ru": "Длина фаркопа\r\n0 <> 2000mm"
             },
             "pos": 37,
             "mask": "FF",
@@ -16553,9 +18122,9 @@
             "name": "EAY",
             "extra_name": "REAR_SIDE_VER_ENL_RA",
             "detail": {
-              "fr": "Rapport d'agrandissement Vertical (Mode: vue sur les côtés)",
-              "en": "Vertical Enlargement Ratio (Rear side view mode)",
-              "ru": "Коэффициент вертикального увеличения (режим заднего вида сбоку)"
+              "fr": "Rapport d'agrandissement Vertical (Mode: vue sur les côtés)\r\n100 <> 170",
+              "en": "Vertical Enlargement Ratio (Rear side view mode)\r\n100 <> 170",
+              "ru": "Коэффициент вертикального увеличения (режим заднего вида сбоку)\r\n100 <> 170"
             },
             "pos": 39,
             "mask": "FF",
@@ -16566,9 +18135,9 @@
             "name": "EAW",
             "extra_name": "REAR_SIDE_HOR_ENL_RA",
             "detail": {
-              "fr": "Rapport d'agrandissement horizontal (Mode: vue sur les côtés)",
-              "en": "Horizontal Enlargement Ratio (Rear side view mode)",
-              "ru": "Коэффициент горизонтального увеличения (режим заднего вида сбоку)"
+              "fr": "Rapport d'agrandissement horizontal (Mode: vue sur les côtés)\r\n100 <> 170",
+              "en": "Horizontal Enlargement Ratio (Rear side view mode)\r\n100 <> 170",
+              "ru": "Коэффициент горизонтального увеличения (режим заднего вида сбоку)\r\n100 <> 170"
             },
             "pos": 40,
             "mask": "FF",
@@ -16586,6 +18155,32 @@
             "pos": 41,
             "mask": "FF",
             "maskBinary": "11111111",
+            "listbox": [
+              {
+                "value": "00",
+                "text": {
+                  "fr": "Bas",
+                  "en": "Bottom",
+                  "ru": "Нижний"
+                }
+              },
+              {
+                "value": "01",
+                "text": {
+                  "fr": "Milieu",
+                  "en": "Center",
+                  "ru": "Центр"
+                }
+              },
+              {
+                "value": "02",
+                "text": {
+                  "fr": "Haut / Haut",
+                  "en": "Top / Top",
+                  "ru": "Вверх / Вверх"
+                }
+              }
+            ],
             "size": 1
           },
           {
@@ -16599,15 +18194,41 @@
             "pos": 42,
             "mask": "FF",
             "maskBinary": "11111111",
+            "listbox": [
+              {
+                "value": "00",
+                "text": {
+                  "fr": "Bas",
+                  "en": "Bottom",
+                  "ru": "Нижний"
+                }
+              },
+              {
+                "value": "01",
+                "text": {
+                  "fr": "Milieu",
+                  "en": "Center",
+                  "ru": "Центр"
+                }
+              },
+              {
+                "value": "02",
+                "text": {
+                  "fr": "Haut / Haut",
+                  "en": "Top / Top",
+                  "ru": "Вверх / Вверх"
+                }
+              }
+            ],
             "size": 1
           },
           {
             "name": "EB1",
             "extra_name": "REAR_STD_VERT_ENL_RA",
             "detail": {
-              "fr": "Rapport d'agrandissement vertical (Mode: Standard)",
-              "en": "Vertical Enlargement Ratio (Standard mode)",
-              "ru": "Коэффициент вертикального увеличения (режим: стандартный)"
+              "fr": "Rapport d'agrandissement vertical (Mode: Standard)\r\n100 <> 170",
+              "en": "Vertical Enlargement Ratio (Standard mode)\r\n100 <> 170",
+              "ru": "Коэффициент вертикального увеличения (режим: стандартный)\r\n100 <> 170"
             },
             "pos": 43,
             "mask": "FF",
@@ -16618,9 +18239,9 @@
             "name": "EAZ",
             "extra_name": "REAR_STD_HOR_ENL_RAT",
             "detail": {
-              "fr": "Rapport d'agrandissement horizontal (Mode: Standard)",
-              "en": "Horizontal Enlargement Ratio (Standard mode)",
-              "ru": "Коэффициент горизонтального увеличения (режим: стандартный)"
+              "fr": "Rapport d'agrandissement horizontal (Mode: Standard)\r\n100 <> 170",
+              "en": "Horizontal Enlargement Ratio (Standard mode)\r\n100 <> 170",
+              "ru": "Коэффициент горизонтального увеличения (режим: стандартный)\r\n100 <> 170"
             },
             "pos": 44,
             "mask": "FF",
