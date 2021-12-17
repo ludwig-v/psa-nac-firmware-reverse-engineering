@@ -16032,8 +16032,22 @@
         ]
       },
       "2132": {
-        "name": "Telecoding_Fct_IDVR_HMI",
+        "name": "Telecoding_Fct_IDVR_HMI/ATB",
         "params": [
+          {
+            "name": "EQP",
+            "extra_name": "ATB_PRESENCE",
+            "detail": {
+              "fr": "Boitier télématique autonome (BTA)",
+              "en": "Autonomous telematic box (BTA)",
+              "ru": "Автономный блок телематики (BTA)"
+            },
+			"zoneLength": 1,
+            "pos": "04",
+            "mask": "01",
+            "maskBinary": "00000001",
+            "size": 1
+          },
           {
             "name": "EHN",
             "extra_name": "IDVR_FCW_PUSH_LED_PANEL",
@@ -16042,6 +16056,7 @@
               "en": "Physical button for \"Front Collision Warning\"",
               "ru": "Физическая кнопка для системы \"Front Collision Warning\""
             },
+			"zoneLength": 2,
             "pos": "04",
             "mask": "40",
             "maskBinary": "01000000",
@@ -16055,6 +16070,7 @@
               "en": "Touch button Position \"Front Collision Warning\"",
               "ru": "Сенсорная кнопка системы \"Front Collision Warning\""
             },
+			"zoneLength": 2,
             "pos": "04",
             "mask": "3E",
             "maskBinary": "00111110",
@@ -16068,6 +16084,7 @@
               "en": "Display Touch button \"Front Collision Warning\"",
               "ru": "Кнопка на дисплее для системы \"Front Collision Warning\""
             },
+			"zoneLength": 2,
             "pos": "05",
             "mask": "01",
             "maskBinary": "00000001",
@@ -16081,6 +16098,7 @@
               "en": "Physical button for \"Lateral Deviation Warning\"",
               "ru": "Физическая кнопка для системы \"Lateral Deviation Warning\""
             },
+			"zoneLength": 2,
             "pos": "05",
             "mask": "40",
             "maskBinary": "01000000",
@@ -16094,6 +16112,7 @@
               "en": "Touch button Position \"Lateral Deviation Warning\"",
               "ru": "Сенсорная кнопка системы \"Lateral Deviation Warning\""
             },
+			"zoneLength": 2,
             "pos": "05",
             "mask": "3E",
             "maskBinary": "00111110",
@@ -16107,6 +16126,7 @@
               "en": "Display Touch button \"Lateral Deviation Warning\"",
               "ru": "Кнопка на дисплее для системы \"Lateral Deviation Warning\""
             },
+			"zoneLength": 2,
             "pos": "05",
             "mask": "01",
             "maskBinary": "00000001",
@@ -16623,7 +16643,7 @@
           },
           {
             "name": "EQP",
-            "extra_name": "ATB_PRESENCE_001",
+            "extra_name": "ATB_PRESENCE",
             "detail": {
               "fr": "Boitier télématique autonome (BTA)",
               "en": "Autonomous telematic box (BTA)",
