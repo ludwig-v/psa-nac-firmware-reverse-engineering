@@ -17880,7 +17880,7 @@
               "ru": "Автономный блок телематики (BTA)",
               "zh-tw": "Autonomous telematic box (BTA)"
             },
-			"zoneLength": 1,
+            "zoneLength": 1,
             "pos": "04",
             "mask": "01",
             "maskBinary": "00000001",
@@ -17895,7 +17895,7 @@
               "ru": "Физическая кнопка для системы \"Front Collision Warning\"",
               "zh-tw": "實體按鈕 \"前側碰撞警告\""
             },
-			"zoneLength": 2,
+            "zoneLength": 2,
             "pos": "04",
             "mask": "40",
             "maskBinary": "01000000",
@@ -17910,7 +17910,7 @@
               "ru": "Сенсорная кнопка системы \"Front Collision Warning\"",
               "zh-tw": "觸碰按鈕位置 \"前側碰撞警告\""
             },
-			"zoneLength": 2,
+            "zoneLength": 2,
             "pos": "04",
             "mask": "3E",
             "maskBinary": "00111110",
@@ -17925,7 +17925,7 @@
               "ru": "Кнопка на дисплее для системы \"Front Collision Warning\"",
               "zh-tw": "觸碰按鈕 \"前側碰撞警告\""
             },
-			"zoneLength": 2,
+            "zoneLength": 2,
             "pos": "05",
             "mask": "01",
             "maskBinary": "00000001",
@@ -17940,7 +17940,7 @@
               "ru": "Физическая кнопка для системы \"Lateral Deviation Warning\"",
               "zh-tw": "實體按鈕 \"車道偏移警告\""
             },
-			"zoneLength": 2,
+            "zoneLength": 2,
             "pos": "05",
             "mask": "40",
             "maskBinary": "01000000",
@@ -17955,7 +17955,7 @@
               "ru": "Сенсорная кнопка системы \"Lateral Deviation Warning\"",
               "zh-tw": "觸碰按鈕位置 \"車道偏移警告\""
             },
-			"zoneLength": 2,
+            "zoneLength": 2,
             "pos": "05",
             "mask": "3E",
             "maskBinary": "00111110",
@@ -17970,7 +17970,7 @@
               "ru": "Кнопка на дисплее для системы \"Lateral Deviation Warning\"",
               "zh-tw": "觸碰按鈕 \"車道偏移警告\""
             },
-			"zoneLength": 2,
+            "zoneLength": 2,
             "pos": "05",
             "mask": "01",
             "maskBinary": "00000001",
@@ -18401,7 +18401,7 @@
             "maskBinary": "11111111",
             "size": 1
           },
-		  {
+          {
             "name": "EW5",
             "extra_name": "NV_PUSH_LED",
             "detail": {
