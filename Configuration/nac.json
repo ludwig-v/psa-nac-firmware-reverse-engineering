@@ -18184,7 +18184,7 @@
               "fr": "Touche physique pour \"Night Vision\"",
               "en": "Physical button for \"Night Vision\"",
               "ru": "Физическая кнопка для системы \"Ночное видение\"",
-              "zh-tw": "實體按鈕 \"夜視\"
+              "zh-tw": "實體按鈕 \"夜視\""
             },
             "pos": "06",
             "mask": "FF",
@@ -18198,7 +18198,7 @@
               "fr": "Affichage de la touche tactile \"Night Vision\"",
               "en": "Display Touch button \"Night Vision\"",
               "ru": "Кнопка на дисплее для системы \"Ночное видение\"",
-              "zh-tw": "觸碰按鈕 \"夜視\"
+              "zh-tw": "觸碰按鈕 \"夜視\""
             },
             "pos": "10",
             "mask": "01",
