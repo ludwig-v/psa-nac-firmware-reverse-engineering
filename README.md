@@ -72,6 +72,7 @@
 | Archive Name | Archive Download link |
 | - | - |
 | PSA_ovip-int-firmware-nac-dpca_31-08-69-52_NAC-r0_NAC_CN_WAVE3.tar | https://majestic-web.mpsa.cn/nas/cn/mjb00/NAC_DPCA/ovip-int-firmware-nac-dpca/PSA_ovip-int-firmware-nac-dpca_31-08-69-52_NAC-r0_NAC_CN_WAVE3.tar |
+| PSA_ovip-int-firmware-rcc-dpca_31-08-68-22_RCC-r0_RCC_CN_WAVE3.tar | https://majestic-web.mpsa.cn/nas/cn/mjb00/RCC_DPCA/ovip-int-firmware-rcc-dpca/PSA_ovip-int-firmware-rcc-dpca_31-08-68-22_RCC-r0_RCC_CN_WAVE3.tar |
 | PSA_ovip-int-firmware-rcc-dpca_41-03-05-22_RCC-r0_RCC_CN_WAVE3.tar | https://majestic-web.mpsa.cn/nas/cn/mjb00/RCC_DPCA/ovip-int-firmware-rcc-dpca/PSA_ovip-int-firmware-rcc-dpca_41-03-05-22_RCC-r0_RCC_CN_WAVE3.tar |
 
 ### WAVE4_CN
