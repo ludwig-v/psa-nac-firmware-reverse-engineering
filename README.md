@@ -62,6 +62,11 @@
 
 | Archive Name | Archive Download link |
 | - | - |
+| PSA_ovip-int-firmware-nac-dpca_5-15-34-12-r0_NAC_CN_WAVE2.tar | https://majestic-web.mpsa.cn/nas/cn/mjb00/NAC_DPCA/ovip-int-firmware-nac-dpca/PSA_ovip-int-firmware-nac-dpca_5-15-34-12-r0_NAC_CN_WAVE2.tar |
+| PSA_ovip-int-firmware-nac-dpca_5-15-36-42-r0_NAC_CN_WAVE2.tar | https://majestic-web.mpsa.cn/nas/cn/mjb00/NAC_DPCA/ovip-int-firmware-nac-dpca/PSA_ovip-int-firmware-nac-dpca_5-15-36-42-r0_NAC_CN_WAVE2.tar |
+| PSA_ovip-int-firmware-nac-dpca_5-15-41-22-r0_NAC_CN_WAVE2.tar | https://majestic-web.mpsa.cn/nas/cn/mjb00/NAC_DPCA/ovip-int-firmware-nac-dpca/PSA_ovip-int-firmware-nac-dpca_5-15-41-22-r0_NAC_CN_WAVE2.tar |
+| PSA_ovip-int-firmware-nac-dpca_22-05-69-42_NAC-r0_NAC_CN_WAVE2.tar | https://majestic-web.mpsa.cn/nas/cn/mjb00/NAC_DPCA/ovip-int-firmware-nac-dpca/PSA_ovip-int-firmware-nac-dpca_22-05-69-42_NAC-r0_NAC_CN_WAVE2.tar |
+| PSA_ovip-int-firmware-nac-dpca_22-06-17-42_NAC-r0_NAC_CN_WAVE2.tar | https://majestic-web.mpsa.cn/nas/cn/mjb00/NAC_DPCA/ovip-int-firmware-nac-dpca/PSA_ovip-int-firmware-nac-dpca_22-06-17-42_NAC-r0_NAC_CN_WAVE2.tar |
 | PSA_ovip-int-firmware-nac-dpca_22-07-26-32_NAC-r0_NAC_CN_WAVE2.tar | https://majestic-web.mpsa.cn/nas/cn/mjb00/NAC_DPCA/ovip-int-firmware-nac-dpca/PSA_ovip-int-firmware-nac-dpca_22-07-26-32_NAC-r0_NAC_CN_WAVE2.tar |
 | PSA_ovip-int-firmware-nac-dpca_22-07-88-42_NAC-r0_NAC_CN_WAVE2.tar | https://majestic-web.mpsa.cn/nas/cn/mjb00/NAC_DPCA/ovip-int-firmware-nac-dpca/PSA_ovip-int-firmware-nac-dpca_22-07-88-42_NAC-r0_NAC_CN_WAVE2.tar |
 | PSA_ovip-int-firmware-rcc-dpca_22-07-27-42_RCC-r0_RCC_CN_WAVE2.20.tar | https://majestic-web.mpsa.cn/nas/cn/mjb00/RCC_DPCA/ovip-int-firmware-rcc-dpca/PSA_ovip-int-firmware-rcc-dpca_22-07-27-42_RCC-r0_RCC_CN_WAVE2.20.tar |
