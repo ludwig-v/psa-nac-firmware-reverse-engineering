@@ -143,7 +143,7 @@
             "extra_name": "DG_AFIL_PUSH_PANEL",
             "detail": {
               "fr": "Bouton physique pour \"Alerte de franchissement involontaire de ligne\"",
-              "en": "Physical Button \"Lane departure warning system (AFIL)\"",?
+              "en": "Physical Button \"Lane departure warning system (AFIL)\"",
               "ru": "Физическая кнопка \"Система слежения о выезде с полосы движения (AFIL)\"",
               "zh": "觸碰顯示 \"車道偏移警示系統 (AFIL)\""
             },
