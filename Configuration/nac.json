@@ -96,7 +96,7 @@
             "extra_name": "AAS_PUSH_LED",
             "detail": {
               "fr": "Affichage de la touche tactile \"Aide au stationnement\"",
-              "en": "Touch button \"Parking assistance\"",
+              "en": "Display Touch button \"Parking assistance\"",
               "ru": "Кнопка на дисплее \"Помощь при парковке\"",
               "zh": "觸碰顯示 \"停車輔助\""
             },
@@ -115,7 +115,7 @@
             "extra_name": "ATT_DG_AFIL_PUSH",
             "detail": {
               "fr": "Affichage de la touche tactile \"Alerte de franchissement involontaire de ligne\"",
-              "en": "Touch button \"Lane departure warning system (AFIL)\"",
+              "en": "Display Touch button \"Lane departure warning system (AFIL)\"",
               "ru": "Кнопка на дисплее \"Система слежения о выезде с полосы движения (AFIL)\"",
               "zh": "觸控顯示 \"車道偏移警示系統 (AFIL)\""
             },
@@ -130,8 +130,8 @@
             "detail": {
               "fr": "Position touche tactile \"Alerte de franchissement involontaire de ligne\"",
               "en": "Touch Button Position \"Lane departure warning system (AFIL)\"",
-              "ru": "Кнопка на дисплее \"Система слежения о выезде с полосы движения (AFIL)\"",?
-              "zh": "觸控顯示 \"車道偏移警示系統 (AFIL)\""?
+              "ru": "Сенсорная кнопка \"Система слежения о выезде с полосы движения (AFIL)\"",
+              "zh": "觸碰按鈕位置 \"車道偏移警示系統 (AFIL)\""
             },
             "pos": "04",
             "mask": "3E",
@@ -144,8 +144,8 @@
             "detail": {
               "fr": "Bouton physique pour \"Alerte de franchissement involontaire de ligne\"",
               "en": "Physical Button \"Lane departure warning system (AFIL)\"",?
-              "ru": "Сенсорная кнопка \"Система слежения о выезде с полосы движения (AFIL)\"",?
-              "zh": "觸控顯示位置 \"車道偏移警示系統 (AFIL)\""?
+              "ru": "Физическая кнопка \"Система слежения о выезде с полосы движения (AFIL)\"",
+              "zh": "觸碰顯示 \"車道偏移警示系統 (AFIL)\""
             },
             "pos": "04",
             "mask": "40",
@@ -163,8 +163,8 @@
             "detail": {
               "fr": "Position touche tactile \"Aide au respect du temps intervéhicules\"",
               "en": "Touch Button Position \"Distance Alert (ARTIV)\"\"",
-              "ru": "Физическая кнопка \"Система слежения о выезде с полосы движения (AFIL)\"",
-              "zh": "實體按鍵 \"車道偏移警示系統 (AFIL)\""
+              "ru": "Сенсорная кнопка \"Система слежения о выезде с полосы движения (AFIL)\"",
+              "zh": "觸碰按鈕位置 \"車道偏移警示系統 (AFIL)\""
             },
             "pos": "04",
             "mask": "1F",
@@ -176,9 +176,9 @@
             "extra_name": "ATT_DG_ARTIV_PUSH",
             "detail": {
               "fr": "Affichage de la touche tactile \"Aide au respect du temps intervéhicules\"",
-              "en": "Touch button \"Distance Alert (ARTIV)\"",?
-              "ru": "Сенсорная кнопка \"Система соблюдения дистанции (ARTIV)\"",?
-              "zh": "觸碰按鍵位置 \"距離警示 (ARTIV)\""?
+              "en": "Display Touch button \"Distance Alert (ARTIV)\"",
+              "ru": "Отображаемая кнопка на экране \"Система соблюдения дистанции (ARTIV)\"",
+              "zh": "顯示觸碰按鈕 \"距離警示 (ARTIV)\""
             },
             "pos": "04",
             "mask": "40",
